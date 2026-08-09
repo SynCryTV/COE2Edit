@@ -1,0 +1,8 @@
+name = "openloader-resources"
+filename = "resources.zip"
+side = "both"
+
+[download]
+url = "https://github.com/SynCryTV/COE2Edit/releases/download/assets-v1/resources.zip"
+hash-format = "sha256"
+hash = "dbf613499a39b8f1b1de5b2f6be19fac26e7fdb043998b4f4c3447820d018ff5"

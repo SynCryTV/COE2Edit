@@ -1,0 +1,8 @@
+name = "fancymenu-mainmenu"
+filename = "mahj_1294853429_mainmenu.fma"
+side = "both"
+
+[download]
+url = "https://github.com/SynCryTV/COE2Edit/releases/download/assets-v1/mahj_1294853429_mainmenu.fma"
+hash-format = "sha256"
+hash = "966d5c433bd9ceddf77b2ddada90567baf9064c6e53c43a514c3722a4a948a55"

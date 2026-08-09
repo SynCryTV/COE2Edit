@@ -1653,6 +1653,11 @@ file = "config/fallingleaves-client.toml"
 hash = "f92ea4d81012a0bb173cef5049a80ca402988e3b6cfc55723c2f88361c030e5a"
 
 [[files]]
+file = "config/fancymenu/assets/fancymenu-mainmenu.pw.toml"
+hash = "730824dfd7422bdaa56d5ef256652d852737abea968107c1c48988f995949818"
+metafile = true
+
+[[files]]
 file = "config/fancymenu/assets/icon16x16.png"
 hash = "ce3ff248202964d4626318c33af0d3c4e55f7af626a9f67650b60d291a81525e"
 
@@ -32371,6 +32376,11 @@ hash = "a4bb727ce87c85d60c59c05ac159e7f6146fe18ff77c7dd667ffeeead4e114c3"
 [[files]]
 file = "config/openloader/data/cte_mns/pack.mcmeta"
 hash = "d77500594f4ca3785e7fc1d6b278c0d80f8d2439e9138655028cf9d7467009fa"
+
+[[files]]
+file = "config/openloader/resources/openloader-resources.pw.toml"
+hash = "48a5f794692f427f952a4833c32d0da313ca3e37ba7c629d819e7a0b6b0a6787"
+metafile = true
 
 [[files]]
 file = "config/origins-common.toml"
