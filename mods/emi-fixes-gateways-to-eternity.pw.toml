@@ -1,0 +1,13 @@
+name = "EMI fixes Gateways to Eternity"
+filename = "gateways_to_emiloot-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2c0fe4f5b4021aaad372540647a88f264c027351"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7309652
+project-id = 1319251

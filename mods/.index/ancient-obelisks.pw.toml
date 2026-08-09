@@ -1,0 +1,21 @@
+filename = 'Ancient-Obelisks-1.20.1-1.2.5.jar'
+name = 'Ancient Obelisks'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ancient-Obelisks-1.20.1-1.2.5.jar'
+
+[download]
+hash = '2dec530c719215468ba1f2e255ea648beee3ebfb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8589650
+project-id = 1186288
+
+[[x-prismlauncher-dependencies]]
+addonId = '398780'
+type = 'REQUIRED'

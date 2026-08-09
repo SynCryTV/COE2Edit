@@ -1,0 +1,25 @@
+filename = 'entityjs-forge-0.7.3.jar'
+name = 'EntityJS'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'entityjs-forge-0.7.3.jar'
+
+[download]
+hash = '63e82a1eddca777577cbaf61dbc8bb32e89e6fa5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8540922
+project-id = 967617
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238086'
+type = 'REQUIRED'

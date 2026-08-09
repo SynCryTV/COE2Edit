@@ -1,0 +1,13 @@
+name = "Runic Races"
+filename = "runic_races-1.6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "62a9ef759bb3ddf3df89f6a7339860aeeb3a85aa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8414324
+project-id = 1516142

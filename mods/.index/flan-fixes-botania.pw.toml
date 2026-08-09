@@ -1,0 +1,25 @@
+filename = 'flan_fixes_botania-1.0.6.jar'
+name = 'Flan Fixes Botania'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'flan_fixes_botania-1.0.6.jar'
+
+[download]
+hash = '85711f2d8fc9b41bed1d258ba26bf7723e4feb8b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8588962
+project-id = 1309017
+
+[[x-prismlauncher-dependencies]]
+addonId = '493246'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '225643'
+type = 'REQUIRED'

@@ -1,0 +1,13 @@
+name = "WorldProtect"
+filename = "worldprotect-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5e688c155c38d2534ac4f4ae7ba4252251dfab0d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7361354
+project-id = 1410134

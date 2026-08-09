@@ -1,0 +1,13 @@
+name = "Remnant Bosses"
+filename = "remnant_bosses-forge-1.20.1-2.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d1103d0249f9daa636715f64a1793152ed97fc25"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8086925
+project-id = 1225026

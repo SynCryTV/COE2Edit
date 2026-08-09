@@ -1,0 +1,16 @@
+{
+  "buffOverlay": {
+    "showVanillaBuffs": true,
+    "showVanillaDebuffs": true,
+    "showMnsBuffs": true,
+    "showMnsDebuffs": true,
+    "sortByDuration": true
+  },
+  "skillBuffOverlay": {
+    "showVanillaBuffs": false,
+    "showVanillaDebuffs": false,
+    "showMnsBuffs": true,
+    "showMnsDebuffs": false,
+    "sortByDuration": false
+  }
+}

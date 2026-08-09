@@ -1,0 +1,13 @@
+name = "Better Mount Steering"
+filename = "bettermountsteering-forge-1.20.1-1.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1ce4ccaafcab3c0104aa9bba45953fe3e8066eed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8389838
+project-id = 1531260

@@ -1,0 +1,13 @@
+name = "Flan Fixes Sophisticated Backpacks"
+filename = "flan_fixes_sophisticated_backpacks-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e99f71bda2a836b0e3a1b95c7025516e362261ae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7225253
+project-id = 1385343

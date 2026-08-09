@@ -1,0 +1,19 @@
+{
+  "showOrbText": true,
+  "compactNumbers": false,
+  "energyCompact": true,
+  "textScale": 1.5,
+  "aboveTextScale": 1.53,
+  "energyTextScale": 1.6,
+  "esTextScale": 1.88,
+  "orb1EsMode": "OVERLAP",
+  "orbSwapMode": "AUTO",
+  "hideOrb1SmallerValue": false,
+  "hideLowerHpEsGaugeOrb1": false,
+  "textPosition": "ABOVE",
+  "aboveOrbOffsetY": 5.95,
+  "aboveOrbOffsetX": 5.95,
+  "aboveIndividualOrbOffsetY": 5.95,
+  "aboveIndividualOrbOffsetX": 5.95,
+  "orbTextShadow": true
+}

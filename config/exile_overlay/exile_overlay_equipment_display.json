@@ -1,0 +1,22 @@
+{
+  "usePercentage": true,
+  "enableShadow": true,
+  "quickLootEnabled": true,
+  "autoQuickLootEnabled": false,
+  "autoQuickLootMode": "LOOT",
+  "keyQuickLootEnabled": true,
+  "keyQuickLootMode": "DROP",
+  "disableMnsHpBar": false,
+  "cancelMnsRpgBars": true,
+  "cancelMnsSpellHotbar": true,
+  "cancelMnsCastBar": true,
+  "cancelMnsStatusEffects": true,
+  "cancelDungeonRealmScoreboard": false,
+  "autoSortLootrChest": true,
+  "levelDisplayMode": "BOTH",
+  "showTargetAffixStats": true,
+  "showTargetMobEffects": true,
+  "showBossMobEffects": true,
+  "enableBossPortalMarker": false,
+  "showEmptySkillSlots": false
+}

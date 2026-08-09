@@ -1,0 +1,1254 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_v"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:ender_eye"
+	id: "13CF8F9062A19FA5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75454F0A3C4C3596"]
+			description: [
+				"&eBesiege den Enderdrachen&r und setze diesem Wahnsinn ein \"End\"e!"
+				""
+				"&oSieht aus, als könntest du mit dem Flügel etwas anfangen ...&r"
+				""
+				"&cDer Enderdrache spawnt frühestens auf Level 50.&r"
+				""
+				"Der Enderdrache hat:"
+				"&b+25% Physischer Schaden zu Blitzschaden umgewandelt&r"
+				"&b+25% Physischer Schaden zu Chaosschaden umgewandelt&r"
+				"&b+25% Elementarresistenz&r"
+				"&b+35% Chaosresistenz&r"
+				"&a7,5% Chance auf End-Rune als Beute&r"
+			]
+			icon: "minecraft:dragon_head"
+			id: "6F0D75895E507FFD"
+			rewards: [
+				{
+					id: "2912DA754B1FC7E8"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":55,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Seltene Ausrüstungs-Beutetruhe (Lv. 55)"
+					type: "item"
+				}
+				{
+					id: "748848F226B0215D"
+					item: "stalwart_dungeons:chorundum"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "720DE9C64034C331"
+					silent: true
+					title: "25000 Erfahrung"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Hauptquest"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "ftb_ph:ender_dragon"
+				id: "2877FD26AC97C50D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Drachenquest"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"Du hast &eAnweisungen&r von einer Dorfwache erhalten, gekritzelt auf einem losen Bambusstück."
+				""
+				"&o1. Erreiche The End.&r"
+				"&o2. Erhalte Enderkristalle von der Insel.&r"
+				"&o3. Platziere die Kristalle auf der -&r"
+				""
+				"Der Rest ist von deinen Abenteuern &eabgerieben&r."
+			]
+			id: "531BDC3DFCE88A6E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 17050"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6D064F971867F5AB"
+					silent: true
+					title: "17050 Erfahrung"
+					type: "command"
+				}
+				{
+					id: "237C14AD78034F20"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Hauptquest"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "1B0D7898F4168083"
+				type: "advancement"
+			}]
+			title: "Beschwörungsritual"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: ["Du hast den Drachen erlegt, aber es scheint, als hätte The End mehr zu bieten, als du dachtest. Es könnte ein guter Zeitpunkt sein, deine neu gefundene &eElytra&r zu nutzen und &edie äußeren Inseln zu erkunden&r."]
+			id: "7EA6A0131C5FF143"
+			rewards: [
+				{
+					id: "3EC5E98649245554"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "Übliche-Währung-Beutetruhe (Lv. 50)"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "022C5AE3B9A81349"
+					item: "mmorpg:currency/sharpening_stone_2"
+					title: "Emyprean-Schleifsteine"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 18250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3763B6E506B98B16"
+					silent: true
+					title: "18250 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "End-Abenteuer"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "04D2837E3F91A62E"
+				type: "advancement"
+			}]
+			title: "Jenseits"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"Du hast gelernt, dass es nicht der Enderdrache war, der die Risse geöffnet hat. So abscheulich das Biest auch war, es war eben nur das - ein abscheuliches Biest."
+				""
+				"Es scheint, The End hat mehr zu bieten, als du dachtest ... Manche sagen, eine weitere Gefahr lauert in der Leere, andere sagen, das Werfen eines &eGeheimnisvollen Wurms&r in sie hinein würde sie hervorlocken."
+				""
+				"Du kannst einen &eGeheimnisvollen Wurm&r erhalten, indem du den &eEnderdrachen&r tötest."
+			]
+			id: "56A3604D9BAD661C"
+			rewards: [
+				{
+					count: 16
+					id: "1B2A6B57387B7711"
+					item: {
+						Count: 1
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Würmer"
+					type: "item"
+				}
+				{
+					id: "561F1DE4EB9C5CE9"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3799D574CFAF86F6"
+					silent: true
+					title: "15750 Erfahrung"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hauptquest"
+			tasks: [{
+				id: "1FD4027C3E5A4B93"
+				item: "alexsmobs:mysterious_worm"
+				title: "Erhalte Einen Geheimnisvollen Wurm"
+				type: "item"
+			}]
+			title: "Genetische Modifikation"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56A3604D9BAD661C"]
+			description: [
+				"Sei vorbereitet, denn diese schreckliche Kreatur besteht aus vielen Körperteilen. Zusätzlich feuert sie zielsuchende Kristalle auf nahe Spieler ab. Kommst du zu nah heran, wirst du zurückgestoßen. Pass auf, dass du nicht von der Insel gestoßen wirst!"
+				""
+				"&cDer Leerenwurm spawnt frühestens auf Level 55.&r"
+				""
+				"Der Leerenwurm hat:"
+				"&b+25% Elementarresistenz&r"
+				"&a5% Chance auf End-Rune als Beute&r"
+			]
+			icon: "alexsmobs:void_worm_eye"
+			id: "3944DD7AC4667137"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 27500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "45B406CDBD1F2A26"
+					silent: true
+					title: "27500 Erfahrung"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "71B0768A7BF842A5"
+					title: "2 Talentpunkte"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Hauptquest"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "ftb_ph:void_worm"
+				id: "4CDAF67DC07C1B5A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Wurm aus der Leere"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201E621A52FFCE65"]
+			description: ["Es gibt einen Bericht über eine unterirdische Kreatur, die unterirdische Händler heimsucht. Manche nennen es einen \"Wärter\".&r Manche sagen, man finde ihn tief unten in der &eAntiken Stadt&r."]
+			id: "0424E768816CB314"
+			rewards: [
+				{
+					id: "6FEA654635C8F438"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/epic_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"epic\",\"lvl\":60,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Epische Ausrüstungs-Beutetruhe (Lv. 60)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "69E5D302B19DFCB4"
+					silent: true
+					title: "20500 Erfahrung"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hauptquest"
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				id: "73ECBABFC177A3AF"
+				type: "advancement"
+			}]
+			title: "Zurück Zuhause"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0424E768816CB314"]
+			description: [
+				"Der &eWärter&r ist völlig blind und verlässt sich auf Vibrationen, Geruch und Berührung, um Spieler aufzuspüren. Du kannst ihm ausweichen, indem du schleichst oder Ablenkungen wie Pfeile einsetzt. Er hat einen mächtigen Nahkampfangriff und kann einen verheerenden zielsuchenden Sonic-Boom-Angriff auslösen."
+				""
+				"&cDer Wärter spawnt frühestens auf Level 60.&r"
+				""
+				"Der Wärter hat:"
+				"&b+50% Physisch zu Chaosschaden&r"
+				"&b+50% Rüstung&r"
+				"&b+35% Elementarresistenz&r"
+				"&b+35% Chaosresistenz&r"
+				"&a10% Chance auf Sid-Rune als Beute&r"
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B5AFF6897A7AE6D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 30000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "32BBAFAF37E1995B"
+					silent: true
+					title: "30000 Erfahrung"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "3E70206312D555CB"
+					item: "lightmanscurrency:coin_gold"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31CEEC8EB6246EED"
+					table_id: 7157812384472883171L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Hauptquest"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "ftb_ph:warden"
+				id: "7C4B9B0973E6EA67"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Dimensionswächter"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B5AFF6897A7AE6D"]
+			description: ["Wow, wer hätte das gedacht? Der &eWärter&r schien ein Tor zu einer neuen, &eunentdeckten Dimension&r zu bewachen. Was gibt es auf &eThe Otherside&r?"]
+			id: "707C5CDB48B487F8"
+			rewards: [
+				{
+					id: "5E5119647591EC7F"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "Übliche-Währung-Beutetruhe (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 24750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3201ACAD0D312816"
+					silent: true
+					title: "24750 Erfahrung"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00AA3A8290A71518"
+					table_id: 5361966167457701780L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hauptquest"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:warden_carapace"
+				id: "1ACA80128E406BE5"
+				title: "Besuche The Otherside"
+				type: "dimension"
+			}]
+			title: "The Otherside"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66226AD37A8822F0"]
+			description: [
+				"Erkunde &eweiter&r und steige hinab in die &eDunkelheit ...&r Man weiß nie, welche &eSchätze&r man findet."
+				""
+				"&b&oGlückwunsch zum Abschluss der Hauptkampagne! Fahre mit dem Epilog fort, um sie vollständig abzuschließen, oder erkunde weiter, was die Welten zu bieten haben. Schau dir unbedingt die Nebenquests an! Steige weiter auf, passe deinen Charakter an und versuche, die größten Herausforderungen in Karten zu meistern!&r&r"
+			]
+			id: "6149D163ABF06A15"
+			rewards: [
+				{
+					id: "42E63F9488C11281"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/legendary_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"legendary\",\"lvl\":60,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Legendäre Ausrüstungs-Beutetruhe (Lv. 60)"
+					type: "item"
+				}
+				{
+					id: "360850EC6B27579B"
+					item: "lightmanscurrency:coin_netherite"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					id: "3422F45908DFFA9A"
+					item: "simplehats:paperbag"
+					title: "Papiertüte"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 35000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1E6490E881BC5AA2"
+					silent: true
+					title: "35000 Erfahrung"
+					type: "command"
+				}
+				{
+					id: "2113E9C1A471A8B9"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/darkness"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hauptquest"
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_temple"
+				criterion: ""
+				icon: "deeperdarker:smooth_sculk_stone_stairs"
+				id: "779882C7510983D8"
+				type: "advancement"
+			}]
+			title: "Lose Enden Geknüpft"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"Auch wenn du &eden Drachen erlegt&r hast, findest du weiterhin Überreste des Biests. Erlege seine &eBrut&r, um weitere Verwüstung zu verhindern."
+				""
+				"Beachte, dass du den Enderdrachen mit &eEnderkristallen&r erneut &erespawnen&r kannst! Die Methode ist dieselbe wie in &eVanilla.&r"
+				""
+				"&o&7Der Abschluss schaltet eine Wiederholbare Quest im Kapitel Wiederholbare Quests frei!&r&r"
+			]
+			id: "61FF2CADDF0013F6"
+			rewards: [
+				{
+					id: "07F863054E4C3F13"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "Übliche-Edelstein-Beutetruhe (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 19000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "568A68D30118ED12"
+					silent: true
+					title: "19000 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "End-Abenteuer"
+			tasks: [{
+				entity: "realmrpg_wyrms:ender_wyrm"
+				icon: "simplehats:dragonskullender"
+				id: "18796A37D4AFC777"
+				type: "kill"
+				value: 12L
+			}]
+			title: "Drachenbrut"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30FA1CCB6BBA7125"]
+			description: [
+				"Gerüchten zufolge sind &eFernseher&r prophetische Kreaturen, die aus der Leere stammen."
+				""
+				"&o&7Der Abschluss schaltet eine Wiederholbare Quest im Kapitel Wiederholbare Quests frei!&r&r"
+			]
+			icon: "alexsmobs:farseer_arm"
+			id: "69FD852AE0306BD2"
+			rewards: [
+				{
+					id: "13410512A1AB33A9"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Warp-Stein"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7E4B99CDF9BF72C0"
+					silent: true
+					title: "20500 Erfahrung"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "4EFEDC6802D42BF3"
+					title: "1 Talentpunkt"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "7D71C44B4C0FD103"
+					title: "Gnadenloser Aufstieg"
+					type: "custom"
+				}
+			]
+			subtitle: "End-Abenteuer"
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				icon: "ftb_ph:farseer"
+				id: "4917CEEBC063FE78"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Sie Wussten, Dass Du Kommst"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"531BDC3DFCE88A6E"
+				"61FF2CADDF0013F6"
+				"0424E768816CB314"
+				"69FD852AE0306BD2"
+				"6B5AFF6897A7AE6D"
+				"6F0D75895E507FFD"
+				"7EA6A0131C5FF143"
+				"707C5CDB48B487F8"
+				"56A3604D9BAD661C"
+				"3944DD7AC4667137"
+				"6149D163ABF06A15"
+				"081AD91A178C3A3F"
+				"6DEBCC2B2DAE67AD"
+				"0C894EBBB7C6F380"
+				"010FF3BF22DA9AED"
+				"5596C3E03B25B9C8"
+				"30FA1CCB6BBA7125"
+				"594A647C82F46BD8"
+				"68ADEBE337D75CA7"
+				"373410F7773044D4"
+				"600F5339B6C0975C"
+				"201E621A52FFCE65"
+				"7544F7A13E989534"
+				"66226AD37A8822F0"
+				"7DB451E643FAB7BE"
+			]
+			description: ["&eSchließe&r alle &eQuests&r in Akt V ab, um diese Errungenschaft zu erhalten. Zeig sie dann mit deinem neuen Hut her!"]
+			hide_dependency_lines: true
+			icon: "simplehats:rgbsunglasses"
+			id: "4ABF5C9676202847"
+			rewards: [
+				{
+					id: "32163DBB344176A5"
+					item: "simplehats:rgbsunglasses"
+					type: "item"
+				}
+				{
+					id: "132CB6623C41E78B"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Geld"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Errungenschaft"
+			tasks: [{
+				id: "3F2676327EA7C4ED"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Schließe Alle Quests In Akt V Ab!"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: ["&eEnderiophagen&r findet man dort, wo &eChorusfrucht wächst&r. Diese Wesen verbreiten &eKrankheit&r und sollten so schnell wie möglich beseitigt werden! Enderiophagen entstehen, wenn man einen &eEnderstab mit einer Kapsel obendrauf platziert und ein Enderauge hineinlegt&r."]
+			id: "30FA1CCB6BBA7125"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 16500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "09276F91256B5A16"
+				silent: true
+				title: "16500 Erfahrung"
+				type: "command"
+			}]
+			subtitle: "End-Abenteuer"
+			tasks: [{
+				entity: "alexsmobs:enderiophage"
+				icon: "alexsmobs:enderiophage_rocket"
+				id: "25D5719253570957"
+				type: "kill"
+				value: 8L
+			}]
+			title: "Virale Katastrophe"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7544F7A13E989534"]
+			description: ["&eKreischwürmer&r sind furchterregende Kreaturen, die man auf &eThe Otherside&r findet. Wenn du &eauf Befallenen Sculk trittst&r, erwartet dich eine Überraschung."]
+			id: "081AD91A178C3A3F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 25500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4C937CC2C36181EE"
+				silent: true
+				title: "25500 Erfahrung"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Tiefer und Dunkler"
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0BAB29DF028FA3B2"
+				type: "kill"
+				value: 12L
+			}]
+			title: "Todesfallen"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"081AD91A178C3A3F"
+				"0C894EBBB7C6F380"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eVerfolger&r sind unheimliche und mächtige Wesen, die man auf &eThe Otherside&r findet. Sie werden von harten Geräuschen angezogen - willst du also einen finden, zerbrich vielleicht ein paar Gefäße?"
+				""
+				"Hast du kein Glück, erwäge das &eTor der Dunkelheit&r."
+				""
+				"&eBenötigt ALLE Voraussetzungen abgeschlossen.&r"
+			]
+			icon: "alexsmobs:froststalker_horn"
+			id: "6DEBCC2B2DAE67AD"
+			rewards: [
+				{
+					id: "45F0FAFA0E031718"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 26750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "23D7F4B1237A1E14"
+					silent: true
+					title: "26750 Erfahrung"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "7D8679A30B65CDA7"
+					title: "1 Talentpunkt"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Tiefer und Dunkler"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "alexsmobs:froststalker_horn"
+				id: "0E11112090553BD8"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Unheimliche Präsenz"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7544F7A13E989534"]
+			description: ["In &eEchowäldern&r findest du Kreaturen, die ihre Seelen verloren haben. Einst dachte man, sie seien Menschen - jetzt nur noch die Hülle ihres früheren Selbst."]
+			id: "0C894EBBB7C6F380"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 25500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2902961DDA1F44C2"
+				silent: true
+				title: "25500 Erfahrung"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Tiefer und Dunkler"
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "25B6045192B3F552"
+				type: "kill"
+				value: 32L
+			}]
+			title: "Die Hoffnungslosen"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["30FA1CCB6BBA7125"]
+			description: ["Fange dir den Ender-Grippe-Effekt ein. Heile ihn, indem du viel &eChorusfrucht&r isst oder &eMilch trinkst&r. Die Uhr tickt ..."]
+			id: "010FF3BF22DA9AED"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 18000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5AA6257209EEFA31"
+					silent: true
+					title: "18000 Erfahrung"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "40C03DB4E7F7BAE8"
+					item: "lightmanscurrency:coin_gold"
+					title: "Geld"
+					type: "item"
+				}
+			]
+			subtitle: "End-Abenteuer"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/ender_flu"
+				criterion: ""
+				id: "6EA193412C2E12A0"
+				type: "advancement"
+			}]
+			title: "Ein Wettlauf Gegen Die Zeit"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0424E768816CB314"]
+			description: ["Trotz seiner teuren Zutaten erlaubt dir der &eEntzauberer&r, alle Verzauberungen eines Gegenstands gegen &eHaltbarkeitskosten&r zu entfernen."]
+			id: "5596C3E03B25B9C8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 22750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7EC6BA5FD16D04E9"
+					silent: true
+					title: "22750 Erfahrung"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2053355660EE0346"
+					table_id: 7157812384472883171L
+					type: "loot"
+				}
+			]
+			subtitle: "Nützliches"
+			tasks: [{
+				id: "613E6DBC63B51865"
+				item: "disenchanting:disenchanter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EA6A0131C5FF143"]
+			description: [
+				"Im End findest du zwei neue Bauwerke: &eEndturm und Katakomben&r. In diesen Bauwerken findest du lustige neue Beute sowie &ePurpur-Golems&r!"
+				""
+				"Der Purpur-Golem hat:"
+				"&b+30% Rüstung&r"
+				"&b+25% Chaosresistenz&r"
+			]
+			id: "68ADEBE337D75CA7"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 22000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "03B6539402A8BCD3"
+					silent: true
+					title: "22000 Erfahrung"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "220EAAFECD7CE693"
+					table_id: 5361966167457701780L
+					type: "choice"
+				}
+			]
+			subtitle: "Äußeres End"
+			tasks: [{
+				entity: "outer_end:purpur_golem"
+				icon: "stalwart_dungeons:purpur_bricks_wall"
+				id: "34A5EB2CC3DF0793"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Bauwerke Außer Reichweite"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7EA6A0131C5FF143"]
+			description: ["In neuen End-Biomen findest du &eVerfolger, Eingemauerte&r und viele andere bösartige Kreaturen der Leere. Schau dir den &eAzurblauen Wald, die Kristallschlucht und die Urzeitlichen Tümpel&r an!"]
+			icon: "outer_end:cooked_stalker_meat"
+			id: "594A647C82F46BD8"
+			rewards: [
+				{
+					count: 16
+					id: "1D9BB7AD9EAF4F79"
+					item: "minecraft:purple_dye"
+					type: "item"
+				}
+				{
+					id: "4567579F8FBA9072"
+					item: "mmorpg:runes/oru"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 21500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7FAF80D19C2F9781"
+					silent: true
+					title: "21500 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Äußeres End"
+			tasks: [
+				{
+					entity: "outer_end:stalker"
+					icon: "outer_end:cooked_stalker_meat"
+					id: "6317E691F5CE9B74"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "outer_end:entombed"
+					icon: "chipped:simple_purpur_block_pillar"
+					id: "7E34EBD5D2D398F9"
+					type: "kill"
+					value: 8L
+				}
+			]
+			title: "Bewohner der Leere"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68ADEBE337D75CA7"]
+			description: [
+				"Der Beschützer ist eine interessante Kreatur, die im &eEnd-Dungeon&r zu finden ist. Befreist du ihn mit einem &eNetherstern&r auf seinem &eAltar&r, kann er sich in einer energetischen Shulker-Kiste einschließen."
+				""
+				"Der Beschützer hat:"
+				"&b+100% Leben&r"
+				"&b+25% Schadensunterdrückungschance&r"
+				"&a15% Chance auf End-Rune als Beute&r"
+			]
+			id: "373410F7773044D4"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6EE60480A254A4A7"
+					silent: true
+					title: "25000 Erfahrung"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "579E9E1A7706290A"
+					item: "mmorpg:material/mining/2"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "End-Abenteuer"
+			tasks: [{
+				entity: "stalwart_dungeons:shelterer_without_armor"
+				icon: "stalwart_dungeons:shelterer_altar"
+				id: "62D0B75824CE2C88"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eingeschachtelt"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"775A13E1924D6C9A"
+				"68ADEBE337D75CA7"
+			]
+			description: [
+				"Nachdem du &ePhantom-Creeper&r im &eNether&r erlegt hast, stehst du ihnen nun wieder von Angesicht zu Angesicht in &eThe End&r gegenüber!"
+				""
+				"&ePhantom-Creeper&r spawnen in &eVerzerrten Wäldern&r und &eThe End&r. Sie teilen sich bei Berührung, also sei vorsichtig mit ihnen!"
+				""
+				"Der Phantom-Creeper hat:"
+				"&b+25% Ausweichwert&r"
+			]
+			id: "600F5339B6C0975C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 22500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "375D153441230272"
+					silent: true
+					title: "22500 Erfahrung"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "6400D613013852A6"
+					item: "mmorpg:material/meat/1"
+					type: "item"
+				}
+			]
+			subtitle: "End-Abenteuer"
+			tasks: [{
+				entity: "born_in_chaos_v1:phantom_creeper_copy"
+				icon: "born_in_chaos_v1:phantom_bomb"
+				id: "6F04C7381C916B26"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Wesen aus einer Anderen Welt IV"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3944DD7AC4667137"]
+			description: [
+				"Bevor du wieder zwischen Dimensionen warpst, solltest du dich besser mit dem &eKartengerät&r vertraut machen."
+				""
+				"Dir ist vielleicht schon aufgefallen, dass &eDucken + Rechtsklick (beide Hände müssen leer sein)&r auf dein &eKartengerät&r einen riesigen Baum aufruft. Das ist der &cAtlas&r, ein fortschrittsbasiertes System, das dich dazu ermutigen soll, verschiedene Kartentypen zu spielen."
+				""
+				"Der Pool an Karten, die du erhalten kannst, ist auf freigeschaltete Karten-Knoten begrenzt. Das Abschließen dieser schaltet weitere Varianten frei, und &eab Stufe 20+&r belohnt es dich mit &c1 Atlas-Passivpunkt&r."
+				""
+				"Du erreichst den Atlas-Passivbaum, indem du auf die Schaltfläche oben links im Atlas klickst. Hier kannst du Punkte verteilen, um &ezu verändern, wie sich deine Karten verhalten&r."
+			]
+			id: "201E621A52FFCE65"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 17500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "43413049B841CA66"
+				silent: true
+				title: "17500 Erfahrung"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Kartografie"
+			tasks: [{
+				icon: "mmorpg:map_creator"
+				id: "0F67BA1BD5611BA9"
+				stat: "mmorpg:dungeons_completed"
+				type: "stat"
+				value: 10
+			}]
+			title: "Dimensionsreise"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201E621A52FFCE65"]
+			description: ["Während du Monster tötest und die Karte erkundest, bemerkst du, wie dein Tötungs- und Beute-Prozentsatz steigt. Diese beiden Werte tragen zu deiner gesamten &eErkundungs-Seltenheit&r bei. Je höher deine Erkundung, desto besser die Belohnungen beim Töten des &eKarten-Bosses&r. Je mehr du erkundest, desto mehr steigt deine Erkundungs-Seltenheit, beginnend mit &aungewöhnlicher&r Erkundung als erstem Meilenstein."]
+			icon: "minecraft:paper"
+			id: "4983FE0DE8A1377F"
+			rewards: [{
+				id: "72DE3FED05338CB6"
+				item: "mmorpg:currency/map_rarity_upgrade"
+				type: "item"
+			}]
+			subtitle: "Verlorene Seite"
+			tasks: [{
+				id: "743D361CB7F4E030"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Kartenerkundung"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: [
+				"Beim Erkunden von &eThe Otherside&r kann es sinnvoll sein, zu Karten zurückzukehren, um dich zu stärken. Zum Glück hast du auf deinen Reisen von verstärkten Dimensionen erfahren."
+				""
+				"Ab &eLevel 50&r können Karten verschiedene \"Liga\"-Events&r auslösen, die den Dungeon-Lauf aufpeppen. Schließe diese Events für spezielle Belohnungen ab."
+				""
+				"Hier ein kurzer Überblick über die 6 Events, denen du in Karten begegnen kannst. Mit &eErnten&r und &eAntiken Obelisken&r solltest du bereits vertraut sein!"
+				""
+				"1. &2Ernte&r - töte Wellen von Feinden für mächtige Materialien."
+				"2. &cAntike Obelisken&r - überlebe den Ansturm, um Währung zu erhalten."
+				"3. &dProphezeiung&r - töte Feinde in der Karte, um Münzen für einen speziellen Shop zu erhalten."
+				"4. &bEingesperrte Monster&r - lass ein mächtiges Monster frei und töte es für mögliche Belohnungen."
+				"5. &7Beutetresore&r - töte die Wächter der Kiste für maßgeschneiderte Belohnungen."
+				"6. &eSchreine&r - nutze den Schrein, um dir mächtige Buffs zu verschaffen."
+				""
+				"Weitere Details zu jeder einzelnen Mechanik findest du in den verknüpften &bVerlorenen Seiten&r."
+			]
+			id: "7544F7A13E989534"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 20000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7B0CC44126435994"
+				silent: true
+				title: "20000 Erfahrung"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Kartografie"
+			tasks: [{
+				icon: "dungeon_realm:fixed_dungeon_map_item"
+				id: "71F106101EBB87E1"
+				stat: "mmorpg:dungeons_completed"
+				type: "stat"
+				value: 25
+			}]
+			title: "Da Gibt Es Noch Stufen ..."
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7544F7A13E989534"]
+			description: [
+				"In Mine-and-Slash-Karten können zusätzliche Events auftreten. Jede Karte &ekann nur eine aktive Mechanik&r haben, es sei denn, du hast spezielle Modifikatoren, die mehr erlauben. Zwei davon hast du bereits gesehen - sie können ab Level 50 spawnen."
+				""
+				"&2Ernte&r (&bLv. 50+&r): finde Portale in Karten, die dich in einen neuen Ernteraum bringen. Töte Monster in diesen Räumen, um &eChaotische Edelsteine&r zu erhalten, mit denen sich besondere Währungen craften lassen!"
+				""
+				"&cAntiker Obelisk&r (&bLv. 50+&r): ähnlich wie Ernte - finde Portale, die dich in eine Arena bringen. Bekämpfe Wellen von Feinden, um Upgrades zu finden, die auf &eObelisken&r angewendet werden können! Du hast außerdem die Gelegenheit, spezielle Währung zu erhalten, mit der sich &eUnterstützungs- und Verstärkungs-Edelsteine&r aufwerten lassen."
+				""
+				"&eSchreine&r (&3Lv. 60+&r): finde Schreine in Karten, mit denen du interagieren kannst, um dir und nahen Verbündeten einen Buff zu verleihen. Dieser Buff hält 60s an und kann eine Karte trivial machen!"
+			]
+			icon: "minecraft:paper"
+			id: "062656B385EA3960"
+			rewards: [{
+				id: "2F17F8F6DEB6F82D"
+				item: "mmorpg:currency/map_rarity_upgrade"
+				type: "item"
+			}]
+			subtitle: "Verlorene Seite"
+			tasks: [{
+				id: "2266C44EDE1AE423"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Liga-Events"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7544F7A13E989534"]
+			description: [
+				"Ab Level 60 erscheinen weitere Events. Auch diese haben eine einzigartige Belohnungsstruktur!"
+				""
+				"&dProphezeiung&r (&3Lv. 60+&r): interagiere mit einem Altar, um &dProphezeiung&r zu starten. Am Altar kannst du zwischen Flüchen wählen, die du auf dich selbst anwenden kannst. Solange ein Fluch aktiv ist, lassen Monster &eProphezeiungs-Münzen&r fallen. Je mehr Flüche du auf dir hast, desto mehr &eProphezeiungs-Münzen&r kannst du verdienen. Nutze diese Münzen, um Belohnungen im Hub zu kaufen. Beachte, dass &6Legendäre&r und &5Mythische&r Belohnungen erst ab Karten der Stufe 20 bzw. 40 erscheinen."
+				""
+				"&7Beutetresore&r (&3Lv. 60+&r): finde &7Beutetresore&r überall in der Karte. Die Interaktion mit einem beschwört &7Beutetresor&r-Wächter. Besiege sie und ernte spezielle Belohnungen. Die Belohnungen bestehen aus einem Pool eines Gegenstandstyps (z. B. eine Menge &eWährung&r oder eine Menge &eRunen&r)."
+				""
+				"&bEingesperrte Monster&r (&3Lv. 60+&r): manchmal triffst du in einer Karte auf einen eingesperrten Monster-Block. Interagierst du damit, wird das Monster befreit, das bei Besiegen eine Chance hat, spezielle &eWährung&r fallen zu lassen, die &eAusrüstungspotential wiederherstellen kann&r! Sei aber gewarnt, diese Monster sind nichts für schwache Nerven."
+			]
+			icon: "minecraft:paper"
+			id: "747F8352825A124A"
+			rewards: [{
+				id: "64C505B09051A4A8"
+				item: "mmorpg:map_creator"
+				type: "item"
+			}]
+			subtitle: "Verlorene Seite"
+			tasks: [{
+				id: "17104BCDCBE1AF5F"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Liga-Events II"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DEBCC2B2DAE67AD"]
+			description: [
+				"Willst du dich noch weiter herausfordern? Zusätzlich zu &cAtlas-Passivpunkten&r kannst du deine Karten mit &eRelikten&r modifizieren. Bis jetzt solltest du bereits einige &eRelikte&r aus Truhen und &eBoss&r-Kills erhalten haben. Nutze einen &eReliktschlüssel&r an einem &eKartengerät&r (oder Ernte-/Obelisk-Block), um auf sein &eReliktinventar&r zuzugreifen."
+				""
+				"&cRelikte haben 3 Anwendungen, bevor sie verbraucht werden&r, und es gibt eine Begrenzung, wie viele Relikte du in einer Karte platzieren kannst. In das Inventar kannst du &eRelikte&r platzieren, um den Dungeon zu verbessern."
+			]
+			icon: "mmorpg:relic"
+			id: "66226AD37A8822F0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 20000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5B80ACDB0F87AF12"
+				silent: true
+				title: "20000 Erfahrung"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Kartografie"
+			tasks: [{
+				id: "1487955558F49FBC"
+				item: "dungeon_realm:relic_key"
+				type: "item"
+			}]
+			title: "Relikte der Vergangenheit"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6149D163ABF06A15"]
+			description: [
+				"Du hörst Flüstern von einer mächtigen Kraft tief in der Leere .. Erkunde weiter den &cAtlas&r und schließe die härtesten Karten ab, um mehr zu erfahren ..."
+				""
+				"&cUber-Karten&r sind extrem schwierige und lohnende Karten. Eine reguläre &5Karte der Stufe 80+&r kann mit einem &eAbenteuerkarten-Uber-Upgrade&r-Gegenstand in eine &cUber-Karte&r umgewandelt werden. Diese kannst du mit &eUber-Fragmenten&r craften, die von Karten-Bossen fallen."
+				""
+				"&cUber-Karten&r enthalten &cUber-Bosse&r, die sehr &emächtige Juwelen&r fallen lassen."
+				""
+				"Durch das Abschließen des &cAtlas&r, wofür &cUber-Karten&r abgeschlossen werden müssen, schaltest du das &oPrivileg&r frei, den &4Gipfel-Boss&r herauszufordern. Ähnlich wie bei &cUber&r kannst du den &eAbenteuerkarten-Gipfel-Upgrade&r-Gegenstand craften, um deine Karte zu modifizieren."
+				""
+				"&4Gipfel-Bosse&r sind extrem schwierig und bieten auch eine enorme Belohnung. Aber &ohast du das Zeug dazu, es herauszufinden?&r"
+			]
+			id: "7DB451E643FAB7BE"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "663FFA9E8A799B7B"
+					silent: true
+					title: "25000 Erfahrung"
+					type: "command"
+				}
+				{
+					id: "59857039C42096B0"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Kartografie"
+			tasks: [{
+				icon: "dungeon_realm:uber_upgrade"
+				id: "610DC03B1C7DF1D1"
+				stat: "mmorpg:uber_dungeons_completed"
+				type: "stat"
+				value: 5
+			}]
+			title: "Der Gipfel"
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+	subtitle: [
+		"Lv. 50-65"
+		"Lv. 60-75"
+	]
+	title: "Akt V"
+}

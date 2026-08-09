@@ -1,0 +1,336 @@
+
+[origins]
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."runic_races:blood_elf"]
+		enabled = true
+		"runic_races:blood_elf/blood_frenzy" = true
+		"runic_races:blood_elf/bloodcraft" = true
+		"runic_races:blood_elf/price_of_power" = true
+
+	[origins."runic_races:serpen"]
+		enabled = true
+		"runic_races:serpen/shed_skin" = true
+		"runic_races:serpen/venomous_coil" = true
+		"runic_races:serpen/cold_blooded" = true
+
+	[origins."runic_races:demon"]
+		enabled = true
+		"runic_races:demon/infernal_wrath" = true
+		"runic_races:demon/infernal_blood" = true
+		"runic_races:demon/holy_vulnerability" = true
+
+	[origins."runic_races:magi"]
+		enabled = true
+		"runic_races:magi/arcane_overflow" = true
+		"runic_races:magi/woven_of_magic" = true
+		"runic_races:magi/volatile_vessel" = true
+
+	[origins."runic_races:nymph"]
+		enabled = true
+		"runic_races:nymph/sirens_charm" = true
+		"runic_races:nymph/spirit_of_spring" = true
+		"runic_races:nymph/bound_to_water" = true
+
+	[origins."runic_races:wind_wyrm"]
+		enabled = true
+		"runic_races:wind_wyrm/galeforce_breath" = true
+		"runic_races:wind_wyrm/skylord" = true
+		"runic_races:wind_wyrm/untethered" = true
+
+	[origins."runic_races:primian"]
+		enabled = true
+		"runic_races:primian/stroke_of_fortune" = true
+		"runic_races:primian/boundless_adaptability" = true
+		"runic_races:primian/jack_of_all_trades" = true
+
+	[origins."runic_races:arachnid"]
+		enabled = true
+		"runic_races:arachnid/web_snare" = true
+		"runic_races:arachnid/weavers_senses" = true
+		"runic_races:arachnid/fragile_carapace" = true
+
+	[origins."runic_races:family_bestial"]
+		enabled = true
+
+	[origins."runic_races:valen"]
+		enabled = true
+		"runic_races:valen/unbreakable_stand" = true
+		"runic_races:valen/fortitude" = true
+		"runic_races:valen/stalwart_not_swift" = true
+
+	[origins."runic_races:family_undead"]
+		enabled = true
+
+	[origins."runic_races:dryad"]
+		enabled = true
+		"runic_races:dryad/verdant_bloom" = true
+		"runic_races:dryad/one_with_the_grove" = true
+		"runic_races:dryad/kindling" = true
+
+	[origins."runic_races:sprite"]
+		enabled = true
+		"runic_races:sprite/phase_shift" = true
+		"runic_races:sprite/gossamer_wings" = true
+		"runic_races:sprite/fragile_essence" = true
+
+	[origins."runic_races:ice_drake"]
+		enabled = true
+		"runic_races:ice_drake/frost_breath" = true
+		"runic_races:ice_drake/rimescale_hide" = true
+		"runic_races:ice_drake/thaw" = true
+
+	[origins."runic_races:faerie"]
+		enabled = true
+		"runic_races:faerie/faerie_bargain" = true
+		"runic_races:faerie/pixie_flight" = true
+		"runic_races:faerie/cold_iron" = true
+
+	[origins."runic_races:family_draconic"]
+		enabled = true
+
+	[origins."runic_races:sky_one"]
+		enabled = true
+		"runic_races:sky_one/mountain_leap" = true
+		"runic_races:sky_one/sure_footed_sentinel" = true
+		"runic_races:sky_one/thin_air_lungs" = true
+
+	[origins."runic_races:kitsune"]
+		enabled = true
+		"runic_races:kitsune/foxfire_illusion" = true
+		"runic_races:kitsune/spirit_of_the_fox" = true
+		"runic_races:kitsune/untamed_spirit" = true
+
+	[origins."runic_races:runic_one"]
+		enabled = true
+		"runic_races:runic_one/rune_of_warding" = true
+		"runic_races:runic_one/runebound" = true
+		"runic_races:runic_one/bound_by_tradition" = true
+
+	[origins."runic_races:sea_serpen"]
+		enabled = true
+		"runic_races:sea_serpen/tidal_breath" = true
+		"runic_races:sea_serpen/leviathans_gift" = true
+		"runic_races:sea_serpen/landbound_coils" = true
+
+	[origins."runic_races:moon_elf"]
+		enabled = true
+		"runic_races:moon_elf/moonlit_veil" = true
+		"runic_races:moon_elf/tidecallers_grace" = true
+		"runic_races:moon_elf/waning_by_day" = true
+
+	[origins."runic_races:skeleton"]
+		enabled = true
+		"runic_races:skeleton/conscript_the_dead" = true
+		"runic_races:skeleton/marrow_deep_aim" = true
+		"runic_races:skeleton/brittle_bones" = true
+
+	[origins."runic_races:wraith"]
+		enabled = true
+		"runic_races:wraith/spectral_phase" = true
+		"runic_races:wraith/soul_touched" = true
+		"runic_races:wraith/half_bound" = true
+
+	[origins."runic_races:family_elven"]
+		enabled = true
+
+	[origins."runic_races:family_human"]
+		enabled = true
+
+	[origins."runic_races:iron_one"]
+		enabled = true
+		"runic_races:iron_one/shield_wall" = true
+		"runic_races:iron_one/forged_to_endure" = true
+		"runic_races:iron_one/heavy_as_the_mountain" = true
+
+	[origins."runic_races:family_dwarven"]
+		enabled = true
+
+	[origins."runic_races:deep_one"]
+		enabled = true
+		"runic_races:deep_one/tremorsense" = true
+		"runic_races:deep_one/deep_dweller" = true
+		"runic_races:deep_one/sunlight_blindness" = true
+
+	[origins."runic_races:canine"]
+		enabled = true
+		"runic_races:canine/howl_of_the_pack" = true
+		"runic_races:canine/pack_hunter" = true
+		"runic_races:canine/ravenous" = true
+
+	[origins."runic_races:forge_one"]
+		enabled = true
+		"runic_races:forge_one/forge_blessing" = true
+		"runic_races:forge_one/ironhand_smith" = true
+		"runic_races:forge_one/stone_heavy" = true
+
+	[origins."runic_races:feline"]
+		enabled = true
+		"runic_races:feline/pounce" = true
+		"runic_races:feline/nine_lives" = true
+		"runic_races:feline/hydrophobia" = true
+
+	[origins."runic_races:fire_drake"]
+		enabled = true
+		"runic_races:fire_drake/dragonfire_breath" = true
+		"runic_races:fire_drake/emberscale_hide" = true
+		"runic_races:fire_drake/cold_quenches_fire" = true
+
+	[origins."runic_races:family_faeborne"]
+		enabled = true
+
+	[origins."runic_races:terra_drake"]
+		enabled = true
+		"runic_races:terra_drake/seismic_breath" = true
+		"runic_races:terra_drake/stonescale_hide" = true
+		"runic_races:terra_drake/ponderous" = true
+
+	[origins."runic_races:zombie"]
+		enabled = true
+		"runic_races:zombie/undying_hunger" = true
+		"runic_races:zombie/deathless_flesh" = true
+		"runic_races:zombie/sunlight_decay" = true
+
+	[origins."runic_races:ice_elf"]
+		enabled = true
+		"runic_races:ice_elf/frostbind" = true
+		"runic_races:ice_elf/winters_child" = true
+		"runic_races:ice_elf/cold_blooded" = true
+
+	[origins."runic_races:dark_elf"]
+		enabled = true
+		"runic_races:dark_elf/shadowmeld" = true
+		"runic_races:dark_elf/children_of_darkness" = true
+		"runic_races:dark_elf/sunlight_sensitivity" = true
+
+	[origins."runic_races:changeling"]
+		enabled = true
+		"runic_races:changeling/mirror_shift" = true
+		"runic_races:changeling/manyfaces" = true
+		"runic_races:changeling/hollow_identity" = true
+
+	[origins."runic_races:avian"]
+		enabled = true
+		"runic_races:avian/wind_burst" = true
+		"runic_races:avian/skyborne" = true
+		"runic_races:avian/hollow_bones" = true
+
+	[origins."runic_races:celeron"]
+		enabled = true
+		"runic_races:celeron/messengers_dash" = true
+		"runic_races:celeron/fleet_and_sure" = true
+		"runic_races:celeron/featherweight_frame" = true
+
+	[origins."runic_races:volt_drake"]
+		enabled = true
+		"runic_races:volt_drake/lightning_breath" = true
+		"runic_races:volt_drake/stormscale_hide" = true
+		"runic_races:volt_drake/grounded" = true
+
+	[origins."runic_races:frost_one"]
+		enabled = true
+		"runic_races:frost_one/glacial_resolve" = true
+		"runic_races:frost_one/frostborn" = true
+		"runic_races:frost_one/forged_for_cold" = true
+
+	[origins."runic_races:reaper"]
+		enabled = true
+		"runic_races:reaper/soul_harvest" = true
+		"runic_races:reaper/harbinger_of_death" = true
+		"runic_races:reaper/touch_of_the_grave" = true
+
+	[origins."runic_races:high_elf"]
+		enabled = true
+		"runic_races:high_elf/arcane_reflex" = true
+		"runic_races:high_elf/arcane_mastery" = true
+		"runic_races:high_elf/fragile_grace" = true
+

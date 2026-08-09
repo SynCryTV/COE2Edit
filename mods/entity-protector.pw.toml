@@ -1,0 +1,13 @@
+name = "Entity Protector"
+filename = "EntityProtector-1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "542b3a939048be615949cc10f56d36f04db80f21"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7669420
+project-id = 1235067

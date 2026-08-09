@@ -1,0 +1,13 @@
+name = "Think before Drop"
+filename = "thinkbeforedrop-3.0-1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9ed90c589b2d2f86c2990a161bab1f51cf6aa3c1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7589481
+project-id = 1057081

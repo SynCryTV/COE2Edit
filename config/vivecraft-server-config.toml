@@ -1,0 +1,225 @@
+
+#Generelle Einstellungen
+[general]
+	#Schreibt Einträge in die Protokolldatei, wenn sich Clients verbinden und welche Vivecraft version sie verwenden.
+	debug = false
+	#Prüft auf neue Vivecraft Versionen, wenn ein OP dem Server beitritt und sendet eine Systemnachricht an diese.
+	checkForUpdate = false
+	#Auf welche Updates geprüft werden soll.
+	# r: Release, b: Beta, a: Alpha
+	checkForUpdateType = "r"
+	#Setze dies auf 'true', um nur Spieler im VR Modus zu erlauben.
+	# Wenn dies aktiv ist, wird VR Schnellwechsel automatisch deaktiviert.
+	vr_only = false
+	#Setze dies auf 'true', um nur Spieler welche Vivecraft installiert haben zu erlauben.
+	vive_only = false
+	#Setze dies auf 'true', damit OPs die Nur VR/Vivecraft Einstellungen umgehen dürfen.
+	allow_op = true
+	#Sekunden die gewartet wird, bevor Spieler gekickt oder Willkommensnachrichten gesendet werden.
+	# Dem Spieler sein Client muss die Vivecraft VERSION Informationen in dieser Zeit senden.
+	# default: 10.00, min: 0.00, max: 100.00
+	messageAndKickDelay = 10.0
+	#Gibt VR Spielern zufällig spaßige Kuchen und Trinken, wenn sie wiederbelebt werden.
+	vrFun = false
+	#Sendet die Spieler Positionsdaten zurück an den Spieler, der sie gesendet hat, wird normalerweise nicht benötigt.
+	# Aktiviere dies auf einem dedizierten Server, wenn Replay mod oder dergleichen verwendet werden.
+	sendDataToOwner = false
+	#Mindest Vivecraft Version welche es erlaubt dem Server beizutreten.
+	# Wenn ein Spieler mit einer niedrigeren Version beitritt, wird er/sie gekickt.
+	# Format ist: X.X.X
+	minViveVersion = ""
+	#Kickt Spieler beim Ändern von Servereinstellungen, wenn dies das sofortige Ändern der Einstellung nicht unterstützen. Dies zwingt diese, sich erneut zu verbinden.
+	kickPlayersOnSettingUpdate = false
+
+#Konfiguriere Nachrichten, wenn Spieler bestimmte aktionen ausführen.
+#Setze Nachrichten auf Nichts zum nicht senden. z.b.: leaveMessage = ""
+# Benutze '&player' in Nachrichten für den Spielernamen.
+# Für Nachrichten mit zwei Platzhaltern (d.h. Tod durch Kreatur) benutze '&cause' für den zweiten Platzhalter.
+[messages]
+	#Aktiviere oder deaktiviere alle Nachrichten.
+	enabled = false
+	#Nachricht die gesendet wird, wenn ein Spieler mit aktivem VR beitritt.
+	welcomeVR = "%s has joined with standing VR!"
+	#Nachricht die gesendet wird, wenn ein Spieler mit deaktiviertem VR beitritt.
+	welcomeNonVR = "%s has joined with Non-VR companion!"
+	#Nachricht die gesendet wird, wenn ein Spieler mit VR im sitzenden Modus beitritt.
+	welcomeSeated = "%s has joined with seated VR!"
+	#Nachricht die gesendet wird, wenn ein Spieler den Server verlässt.
+	leaveMessage = "%s has disconnected from the server!"
+	#Nachricht die gesendet wird, wenn ein Spieler ohne Vivecraft beitritt.
+	welcomeVanilla = "%s has joined as a Muggle!"
+	#Nachricht die gesendet wird, wenn ein Spieler mit VR aktiv stirbt.
+	deathVR = "%s died in standing VR!"
+	#Nachricht die gesendet wird, wenn ein Spieler mit VR deaktiviert stirbt.
+	deathNonVR = "%s died in Non-VR companion!"
+	#Nachricht die gesendet wird, wenn ein Spieler mit VR im sitzenden Modus stirbt.
+	deathSeated = "%s died in seated VR!"
+	#Nachricht die gesendet wird, wenn ein Spieler ohne Vivecraft stirbt.
+	deathVanilla = "%s died as a Muggle!"
+	#Nachricht die gesendet wird, wenn ein Spieler, wegen einer Kreatur, mit VR aktiv stirbt.
+	deathByMobVR = "%1$s was slain by %2$s in standing VR!"
+	#Nachricht die gesendet wird, wenn ein Spieler, wegen einer Kreatur, mit VR deaktiviert stirbt.
+	deathByMobNonVR = "%1$s was slain by %2$s in Non-VR companion!"
+	#Nachricht die gesendet wird, wenn ein Spieler, wegen einer Kreatur, mit VR im sitzenden Modus stirbt.
+	deathByMobSeated = "%1$s was slain by %2$s in seated VR!"
+	#Nachricht die gesendet wird, wenn ein Spieler, wegen einer Kreatur, ohne Vivecraft stirbt.
+	deathByMobVanilla = "%1$s was slain by %2$s as a Muggle!"
+	#Nachricht die an einen Spieler gesendet wird, wenn er/sie wegen der 'Nur Vivecraft' Einstellung gekickt wird.
+	KickViveOnly = "This server is configured for Vivecraft players only."
+	#Nachricht die an einen Spieler gesendet wird, wenn er/sie wegen der 'Nur VR' Einstellung gekickt wird.
+	KickVROnly = "This server is configured for VR players only."
+	#Nachricht die gesendet wird, wenn ein Spieler wegen der 'Mindest Vivecraft Version' Einstellung gekickt wird.
+	# Benutze '&minVersion', um auf die benötigte Vivecraft version zuzugreifen. 
+	# Benutze '&userVersion', um auf die Vivecraft version des Spielers zuzugreifen.
+	KickOutdatedViveVersion = "This server is configured to only allow Vivecraft '&minVersion' and newer. You are using Vivecraft '&userVersion'"
+
+#Vanilla Modifikationen für VR Spieler
+[vrChanges]
+	#Distanz bei welcher sich Creeper für stehende VR spieler aufblähen und explodieren.
+	# Vanilla Distanz: 3
+	# default: 1.75, min: 0.10, max: 10.00
+	creeperSwellDistance = 1.75
+	#Erlaubt es VR Spielern mit den Gegenständen in der nichtdominanten Hand zu schlagen/abzubauen.
+	dualWielding = true
+	#Nahkampfschaden addition für VR Spieler, wenn sie mit den Füßen treten.
+	# Dies skaliert mit dem Rüstungswert der Stiefel. Verursacht 1 zusätzlichen schaden per Rüstungslevel, multipliziert mit diesem Multiplikator.
+	# Zum Deaktivieren auf 0.0 setzen.
+	# default: 0.00, min: 0.00, max: 5.00
+	bootsArmorDamage = 0.0
+	#Passt die Reichweite an, mit welcher Kreaturen Nahkampfangriffe gegen stehende VR Spieler ausführen können.
+	# Dies ist eine Reduzierung von der Vanilla Reichweite (0.8 Blöcke), 0.0 macht keine Änderung und mit -0.7 müssen Kreaturen den Spieler fast berühren, um einen Angriff auszuführen.
+	# Wenn dies sehr niedrig ist, kann es passieren, dass Kreaturen vor dem Spieler stehen bleiben, ohne anzugreifen!
+	# default: -0.40, min: -0.70, max: 0.00
+	mobAttackRangeAdjustment = -0.4
+	#Projektile haben normalerweise eine Ungenauigkeit, damit sie nicht andauernd dieselbe Stelle treffen.
+	# Mit dieser Einstellung kann diese für VR Spieler angepasst werden.
+	# 1.0 ist equivalent zu Vanilla, 0.0 bedeuten gar keine Ungenauigkeit.
+	# default: 1.00, min: 0.00, max: 1.00
+	projectileInaccuracyMultiplier = 1.0
+	#Erlaubt es VR Spielern den Vanilla Blockabbau check zu umgehen, welcher verhindert Blöcke zu schnell abzubauen.
+	allowFasterBlockBreaking = true
+	#Erlaubt es VR Spielern Angriffe zu blockieren, indem sie ihr Schild hochhalten ohne dies aktiv benutzen zu müssen. Das bedeutet, sie können Angriffe blockieren, ohne langsamer zu werden.
+	allowRoomscaleShieldBlocking = true
+	#Erlaubt es VR Spielern Objekte anzugreifen, während sie aktiv ein Schild verwenden. (Diese Einstellung hat keine Auswirkungen auf das Raumskala Schildblocken)
+	allowAttacksWhileBlocking = true
+	#Anzahl an Ticks, die ein Schild zum Abklingen gesetzt wird, wenn es für Raumskala Schildblocken verwendet wird.
+	# Zum Deaktivieren auf 0 setzen.
+	# default: 0, min: 0, max: 1000
+	roomscaleShieldCooldown = 0
+	#Mindest Schaden, den ein Angriff verursachen muss, damit ein Raumskala Schildabklingen ausgelöst wird.
+	# default: 3.00, min: 0.00, max: 100.00
+	roomscaleShieldCooldownDamageTrigger = 3.0
+
+	#Bogen Schaden Anpassungen
+	[vrChanges.bow]
+		#Bogenschießen Schadensmultiplikator für VR Spieler im stehenden Modus.
+		# Zum Deaktivieren auf 1.0 setzen.
+		# default: 2.00, min: 1.00, max: 10.00
+		standingMultiplier = 1.0
+		#Bogenschießen Schadensmultiplikator für VR Spieler im sitzenden Modus.
+		# Zum Deaktivieren auf 1.0 setzen.
+		# default: 1.00, min: 1.00, max: 10.00
+		seatedMultiplier = 1.0
+		#Kopfschuss Schadensmultiplikator für VR Spieler im stehenden Modus.
+		# Zum Deaktivieren auf 1.0 setzen.
+		# default: 3.00, min: 1.00, max: 10.00
+		standingHeadshotMultiplier = 1.0
+		#Kopfschuss Schadensmultiplikator für VR Spieler im sitzenden Modus.
+		# Zum Deaktivieren auf 1.0 setzen.
+		# default: 2.00, min: 1.00, max: 10.00
+		seatedHeadshotMultiplier = 1.0
+		#Kopfschuss Schadensmultiplikator für Vanilla/NonVR Spieler.
+		# Zum Deaktivieren auf 1.0 setzen.
+		# default: 1.00, min: 1.00, max: 10.00
+		vanillaHeadshotMultiplier = 1.0
+		#Indikator um Spielern darauf hinzuweisen, dass sie einen Kopfschuss gemacht haben. Optionen sind:
+		# "NONE": Kein Indikator.
+		# "AUDIO": Spielt einen Ton beim Schützen ab.
+		# "VISUAL": Erzeugt Partikel an der Einschussstelle.
+		# "BOTH": Audio sowie visueller Indikator.
+		headshotIndicator = "BOTH"
+
+#PVP Einstellungen
+[pvp]
+	#Benachrichtigt den Spieler welcher Schaden verursachen wollte, dass er vom Server blockiert wurde.
+	notifyBlockedDamage = false
+	#Erlaubt es stehenden VR Spielern sich gegenseitig zu schaden.
+	VRvsVR = true
+	#Erlaubt es sitzenden VR Spielern sich gegenseitig zu schaden.
+	SEATEDVRvsSEATEDVR = true
+	#Erlaubt es stehenden VR Spielern und nicht VR Spielern sich gegenseitig zu schaden.
+	VRvsNONVR = true
+	#Erlaubt es sitzenden VR Spielern und nicht VR Spielern sich gegenseitig zu schaden.
+	SEATEDVRvsNONVR = true
+	#Erlaubt es stehenden VR Spielern und sitzenden VR Spielern sich gegenseitig zu schaden.
+	VRvsSEATEDVR = true
+
+#Climbey Motion Einstellungen
+[climbey]
+	#Erlaubt es 'Sprung-Schuhe' und 'Kletterkrallen' zu verwenden.
+	enabled = true
+	#Definiert wie Blöcke in der Blockliste interpretiert werden. Die Möglichkeiten sind:
+	# "DISABLED"(Ausgeschaltet): Liste wird ignoriert, alle Blöcke sind kletterbar.
+	# "WHITELIST"(Erlaubt): Nur Blöcke in der Liste sind kletterbar.
+	# "BLACKLIST"(Verboten): Alle Blöcke, ausgenommen die in der Liste, sind kletterbar
+	blockmode = "DISABLED"
+	#Liste von Blöcken zum verwendend mit dem WHITELIST/BLACKLIST Modus.
+	# Blöcke können in der Form von 'blockid' für Vanilla oder 'modid:blockid' für Blöcke von Mods gelistet werden.
+	blocklist = ["white_wool", "dirt", "grass_block"]
+	#Wenn aktiviert, verursacht das Hängen an Wänden mit den 'Kletterkrallen' oder das Springen mit den 'Sprung-Schuhe' erschöpfung.
+	foodExhaustion = true
+
+#Raumskala Krabbeln Einstellungen
+[crawling]
+	#Erlaubt es VR Spielern in den krabbel Zustand zu gelagen, indem sie nahe dem Boden sind. Das Deaktivieren dieser Einstellung verhindert nicht das Vanilla krabbeln.
+	enabled = true
+
+#Teleport Einstellungen
+[teleport]
+	#Erlaubt es VR Spielern sich mittels Teleportieren fortzubewegen. Es ist empfohlen dies aktiv zu lassen, für VR Spieler die anfällig auf VR Übelkeit sind.
+	enabled = true
+	#Erzwingt limitierte Teleport Reichweite und Häufigkeit im Überlebens Modus.
+	limitedSurvival = false
+	#Maximale Anzahl an Blöcken die sich Spieler im Überlebens Modus hinauf teleportieren können. Auf 0 setzen zum Deaktivieren.
+	# default: 4, min: 1, max: 16
+	upLimit = 4
+	#Maximale Anzahl an Blöcken die sich Spieler im Überlebens Modus hinunter teleportieren können. Auf 0 setzen zum Deaktivieren.
+	# default: 4, min: 1, max: 16
+	downLimit = 4
+	#Maximale Anzahl an Blöcken die sich Spieler im Überlebens Modus zur seite teleportieren können. Auf 0 setzen zum Deaktivieren.
+	# default: 16, min: 1, max: 32
+	horizontalLimit = 16
+	#Wenn aktiviert, verursacht das Teleportieren nach oben erschöpfung.
+	foodExhaustion = false
+
+#Welt Skalierungs-Einstellungen
+[worldScale]
+	#Limitiert den Bereich von Welt Skalierungen die Spieler verwenden dürfen.
+	limitRange = false
+	#Unteres limit der erlaubten Welt Skalierungen
+	# default: 0.50, min: 0.10, max: 100.00
+	min = 0.5
+	#Oberes limit der erlaubten Welt Skalierungen
+	# default: 2.00, min: 0.10, max: 100.00
+	max = 2.0
+
+#Andere Clienteinstellungs Überschreibungen
+[settingOverrides]
+	#Erzwingt Spieler die 'Rohe Gegenstand Position' Einstellung zu verwenden
+	thirdPersonItems = false
+	#Erzwingt Spieler die 'Rohe Gegenstand Position' Einstellung zu verwenden, nur für Gegenstände mit custom model data/custom item models.
+	thirdPersonItemsCustom = false
+
+#VR Schnellwechsel Einstellungen
+[vrSwitching]
+	#Erlaubt es Spielern spontan zwischen VR und NonVR zu wechseln.
+	# Wenn dies deaktiviert ist, sind Spieler an den Modus gebunden, mit welchem sie den Server betreten haben.
+	enabled = true
+
+#Debug Einstellungen
+[debug]
+	#Erzeugt Partikel an den Geräten von VR Spielern, um den Serverseitigen VR Datenzustand anzuzeigen.
+	debugParticles = false
+	#Erzeugt Partikel am Kopf von VR Spielern, um den Serverseitigen VR Datenzustand anzuzeigen.
+	debugParticlesHead = false
+

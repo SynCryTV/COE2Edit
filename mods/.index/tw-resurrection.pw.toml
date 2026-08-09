@@ -1,0 +1,21 @@
+filename = 'tfbr-1.20.1-4.2.2.jar'
+name = 'Twilight Forest Bosses Resurrection'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tfbr-1.20.1-4.2.2.jar'
+
+[download]
+hash = 'a3ae127b50c2585bfd5a846d1f36a970575a35b2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7382267
+project-id = 916943
+
+[[x-prismlauncher-dependencies]]
+addonId = '227639'
+type = 'REQUIRED'

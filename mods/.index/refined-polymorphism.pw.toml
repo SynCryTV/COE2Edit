@@ -1,0 +1,37 @@
+filename = 'refinedpolymorph-0.1.1-1.20.1.jar'
+name = 'Refined Polymorphism'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.1.1 (Forge 1.20.1)'
+
+[download]
+hash = '6268974fcb84a01d52b70a78232c2bd6f2a450f8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5227282
+project-id = 943086
+
+[[x-prismlauncher-dependencies]]
+addonId = '388800'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '272302'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '536160'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '256662'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243076'
+type = 'REQUIRED'

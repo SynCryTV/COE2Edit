@@ -1,0 +1,13 @@
+name = "Exile Overlay"
+filename = "exile_overlay-forge-1.13.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9c81c01151ed494a25d3a0aeb669ad6564c6563a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8595814
+project-id = 1476415

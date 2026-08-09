@@ -1,0 +1,1733 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "epilogue"
+	group: "1E3C4B5FFAE48A39"
+	icon: "bosses_of_mass_destruction:blazing_eye"
+	id: "5A7D6B87115D3B91"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6149D163ABF06A15"]
+			description: [
+				"Endlich ... deine Notizen aus deinen verschiedenen Abenteuern haben dich zu &eThe Otherside&r geführt."
+				""
+				"Von deinen bescheidenen Anfängen in der &eOverworld&r, über die gefährliche Reise durch den &eNether&r und die &eUnterwelt&r, Begegnungen im &eEverbright und Everdawn&r, und knappe Entkommen in &eThe End&r, bist du nun an dem angelangt, was du für die Quelle des Bösen hältst."
+				""
+				"Wie nannte dieser Forscher im Dorf das noch gleich? Ein \"Streit\" unter den &bUrtitanen&r? Laut dem Forscher sollte es reichen, einfach die vier Elementarkreaturen zu besiegen, die man in &eThe End&r und &eThe Otherside&r findet."
+				""
+				"Mach dich bereit für deine letzte Quest! Nachdem du sie getötet hast, kommen sie sicher nicht zurück, oder..?"
+			]
+			icon: "minecraft:paper"
+			id: "749D138B0222E744"
+			rewards: [{
+				id: "6222458583FAAFB2"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Die Letzte Verlorene Seite"
+			tasks: [{
+				id: "67B1853D30A8EE31"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Urböse"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Der &eNachtlich&r haust im &eLich-Turm&r in den &eKristallschluchten&r in &eThe End&r. Um das Bauwerk zu finden, kannst du &eSeelensterne&r craften. Die Nutzung eines &eSeelensterns&r verbraucht ihn und zeigt die Richtung zum nächsten &eLich-Turm&r an!"
+				""
+				"&cDer Nachtlich spawnt frühestens auf Level 90 und mit Mythischer Seltenheit.&r"
+				""
+				"Der Nachtlich hat:"
+				"&b+50% Physisch zu Kälteschaden&r"
+				"&b+50% Einfrierchance&r"
+				"&b+25% Zerschmetterungschance&r"
+				"&b+50% Elementarresistenz&r"
+				"&a15% Chance auf Sid-Rune als Beute&r"
+			]
+			id: "07EBFDA1B8808DAF"
+			rewards: [
+				{
+					id: "21701E1566499449"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "591C192B05D51076"
+					title: "Aufsteigender (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Kälte"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "0A39027CB9F70D32"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Der Gefrorene Turm"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Der &eNether-Handschuh&r findet sich in &eHandschuh-Arenen&r im Biom &eBlühende Höhlen&r von &eThe Otherside&r."
+				""
+				"&cDer Nether-Handschuh spawnt frühestens auf Level 90 und mit Mythischer Seltenheit.&r"
+				""
+				"Der Nether-Handschuh hat:"
+				"&b+50% Physisch zu Feuerschaden&r"
+				"&b+75% Brandchance&r"
+				"&b+40% Ausweichen&r"
+				"&b+75% Feuerresistenz&r"
+				"&a15% Chance auf Sid-Rune als Beute&r"
+			]
+			id: "005E75571665043C"
+			rewards: [
+				{
+					id: "100B3BFFAADCD105"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "656169856B5F549C"
+					title: "Aufsteigender (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.255d
+			subtitle: "Feuer"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "67B908871A5282C2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Die Glutschlünde"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Die &eLeerenblüte&r findest du in den &eEchowäldern&r von &eThe Otherside&r. &eLeerenlilien&r zeigen dir die Richtung zu diesen &eLeerenblüten&r an."
+				""
+				"&cDie Leerenblüte spawnt frühestens auf Level 90 und mit Mythischer Seltenheit.&r"
+				""
+				"Die Leerenblüte hat:"
+				"&b+100% Physisch zu Chaosschaden&r"
+				"&b+33% Giftchance&r"
+				"&b+1% Leben Pro Sekunde Regeneriert&r"
+				"&b+75% Chaosresistenz&r"
+				"&c-25% Feuerresistenz&r"
+				"&a15% Chance auf Sid-Rune als Beute&r"
+			]
+			id: "56B2B51011037E61"
+			rewards: [
+				{
+					id: "15F97D81BF787C79"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "78E77C83F56373C6"
+					title: "Aufsteigender (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Chaos"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "507D5A8FDD10ECE3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Die Wuchernden Rankenlande"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Der &eObsidilith&r haust in der &eObsidilith-Arena&r in den &eUrzeitlichen Tümpeln&r in &eThe End&r."
+				""
+				"&cDer Obsidilith spawnt frühestens auf Level 90 und mit Mythischer Seltenheit.&r"
+				""
+				"Der Obsidilith hat:"
+				"&b+100% Physisch zu Blitzschaden&r"
+				"&b+50% Elektrifizierungschance&r"
+				"&b+25% Schockchance&r"
+				"&b+100% Rüstung&r"
+				"&b+50% Blitzresistenz&r"
+				"&a15% Chance auf Sid-Rune als Beute&r"
+			]
+			id: "6B2C722AC00A07C0"
+			rewards: [
+				{
+					id: "631C758E74857E09"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "4253CD136D9F9A5E"
+					title: "Aufsteigender (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Blitz"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "32DF2007C57A60F9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Die Galvanische Festung"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: ["Hat schon jemand vor dir ein Bauwerk geräumt? Du kannst &eSchwefelnektar&r auf jedem der &bUrtitanen-Bauwerke&r verwenden, um sie zurückzusetzen!"]
+			id: "71F71326D81053D9"
+			rewards: [{
+				id: "1E5C69E4282912F2"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			subtitle: "Boss-Bauwerke Zurücksetzen"
+			tasks: [{
+				id: "6BA69F80620210D3"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			title: "Sie Sind Zurück!"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Während du dich durch Karte um Karte kämpfst, hörst du Echos eines weiteren &eLichs&r ... Einer, den man im &eTwilight Forest&r findet. Ein neues Portal erscheint, und du trittst hindurch, um eine ganz neue Dimension vorzufinden."
+				""
+				"Um den Twilight Forest zu betreten, musst du ein 2x2 flaches Wasserbecken auf einer grasbewachsenen Fläche errichten, umgeben von Pflanzen und/oder Blättern in &eThe Otherside&r. Du musst eventuell Gras mitbringen. Wirf dann einen Diamanten hinein und beobachte, wie sich das Portal formt."
+				""
+				"&l&cMonster aus dem Twilight Forest spawnen mindestens auf Level 90!&r&r"
+			]
+			id: "77E6AE329E337151"
+			rewards: [
+				{
+					count: 3
+					id: "0D4BA9A55B97BA9E"
+					item: "mmorpg:currency/affix_common_reroll"
+					type: "item"
+				}
+				{
+					id: "1488B29B5798BA1F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "51F52DF9B052A4B9"
+				title: "Besuche Den Twilight Forest"
+				type: "dimension"
+			}]
+			title: "Das Unbekannte Jenseits"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"Eingebettet in kleine Lichtungen überall im &eTwilight Forest&r sind &eHeckenlabyrinthe&r ein merkwürdiger Anblick für neue Entdecker der Dimension. Ähnlich wie die verfallenen Steinmale, Monumente und andere Wahrzeichen, die die Landschaft übersäen, gibt es endlose Spekulationen darüber, warum diese Labyrinthe erbaut wurden, aber bis heute wurden keine Antworten gefunden."
+				""
+				"Heckenblöcke bilden die Wände eines typischen Labyrinths, mit dichtem, stacheligem Laub, das Abenteurer davon abhalten soll, sich einfach durch die verwinkelten Gänge zu schlagen. Glühwürmchen und Kürbislaternen sind häufig anzutreffen und erhellen das Labyrinth im Gegensatz zum schwachen Licht andernorts. Kronendach-Bäume wurden gelegentlich in einem Labyrinth gesichtet und bilden eine Art hohen Pfosten in den Heckenwänden."
+				""
+				"Das andere Hauptmerkmal, das Heckenlabyrinthen gemein ist, sind die kleinen offenen \"Räume\" innerhalb des Labyrinths. Diese enthalten stets einen magischen Spawner sowie 1-2 Truhen und weitere Kürbislaternen. Meist erzeugen sie &eAggressive Wölfe, Schwarmspinnen oder Heckenspinnen&r, aber anders als anderswo gefundene Spawner funktionieren sie auch bei hellem Licht weiter."
+			]
+			id: "54B478D596CE17D6"
+			rewards: [
+				{
+					count: 2
+					id: "2D561080DD23BA36"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "3C2A412FD724071E"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [{
+				icon: "twilightforest:hedge"
+				id: "01A930C680639445"
+				structure: "twilightforest:hedge_maze"
+				title: "Finde Ein Heckenlabyrinth"
+				type: "structure"
+			}]
+			title: "Natürliche Labyrinthe"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: ["&eAggressive Wölfe&r sind seltsame Wölfe, die man nur in einem &eHeckenlabyrinth&r findet. Der Legende nach hassen diese Wölfe Menschen, weil sie ihnen immer ihre Schätze stehlen. Leider lassen sich diese Wölfe nicht zähmen."]
+			icon: "doggytalents:dog_plushie_toy_item"
+			id: "2BE20402219A9B78"
+			rewards: [
+				{
+					count: 3
+					id: "5B3AB3D09BD7747A"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D1C81F8C6BAB0D7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				icon: "ftb_ph:hostile_wolf"
+				id: "4C5ACBBF6C6B901D"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Ungezügelte Aggression"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: ["&eHeckenspinnen&r sind fast identisch mit normalen Overworld-Spinnen, abgesehen von ihrer markanten grünen Farbe. Der einzige Unterschied zu ihren Overworld-Pendants ist, dass sie in hell erleuchteten &eHeckenlabyrinthen&r spawnen können. Der Legende nach sind diese Spinnen mutig genug, um ihren Schatz vor Entdeckern zu beschützen."]
+			icon: "chipped:stringy_cobweb"
+			id: "039BE2259D553B13"
+			rewards: [
+				{
+					count: 3
+					id: "22076FAC6370473E"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D037E40BE697582"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				icon: "ftb_ph:hedge_spider"
+				id: "793117DC4193D9C8"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Gefangen"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"Aus dem ansonsten flachen Gelände des &eTwilight Forest&r erhebend, sind &eHohle Hügel&r auffällige Erdhügel, die eine riesige Hohlhöhle voller Stalaktiten und Stalagmiten verbergen, von denen manche aus wertvollen Erzen und Mineralien bestehen. Entdecker fanden diese großen kuppelförmigen Hügel in drei unterschiedlichen Größen, groß genug, um auf einer &eMagischen Karte&r erkannt und mit einem passenden Symbol markiert zu werden, das ihre Größe anzeigt. Manche Hügel haben zusätzliche Höhlen und Schluchten, die in sie hineinschneiden, sodass Entdecker, die sich unter der Erde durchgraben, sich in ihren Erkundungen in einem dieser Hügel wiederfinden können."
+				""
+				"Kleine Hügel messen etwa 30 Meter im Durchmesser und enthalten normalerweise grundlegende Mineralien wie Kohle und Eisen, gelegentlich auch Redstone und Leuchtstein. Entdecker können mit ein paar Schatztruhen rechnen, die übliche Werkzeuge und Gegenstände wie Nahrung, Pfeile, Leitern und Fackeln enthalten, aber selten findet sich auch ein wertvoller Erzmagnet zusammen mit einem Diamanten und &eStahlblatt&r. &eSchwarmspinnen, Rotkappen-Goblins und Kobolde&r bewohnen diese Hügel, zusätzlich zu den auch in kleinen Hügeln vorkommenden Kreaturen."
+			]
+			id: "75103126CFA64857"
+			rewards: [
+				{
+					count: 2
+					id: "1C323A27F2B1118B"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					id: "111D5F6783D074B7"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				icon: "twilightforest:hollow_twilight_oak_log"
+				id: "54592C0A736AE877"
+				structure: "twilightforest:small_hollow_hill"
+				title: "Finde Einen Kleinen Hohlen Hügel"
+				type: "structure"
+			}]
+			title: "Ein Kleiner Hügel"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: [
+				"Der &eNaga-Innenhof&r ist ein großes, ummauertes Bauwerk aus verschiedenen Steinformen und Nagastein. Im Naga-Innenhof gibt es verschiedene Hecken aus Twilight-Eichenlaub, Säulen aus Poliertem Andesit und Geätztem Nagastein sowie weitere dekorative Elemente. In der Mitte des Bauwerks befindet sich ein Boss-Spawner mit der &eNaga&r."
+				""
+				"Das Erlegen der Naga schaltet das nächste Bauwerk im Fortschritt frei, den &eLich-Turm&r, und entfernt dessen Schutz."
+				""
+				"&cDie Naga spawnt mit Mythischer Seltenheit.&r"
+				""
+				"Die Naga hat:"
+				"&b+100% Physisch zu Chaosschaden&r"
+				"&b+40% Giftchance&r"
+				"&b+30% Chaosdurchdringung&r"
+				"&b+50% Kälteresistenz&r"
+				"&b+50% Chaosresistenz&r"
+			]
+			id: "09AFF8CC33BD244B"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Eintrag #12\n\nGestern Nachmittag ist Kapitän Cornelia zum Meeresgrund hinabgetaucht, auf der Suche nach weiteren Ressourcen. Unter der Crew kursieren Gerüchte, dass das eigentliche Ziel ihrer Expedition etwas anderes ist.\"}"
+								"{\"text\":\"Mehr als ein Tag ist seit dem Tauchgang der Kapitänin vergangen. Sie trug den einzigen Tauchanzug, den wir hatten, sodass wir ihr auf keine Weise helfen konnten. Am schlimmsten: Sie hatte den Hauptschlüssel bei sich. Während unsere Hoffnung auf Rettung schwindet, wächst die Gefahr einer Meuterei.\"}"
+							]
+							resolved: 1b
+							title: "Logbuch des Plünderer-Schiffs"
+						}
+					}
+					id: "23AD45244978A5A3"
+					title: "2 Fertigkeitspunkte"
+					type: "custom"
+				}
+				{
+					id: "37776D6144DBDA7D"
+					item: "mmorpg:potions/full_reset_talent"
+					type: "item"
+				}
+				{
+					id: "529776CB2E015F07"
+					item: "mmorpg:potions/full_reset_spell"
+					type: "item"
+				}
+				{
+					id: "1F4F10A8BE8F9410"
+					item: "mmorpg:potions/full_reset_passive"
+					type: "item"
+				}
+				{
+					id: "59E013EF3A97101E"
+					item: "mmorpg:potions/full_reset_ascendancy"
+					type: "item"
+				}
+				{
+					id: "3CEAB295D78E83AA"
+					item: "mmorpg:potions/full_reset_stat"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D51EB762212D5EC"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epilog"
+			tasks: [{
+				consume_items: true
+				id: "5408016296E2B4E9"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "Rein Schlangenhaft"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"Der &eLich-Turm&r besteht aus einer einzelnen zentralen Turmspitze, aus der viele kleinere Türme und Kammern wahllos an den Seiten herausragen und sich direkt mit dem nächsten Turm oder über eine Brücke verbinden."
+				""
+				"Zahlreiche feindliche Monster spawnen im Lich-Turm normal oder über Spawner. Das übliche Sortiment an Vanilla-Monstern spawnt natürlich. Das &eTodesbuch&r spawnt ebenfalls im Lich-Turm und ist das einzige Bauwerk, in dem dieses Monster zu finden ist."
+				""
+				"Um den Lich-Turm freizuschalten, muss die &eNaga&r besiegt werden."
+				""
+				"Der Lich-Turm ist außerdem der Schlüssel zum Freischalten dreier weiterer Biome und Bauwerke:"
+				""
+				"- Vertreibt den Mückenschwarm um den &eTwilight-Sumpf&r, was die Erkundung des &eLabyrinths&r ermöglicht."
+				"- Vertreibt die Dunkelheit über dem &eDunklen Wald&r, was die Erkundung der &eGoblinritter-Festung&r ermöglicht."
+				"- Vertreibt den Schneesturm über dem &eSchneewald&r, was den Zugang zur &eYeti-Höhle&r ermöglicht."
+			]
+			id: "05E813C595DBC7AB"
+			rewards: [
+				{
+					count: 5
+					id: "550F848D0AFF9FDF"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AC5E8E78128C2BA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [{
+				icon: "twilightforest:lich_tower_miniature_structure"
+				id: "41B2B655D8ABB2AF"
+				structure: "twilightforest:lich_tower"
+				title: "Finde Einen Lich-Turm"
+				type: "structure"
+			}]
+			title: "Der Turm der Macht"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"&eTodesbücher&r sind gefährliche Bücher, die in den Treppenhäusern und Bibliotheken des Lich-Turms schweben. Sie feuern ein Projektil ab, das die getroffene Kreatur kurzzeitig verlangsamt. Todesbücher verlieren gelegentlich Seiten, wenn sie getroffen werden."
+				""
+				"Todesbücher können beim Tod außerdem einen &eMagischer-Karte-Fokus&r fallen lassen."
+				""
+				"Das Todesbuch hat:"
+				"&b+50% Physisch zu Blitzschaden&r"
+				"&b+50% Physisch zu Chaosschaden&r"
+			]
+			icon: "mca:book_death"
+			id: "7CEF2BA760AB0B2E"
+			rewards: [
+				{
+					count: 2
+					id: "14CD63892C5E3F41"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E5F010430704713"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5CB516DD49306C90"
+					item: "mmorpg:currency/enchant_reroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "792CBFC517AE25A6"
+					item: "mmorpg:currency/unique_reroll"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30AE5F37C62C7EB7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				icon: "ftb_ph:death_tome"
+				id: "154CA20889C9EDB5"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Verzauberte Bibliothek"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"Der &eTwilight-Lich&r, auch nur &eLich&r genannt, haust an der Spitze eines &eLich-Turms&r. Er erscheint als großes humanoides Skelett mit einem violetten Umhang und einer großen goldenen Krone. Um sich herum hat er eine Wand aus Schilden, um sich vor jeglichem Schaden zu schützen - aber vielleicht lassen sie sich zerstören."
+				""
+				"Abenteurer berichten, dass die Projektile mit richtig getimtem Schwung abgewehrt werden können. Jedes Mal, wenn ein Spieler die Projektile des Lichs zurück auf ihn reflektiert, entfernt dieser einen seiner Schilde."
+				""
+				"&cDer Lich spawnt mit Mythischer Seltenheit.&r"
+				""
+				"Der Lich hat:"
+				"&b+100% Physisch zu Blitzschaden&r"
+				"&b+50% Elektrifizierungschance&r"
+				"&b+25% Schockchance&r"
+				"&b+25% Blitzdurchdringung&r"
+				"&b+75% Elementarresistenz&r"
+				"&b+50% Chaosresistenz&r"
+				""
+				"&6Diese Quest schaltet neue Shops im Kampagnen-Shop frei."
+			]
+			id: "1F3C2718AE550D5C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Eintrag #12\n\nGestern Nachmittag ist Kapitän Cornelia zum Meeresgrund hinabgetaucht, auf der Suche nach weiteren Ressourcen. Unter der Crew kursieren Gerüchte, dass das eigentliche Ziel ihrer Expedition etwas anderes ist.\"}"
+								"{\"text\":\"Mehr als ein Tag ist seit dem Tauchgang der Kapitänin vergangen. Sie trug den einzigen Tauchanzug, den wir hatten, sodass wir ihr auf keine Weise helfen konnten. Am schlimmsten: Sie hatte den Hauptschlüssel bei sich. Während unsere Hoffnung auf Rettung schwindet, wächst die Gefahr einer Meuterei.\"}"
+							]
+							resolved: 1b
+							title: "Logbuch des Plünderer-Schiffs"
+						}
+					}
+					id: "78E598DDB8CEEE03"
+					title: "2 Fertigkeitspunkte"
+					type: "custom"
+				}
+				{
+					id: "15E955610563E40C"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "41295C50FCBC7A5D"
+					item: "mmorpg:gems/topaz/6"
+					type: "item"
+				}
+				{
+					id: "44C98A1EC1B45829"
+					item: "simplehats:toy_story_alien"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epilog"
+			tasks: [{
+				consume_items: true
+				id: "5156617EB99C3B38"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "Der Meister-Mastermind"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"&eHohle Hügel&r sind eine ausgezeichnete Quelle für abzubauende Erze und zu plündernde Schätze, wobei die wertvollere Beute in den größeren Hügeln zu finden ist. Die zu findenden Schätze werden meist von gefährlichen Kreaturen bewacht, die in der Dunkelheit lauern und einem unvorsichtigen Entdecker leicht zum Verhängnis werden können. Leider scheint auch: je größer der Hügel, desto mehr Kreaturen leben darin. Entdecker sollten die Grundregeln des Höhlenforschens beachten und niemals direkt nach unten in einen Hohlen Hügel graben; nähere dich stattdessen von der Seite und bringe reichlich Lichtquellen mit, um das Innere zu erhellen, da an jeder Ecke verschiedene Spawner lauern."
+				""
+				"Mittlere Hügel haben einen Durchmesser von etwa 60 Metern und sind in der Mitte 25+ Meter hoch. Das Innere wird geräumiger, was jedoch auch mehr und tödlichere Kreaturen anzieht. Hier finden sich Gold und Lapis sowie, wenn auch selten, Diamant und Smaragd. Mit dem Wert der Erze steigt auch der Wert der Schätze - bis zu 6 Truhen finden sich normalerweise in einem mittleren Hügel, die &eEisenholz-Barren und Verwandlungspulver&r enthalten, zusammen mit einzigartigen Artefakten wie einer Mondwurm-Königin und dem Pfauenfeder-Fächer. &eFeuerkäfer und Rotkappen-Saboteure&r leben in mittleren Hügeln, zusätzlich zu den in kleinen Hügeln vorkommenden Kreaturen."
+			]
+			id: "2820ABD72802B6F2"
+			rewards: [
+				{
+					count: 4
+					id: "4B00DACD9470CF87"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A53AC07D15CF95F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				icon: "twilightforest:hollow_time_log"
+				id: "583B2BF97EA1E832"
+				structure: "twilightforest:medium_hollow_hill"
+				type: "structure"
+			}]
+			title: "Ein Mittlerer Hügel"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: ["Das &eLabyrinth&r ist ein bedeutendes Wahrzeichen, das mit dem Fortschritt verknüpft ist. Es erscheint als unauffälliger kleiner Hügel im &eTwilight-Sumpf&r, öffnet sich aber zu einem Eingang in ein unterirdisches Bauwerk mit weitläufigen Labyrinthgängen. In den tiefen Ebenen des Labyrinths enthält ein umzäunter Raum einen Boss-Spawner mit dem &eMinoshroom&r."]
+			id: "1C58F38B9890D6BA"
+			rewards: [
+				{
+					count: 2
+					id: "68678804DB1B0A4A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "6B43C3B5A633A10F"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [{
+				icon: "twilightforest:maze_map"
+				id: "3E00882F2A14F4C6"
+				structure: "twilightforest:labyrinth"
+				title: "Finde Ein Labyrinth"
+				type: "structure"
+			}]
+			title: "Ein Magisches Labyrinth"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"Der &eMinoshroom&r ist ein Mini-Boss, der in seinem Gefängnis am Grund eines &eLabyrinths&r lauert. Der &eMinoshroom&r ist eine bizarre Kreuzung aus einem Mooshroom und einem Minotaurus."
+				""
+				"Der Minoshroom hat:"
+				"&b+10 Rüstungsdurchdringung (Schuppen)&r"
+				"&b+50% Genauigkeit&r"
+				"&b+30% Physische Resistenz&r"
+				"&b+20% Lebensregeneration&r"
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "78EB450B57F9B7E7"
+			rewards: [
+				{
+					count: 3
+					id: "19BA04335CBBAEF0"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					id: "4D369FC4FA80DC2F"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "02C4B1A5FC2F4BF9"
+					item: "mmorpg:currency/level_up_orb"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epilog"
+			tasks: [{
+				consume_items: true
+				id: "5BBA7A672D914F6C"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			title: "Muuuuuuuh"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"&eLabyrinth-Schleime&r sind &eTwilight-Forest&r-Varianten des Overworld-Schleims. Diese Schleime haben eine graue Farbe und spawnen in &eLabyrinthen&r."
+				""
+				"Der Labyrinth-Schleim hat:"
+				"&b+25% Rüstung&r"
+				"&b+25% Physische Resistenz&r"
+				"&b+50% Blitzresistenz&r"
+			]
+			id: "26D545606AA14974"
+			rewards: [
+				{
+					id: "3C9B5B2C5838A9E2"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D7B27AF6930907B"
+					item: "mmorpg:currency/orb_of_quality"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				icon: "twilightforest:mazestone"
+				id: "5F809DB4B920DBD2"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Beton... Schleim?"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: ["Ähnlich einem großen &eHohlen Hügel&r ragt der &eHydra-Bau&r aus dem flachen Sumpfland auf und bietet der vielköpfigen Hydra im Herzen des &eFeuersumpfs&r einen natürlichen Unterschlupf. Die &eHydra&r scheint den Hügel selbst ausgehöhlt zu haben, was ihr Schutz bietet und jeden, der sie herausfordern will, zwingt, sie frontal anzugehen. Auch das Gebiet gegenüber der Hydra ist frei von Vegetation oder Deckung, sodass es kein Versteck gibt."]
+			id: "1A2A1F3575A8159B"
+			rewards: [
+				{
+					count: 2
+					id: "4E1C822C955889FC"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1829DFB6A35F0F6B"
+					item: "mmorpg:gems/topaz/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [{
+				icon: "twilightforest:hydra_chop"
+				id: "10F427A4198C5961"
+				structure: "twilightforest:hydra_lair"
+				title: "Finde Einen Hydra-Bau"
+				type: "structure"
+			}]
+			title: "Der Bau"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2A1F3575A8159B"]
+			description: [
+				"Die &eHydra&r findet man in einem einzigartigen, aufgebrochenen &eHydra-Bau&r in einem &eFeuersumpf&r. Die Hydra erscheint als massive Kreatur mit zwei kurzen Beinen, die einen breiten, schuppigen Körper tragen. Mehrere schlangenartige Hälse enden in Köpfen, die entfernt an den Enderdrachen erinnern. Die gesamte Kreatur ist mit blaugrünen und dunkelblauen Schuppen bedeckt."
+				""
+				"&cDie Hydra spawnt mit Mythischer Seltenheit.&r"
+				""
+				"Die Hydra hat:"
+				"&b+100% Physisch zu Feuerschaden&r"
+				"&b+60% Brandchance&r"
+				"&b+40% Feuerdurchdringung&r"
+				"&b+25% Schadensreduktion&r"
+				"&b+35% Blitzresistenz&r"
+			]
+			id: "18C4B8D73A50CFAC"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Eintrag #12\n\nGestern Nachmittag ist Kapitän Cornelia zum Meeresgrund hinabgetaucht, auf der Suche nach weiteren Ressourcen. Unter der Crew kursieren Gerüchte, dass das eigentliche Ziel ihrer Expedition etwas anderes ist.\"}"
+								"{\"text\":\"Mehr als ein Tag ist seit dem Tauchgang der Kapitänin vergangen. Sie trug den einzigen Tauchanzug, den wir hatten, sodass wir ihr auf keine Weise helfen konnten. Am schlimmsten: Sie hatte den Hauptschlüssel bei sich. Während unsere Hoffnung auf Rettung schwindet, wächst die Gefahr einer Meuterei.\"}"
+							]
+							resolved: 1b
+							title: "Logbuch des Plünderer-Schiffs"
+						}
+					}
+					id: "43D1F2E8681A6250"
+					title: "2 Fertigkeitspunkte"
+					type: "custom"
+				}
+				{
+					id: "06CDDFAA60B2313C"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "442655A6C145A711"
+					item: "mmorpg:gems/emerald/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epilog"
+			tasks: [{
+				consume_items: true
+				id: "1A83F081741ED7A4"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "Vielköpfiges Untier"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: [
+				"&eMeef Stroganoff&r kann ziemlich sättigend und stark sein und verleiht jedem Abenteurer nach einer einzigen Schüssel die Energie, selbst die heißesten Biome zu erkunden."
+				""
+				"Beim Verzehr von &eMeef Stroganoff&r erhält der Spieler Zugang sowohl zum &eFeuersumpf&r als auch zur &eHydra&r."
+			]
+			id: "7187E491F0DB8671"
+			rewards: [
+				{
+					count: 2
+					id: "5C46D448EFC87623"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E328E95911DAEA1"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					id: "58D2C2F14A786F55"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					id: "7275AB1F3B39A5DF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "3D81F5F7AA614C5D"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			title: "Eine Herzhafte Mahlzeit"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"Der &eDunkle Wald&r ist ein dicht bewachsenes Biom mit einem dichten Blätterdach, das fast alles Licht vom Waldboden fernhält. Dunkelholzbäume wachsen hier am häufigsten, mit kleinerer Vegetation wie hohem Gras und Blumen, die den Boden bedecken. Gelegentlich wachsen Mushglooms in der Gegend und spenden eine schwache Lichtquelle."
+				""
+				"Trotz der Dunkelheit spawnen Monster wie Zombies und Skelette nicht an der Oberfläche. Andere Monster wie &eNebelwölfe&r und &eKönigsspinnen&r spawnen jedoch, was die Durchquerung des Dunklen Waldes gefährlicher macht."
+			]
+			id: "7E14A7756FB4B78B"
+			rewards: [
+				{
+					id: "7B40532F3F039222"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "666D99C820AFA04B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "53505C138F5F5996"
+					item: "mmorpg:gems/tourmaline/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [{
+				biome: "twilightforest:dark_forest"
+				icon: "twilightforest:canopy_sapling"
+				id: "3B00F80F4C4025E2"
+				title: "Besuche Einen Dunklen Wald"
+				type: "biome"
+			}]
+			title: "Von Dunkelheit Geblendet"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"&eNebelwölfe&r sind mysteriöse Monster, die im &eDunklen Wald&r spawnen. Diese Monster warten in der Dunkelheit des Waldes auf ihr Opfer. Im Dunkeln werden sie transparent und nehmen nur bei hellem Licht feste Gestalt an. Greifen sie einen Spieler im Dunkeln an, können ihre Angriffe ihn blenden - aber dieses Leiden scheint in der Nähe einer Lichtquelle nicht aufzutreten."
+				""
+				"Der Nebelwolf hat:"
+				"&b+50% Physisch zu Chaosschaden&r"
+				"&b+30% Ausweichwert&r"
+				"&b+30% Zauber-Ausweichwert&r"
+				"&b+25% Elementarresistenz&r"
+			]
+			icon: "outer_end:ender_roots"
+			id: "700E3C92E9C27B04"
+			rewards: [
+				{
+					count: 2
+					id: "63E33F53FF3193C1"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "58F31A094952CF4B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				icon: "ftb_ph:mist_wolf"
+				id: "493B46FB942D8A16"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Im Nebel Verborgen"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"&eKönigsspinnen&r findet man nur im &eDunklen Wald&r, und ihr erstes Anzeichen sind meist ihre roten Augen, die in der Dunkelheit leuchten. Sie sind doppelt so groß, schnell und robust wie normale Spinnen und tragen einen &eSkelett-Druiden&r auf dem Rücken, was sie zu einem furchteinflößenden Gegner macht."
+				""
+				"Die Königsspinne hat:"
+				"&b+100% Physisch zu Chaosschaden&r"
+				"&b+30% Chaosdurchdringung&r"
+			]
+			icon: "born_in_chaos_v1:spider_mandible"
+			id: "67CCD11ABBB75DF3"
+			rewards: [
+				{
+					id: "2404378E98FDF0DD"
+					item: "mmorpg:gems/emerald/5"
+					type: "item"
+				}
+				{
+					id: "499095977A582D7B"
+					item: "mmorpg:gems/garnet/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "547FDEA4C9F24547"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				icon: "ftb_ph:king_spider"
+				id: "315594F7D6D8B953"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Angsteinflößende Spinnen"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: ["Uralt und einsam ruhen die &eGoblinritter-Festungen&r inmitten des unnatürlich dichten Blätterdachs des &eDunklen Waldes&r. Sie sind in der Dunkelheit schwer zu erkennen, da über der Erde kaum mehr als zerbrochene Mauern und rissige Ziegel übrig sind. Unter der Oberfläche jedoch verbirgt sich ein riesiger Komplex aus Räumen, Gängen und Gräbern."]
+			id: "11768894E8B672B5"
+			rewards: [
+				{
+					count: 2
+					id: "5F891BF39E8515BC"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A8290CD9BB7C782"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4972BFCA3275C5DA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [{
+				icon: "twilightforest:stronghold_shield"
+				id: "54FDAF28D194B2C1"
+				structure: "twilightforest:knight_stronghold"
+				title: "Finde Eine Goblinritter-Festung"
+				type: "structure"
+			}]
+			title: "Goblin-Usurpatoren"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11768894E8B672B5"]
+			description: [
+				"Die &eRitterphantome&r hausen in einem ziegelgemauerten Raum in der &eGoblinritter-Festung&r. Sie erscheinen als geisterhafte Stücke von Phantomrüstung und wirken beim Angreifen unheimlich, geisterartig."
+				""
+				"Das Besiegen der &e6 Ritterphantome&r schaltet die Phase des Dunklen Waldes weiter frei und entfernt so den Schutz über dem &eZentrum des Dunklen Waldes&r, wodurch der Zugang zum &eUr-Ghast&r und seinem &eDunklen Turm&r ermöglicht wird."
+				""
+				"Das Ritterphantom hat:"
+				"&b+100% Physisch zu Blitzschaden&r"
+				"&b+25% Kritischer Treffer&r"
+				"&b+50% Ausweichwert&r"
+				"&b+50% Zauber-Ausweichwert&r"
+			]
+			id: "42922690F74AC7FE"
+			rewards: [
+				{
+					count: 3
+					id: "5D5B35924A7177B3"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E60295E386C4F31"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "501346F0CBF0B449"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epilog"
+			tasks: [{
+				consume_items: true
+				id: "70290AE8EF83F6A1"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "Verfluchte Ritter"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["42922690F74AC7FE"]
+			description: [
+				"Bedrohlich über dem &eDunklen Wald&r erheben sich die ehrfurchtgebietenden &eDunklen Türme&r. So hoch, dass sie den Himmel selbst zu durchbohren scheinen, enthalten diese gewaltigen Bauwerke allerlei einzigartige Räume, Hindernisse, Schätze und Monster, die es auf der epischen Reise zur Spitze zu erkunden und zu bekämpfen gilt. Sie finden sich meist im tiefsten Herzen eines Dunklen Waldes, wo das dichte, erstickende Laub einen seltsamen, herbstähnlichen Farbton annimmt, vielleicht aufgrund des finsteren Einflusses des Turms."
+				""
+				"&eCarminit-Kreaturen verursachen meist Feuerschaden.&r"
+			]
+			id: "0E85C58F1DA0564C"
+			rewards: [
+				{
+					count: 2
+					id: "411163FE27556CEA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0DA6290C80A32C41"
+					item: "mmorpg:gems/ruby/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_dark_tower"
+				id: "03F883F2D01DF89A"
+				structure: "twilightforest:dark_tower"
+				title: "Finde Einen Dunklen Turm"
+				type: "structure"
+			}]
+			title: "Dunkle Türme"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E85C58F1DA0564C"]
+			description: [
+				"Der &eUr-Ghast&r fliegt oben um die riesigen &eDunklen Türme&r herum. Er erscheint als große, übernatürliche Kreatur mit vielen großen, wogenden Tentakeln. Er ist bedeckt mit etwas, das Abenteurer für Blut halten - oder es könnte Carminit sein. Diese Kreatur ähnelt dem Carminit-Ghastwächter aufgrund ihrer Fähigkeit, Spieler zu verfolgen, sowie den ausschließlich im Nether vorkommenden Ghasts, ist aber viel größer und viel gefährlicher."
+				""
+				"&cDer Ur-Ghast spawnt mit Mythischer Seltenheit.&r"
+				""
+				"Der Ur-Ghast hat:"
+				"&b+100% Physisch zu Feuerschaden&r"
+				"&b+25% Brandchance&r"
+				"&b+100% Brandschaden&r"
+				"&b+5% Maximale Feuerresistenz&r"
+				"&b+100% Feuerresistenz&r"
+			]
+			id: "5BB55F41502BE69C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Eintrag #12\n\nGestern Nachmittag ist Kapitän Cornelia zum Meeresgrund hinabgetaucht, auf der Suche nach weiteren Ressourcen. Unter der Crew kursieren Gerüchte, dass das eigentliche Ziel ihrer Expedition etwas anderes ist.\"}"
+								"{\"text\":\"Mehr als ein Tag ist seit dem Tauchgang der Kapitänin vergangen. Sie trug den einzigen Tauchanzug, den wir hatten, sodass wir ihr auf keine Weise helfen konnten. Am schlimmsten: Sie hatte den Hauptschlüssel bei sich. Während unsere Hoffnung auf Rettung schwindet, wächst die Gefahr einer Meuterei.\"}"
+							]
+							resolved: 1b
+							title: "Logbuch des Plünderer-Schiffs"
+						}
+					}
+					id: "26A037B5BB43D730"
+					title: "2 Fertigkeitspunkte"
+					type: "custom"
+				}
+				{
+					id: "70D77D8F4DC32B5F"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "4AC6E089CE9FA0A2"
+					item: "mmorpg:gems/ruby/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epilog"
+			tasks: [{
+				consume_items: true
+				id: "1484F0626CF00EDA"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "Blut, oder Carminit?"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"Der &eSchneewald&r ist ein unnatürlich kaltes Biom, das einen starken Kontrast zum Rest der Twilight-Forest-Dimension bildet. Entdecker haben viele Ähnlichkeiten zum Overworld-Schnee-Taiga-Biom festgestellt, mit Schnee, der den Boden zwischen großen Beständen von Fichten bedeckt, die anstelle der üblichen Kronendach-Bäume wachsen, manche davon ebenso groß. Warum ein solch eisiges Klima in einer überwiegend milden und feuchten Dimension existiert, ist ein Rätsel, obwohl manche vermuten, dass der große &eGletscher&r, der zwischen den Tannen liegt, damit zu tun haben könnte."
+				""
+				"Vorsicht ist geboten beim Durchqueren dieser Gebiete, da &eWinterwölfe&r zusammen mit gefährlichen &eYetis&r das Land durchstreifen. Diesen Kreaturen sollte man sich vorsichtig nähern, besonders beim Erkunden der &eYeti-Höhlen&r, da sich dort viele Dutzend finden lassen. Der &eAlpha-Yeti&r, der über seine Artgenossen herrscht, nimmt Eindringlinge - ob neugierig oder töricht - nicht gut auf."
+			]
+			id: "15B1E394B4FBB981"
+			rewards: [
+				{
+					id: "0B1583B14CE6405B"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0CAE6DB8E7EDB259"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "00866B8B5706A607"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [{
+				biome: "twilightforest:snowy_forest"
+				icon: "blue_skies:snowbloom"
+				id: "7ED21F382B9E41B3"
+				title: "Besuche Einen Schneewald"
+				type: "biome"
+			}]
+			title: "Eingeschneit"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"&eWinterwölfe&r sind große, bläulich-weiße Hundeartige, die im &eSchneewald&r leben. Diese Monster ähneln ihren Pendants aus dem &eDunklen Wald&r, jedoch mit weißem Fell. Sie verfolgen und greifen Spieler in ihrem Revier an, mit Bissen sowie einem einfrierenden Atemangriff, der verlangsamt."
+				""
+				"Der Winterwolf hat:"
+				"&b+100% Physisch zu Kälteschaden&r"
+				"&b+30% Kältedurchdringung&r"
+				"&b+30% Kälteresistenz&r"
+			]
+			icon: "born_in_chaos_v1:fangofthe_hound_leader"
+			id: "38BFA9B6AC5CBD12"
+			rewards: [
+				{
+					id: "477E6F483D6AABCD"
+					item: "mmorpg:currency/sharpening_stone_3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C66DC9E98CDE941"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				icon: "ftb_ph:winter_wolf"
+				id: "4BF835E79D59F65E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Ein Frostiges Awuuu"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"&eYetis&r sind große, weiße, blockige Kreaturen, die im &eSchneewald&r oder in der &eYeti-Höhle&r leben. Sie sind von Natur aus halb passiv und interessieren sich nur für Spieler, die sich ihnen auf etwa 4 Blöcke nähern. Sie haben keine direkt schadenden Angriffe. Stattdessen heben sie ihr Ziel auf und werfen es in eine zufällige Richtung. Abenteurer werden von einem Yeti nicht direkt verletzt, aber der Fallschaden tut weh. Werden sie angegriffen, werden sie aggressiv und verfolgen ihr Ziel."
+				""
+				"Der Yeti hat:"
+				"&b+0,5% Leben Pro Sekunde Regeneriert&r"
+				"&b+30% Kälteresistenz&r"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:yeti_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "10B572A9358F338B"
+			rewards: [
+				{
+					count: 5
+					id: "021419E747103F83"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7661B1B922262EAF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "20201B9A398A123F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Twilight Forest"
+			tasks: [{
+				entity: "twilightforest:yeti"
+				icon: "ftb_ph:yetitwilight"
+				id: "0C5B0388632D3E64"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Der Yeti"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B93763BFB5F5E0D"]
+			description: [
+				"Der furchteinflößende &eAlpha-Yeti&r ist deutlich größer als der Rest seines Rudels. Er hat sechs große blaue Hörner und ist ständig aggressiv gegenüber Spielern."
+				""
+				"Das Besiegen des &eAlpha-Yeti&r entfernt den Schutz über dem &eGletscher&r und ermöglicht so den Zugang zur &eSchneekönigin&r und ihrem &eAurora-Palast&r."
+				""
+				"Der Alpha-Yeti hat:"
+				"&b+50% Physisch zu Kälteschaden&r"
+				"&b+8 Rüstungsdurchdringung (Schuppen)&r"
+				"&b+30% Kältedurchdringung&r"
+				"&b+25% Physische Resistenz&r"
+				"&b+50% Kälteresistenz&r"
+			]
+			id: "44B4EC276B4CD776"
+			rewards: [
+				{
+					count: 3
+					id: "2BA208A9FDAC9C96"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "79ACA445473BD88D"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					id: "26B9B73CD18DC085"
+					item: "mmorpg:gems/amethyst/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epilog"
+			tasks: [{
+				consume_items: true
+				id: "04298BD3152A19E7"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			title: "Der Alpha-Yeti"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44B4EC276B4CD776"]
+			description: [
+				"Über den öden &eGletschern&r stehend, ist der &eAurora-Palast&r ein beeindruckender und wunderschöner Anblick für Abenteurer im Twilight Forest, dessen Wände sich ständig in verschiedenen Farben wandeln, die bis in den Himmel reichen. Schönheit ist leider nur oberflächlich, denn im Inneren lauern Gefahren, die ihr magisches Zuhause nicht zögern zu verteidigen."
+				""
+				"Abenteurer, die den &eAlpha-Yeti&r besiegen, werden feststellen, dass allein das &eBerühren seines flauschigen Fells&r einen Teil der magischen Kraft aus dem Fell auf sie überträgt, die Winde vertreibt und den Palast zur Erkundung öffnet."
+			]
+			icon: "twilightforest:blue_castle_door"
+			id: "2FDCA05F4CD502C8"
+			rewards: [
+				{
+					count: 2
+					id: "591FB17C2BAA0199"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "2F9DB93942234A2C"
+					item: "mmorpg:gems/sapphire/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [
+				{
+					icon: "twilightforest:aurora_pillar"
+					id: "3E8D88BC87345DAC"
+					structure: "twilightforest:aurora_palace"
+					title: "Finde Einen Aurora-Palast"
+					type: "structure"
+				}
+				{
+					id: "3F7D90DB38D24943"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			]
+			title: "Ein Palast Der Schönheit"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FDCA05F4CD502C8"]
+			description: [
+				"Die &eSchneekönigin&r findet sich in einem eisverkrusteten Raum nahe der Spitze des &eAurora-Palasts&r. Sie ist vielleicht die menschenähnlichste Kreatur, der man im Twilight Forest begegnet - sie ähnelt einer Frau, hat aber große violette Augen und blasse blaue Haut. Sie ist sofort feindselig gegenüber jedem Eindringling in ihrer Nähe und geht schnell in eines von drei Hauptangriffsmustern über."
+				""
+				"Die Schneekönigin fliegt auf einem untertassenförmigen Schlitten aus magischen Eisblöcken. Der Schlitten dient als mächtige Verteidigung, indem er die Königin sowohl außer Reichweite von Nahkampfangriffen bringt, als auch &eFernkampfangriffe von unten blockiert&r. Um die Schneekönigin erfolgreich anzugreifen, musst du ihre Bewegungen vorhersehen und &enur angreifen, wenn sie nah genug herankommt, dass du um den Eisschlitten herumkommst&r."
+				""
+				"&cDie Schneekönigin spawnt mit Mythischer Seltenheit.&r"
+				""
+				"Die Schneekönigin hat:"
+				"&b+100% Physisch zu Kälteschaden&r"
+				"&b+80% Einfrierchance&r"
+				"&b+25% Zerschmetterungschance&r"
+				"&b+30% Kältedurchdringung&r"
+				"&b+30% Schadensreduktion&r"
+			]
+			id: "1E2D94E70E2A1134"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Eintrag #12\n\nGestern Nachmittag ist Kapitän Cornelia zum Meeresgrund hinabgetaucht, auf der Suche nach weiteren Ressourcen. Unter der Crew kursieren Gerüchte, dass das eigentliche Ziel ihrer Expedition etwas anderes ist.\"}"
+								"{\"text\":\"Mehr als ein Tag ist seit dem Tauchgang der Kapitänin vergangen. Sie trug den einzigen Tauchanzug, den wir hatten, sodass wir ihr auf keine Weise helfen konnten. Am schlimmsten: Sie hatte den Hauptschlüssel bei sich. Während unsere Hoffnung auf Rettung schwindet, wächst die Gefahr einer Meuterei.\"}"
+							]
+							resolved: 1b
+							title: "Logbuch des Plünderer-Schiffs"
+						}
+					}
+					id: "7EF3ECDA9B97A8F7"
+					title: "2 Fertigkeitspunkte"
+					type: "custom"
+				}
+				{
+					id: "1DC1DDFC5481AC98"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "13F0A36E7B35C9D3"
+					item: "mmorpg:gems/sapphire/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epilog"
+			tasks: [{
+				consume_items: true
+				id: "30915EF9976C000F"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "Die Königin des Eises"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"Nach dem Töten der &eNaga&r erscheint ein &eWiederbelebungs-Monument&r. Du kannst den Block aktivieren, um den Boss wiederzubeleben, indem du &eEisenholz-Blöcke&r im Kreis um das Monument platzierst, so:"
+				""
+				"{image:cte2:textures/Naga-Respawn.png width:160 height:140 align:center}"
+				""
+				"Platziere dann auf dem Monument selbst einen &eWitherskelett-Schädel&r, der nach &eNorden&r zeigt. &cEr MUSS nach Norden zeigen!&r"
+			]
+			id: "249CFC4219E590E5"
+			rewards: [{
+				count: 5
+				id: "1F089CDD411E7807"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Wiederbeleben"
+			tasks: [{
+				advancement: "dimasic_server:nagaresp"
+				criterion: ""
+				id: "4443B8B332438AA1"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"Nach dem Töten des &eLichs&r erscheint ein &eWiederbelebungs-Monument&r. Du kannst den Block aktivieren, um den Boss wiederzubeleben, indem du &eGoldblöcke&r im Kreis um das Monument platzierst, so:"
+				""
+				"{image:cte2:textures/Lich_respawn.png width:160 height:140 align:center}"
+				""
+				"Platziere dann auf dem Monument selbst einen &eWitherskelett-Schädel&r, der nach &eNorden&r zeigt. &cEr MUSS nach Norden zeigen!&r"
+			]
+			id: "478246DF0A50447C"
+			rewards: [{
+				count: 5
+				id: "53945B5AF1249FE5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Wiederbeleben"
+			tasks: [{
+				advancement: "dimasic_server:lichresp"
+				criterion: ""
+				id: "46647FC4FDDBF7CE"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BB55F41502BE69C"]
+			description: [
+				"Nach dem Töten des &eUr-Ghast&r erscheint ein &eWiederbelebungs-Monument&r. Du kannst den Block aktivieren, um den Boss wiederzubeleben, indem du &eWeinenden Obsidian&r im Kreis um das Monument platzierst, so:"
+				""
+				"{image:cte2:textures/Ur-Ghast_Respawn.png width:160 height:140 align:center}"
+				""
+				"Platziere dann auf dem Monument selbst einen &eWitherskelett-Schädel&r, der nach &eNorden&r zeigt. &cEr MUSS nach Norden zeigen!&r"
+			]
+			id: "52FABBC48E005524"
+			rewards: [{
+				count: 5
+				id: "1FED6032BF28DDCD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Wiederbeleben"
+			tasks: [{
+				advancement: "dimasic_server:urghastresp"
+				criterion: ""
+				id: "16328367B255603E"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E2D94E70E2A1134"]
+			description: [
+				"Nach dem Töten der &eSchneekönigin&r erscheint ein &eWiederbelebungs-Monument&r. Du kannst den Block aktivieren, um den Boss wiederzubeleben, indem du &eLapislazuli-Blöcke&r im Kreis um das Monument platzierst, so:"
+				""
+				"{image:cte2:textures/Snow-Queen_Respawn.png width:160 height:140 align:center}"
+				""
+				"Platziere dann auf dem Monument selbst einen &eWitherskelett-Schädel&r, der nach &eNorden&r zeigt. &cEr MUSS nach Norden zeigen!&r"
+			]
+			id: "15CD2A688D39C87D"
+			rewards: [{
+				count: 5
+				id: "3467E2DEDB8FA565"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Wiederbeleben"
+			tasks: [{
+				advancement: "dimasic_server:snawqueenresp"
+				criterion: ""
+				id: "4F68D5C6E346A550"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18C4B8D73A50CFAC"]
+			description: [
+				"Nach dem Töten der &eHydra&r erscheint ein &eWiederbelebungs-Monument&r. Du kannst den Block aktivieren, um den Boss wiederzubeleben, indem du &eAntiken Trümmer&r im Kreis um das Monument platzierst, so:"
+				""
+				"{image:cte2:textures/Hydra_Respawn.png width:160 height:140 align:center}"
+				""
+				"Platziere dann auf dem Monument selbst einen &eWitherskelett-Schädel&r, der nach &eNorden&r zeigt. &cEr MUSS nach Norden zeigen!&r"
+			]
+			id: "1DD47026109BE225"
+			rewards: [{
+				count: 5
+				id: "6A599A8C876376B3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Wiederbeleben"
+			tasks: [{
+				advancement: "dimasic_server:hydraresp"
+				criterion: ""
+				id: "5757A2AFA61E5A7F"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5BB55F41502BE69C"
+				"1E2D94E70E2A1134"
+				"18C4B8D73A50CFAC"
+				"1F3C2718AE550D5C"
+				"09AFF8CC33BD244B"
+			]
+			description: ["&eBesiege&r alle &eBosse&r des &eTwilight Forest&r im Epilog, um diese Errungenschaft zu erhalten. Zeig sie dann mit deinem neuen Hut her!"]
+			hide_dependency_lines: true
+			icon: "simplehats:pog"
+			id: "481C3C4D8D5AF5B8"
+			rewards: [
+				{
+					id: "6350309B873FAF80"
+					item: "simplehats:pog"
+					type: "item"
+				}
+				{
+					id: "675B5B35C383CF3D"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:passive"
+					id: "3C311586BF920909"
+					title: "4 Passivpunkte"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Errungenschaft"
+			tasks: [{
+				id: "4405B159442E256A"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Besiege Alle Twilight-Forest-Bosse!"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: ["Eingebettet zwischen den Hügeln und Tannen des &eSchneewalds&r erscheint die &eYeti-Höhle&r als quadratischer Hügel. Vier Eingänge führen ins eisbedeckte Innere, wo Packeis von Stalaktiten hängt und den Boden bedeckt. Viele wilde &eYetis&r hausen in diesen eisigen Höhlen, beherrscht von einem &eAlpha-Yeti&r."]
+			id: "4B93763BFB5F5E0D"
+			rewards: [
+				{
+					count: 3
+					id: "1F78FFBE5A9A85B2"
+					item: "mmorpg:material/fishing/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56F92CFDECE8EB68"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilog"
+			tasks: [{
+				icon: "blue_skies:snowcap_mushroom_block"
+				id: "0A566E2109FCE4C5"
+				structure: "twilightforest:yeti_cave"
+				title: "Finde Eine Yeti-Höhle"
+				type: "structure"
+			}]
+			title: "Ein Kaltes, Bescheidenes Zuhause"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"&oBestimmte Bauwerke finden und Bosse töten? Klingt einfach genug ... Du ziehst deinen Entdecker-Kompass hervor und - Moment, was? Er funktioniert nicht?&r"
+				""
+				"Im Twilight Forest musst du dich auf deine Navigationsfähigkeiten verlassen. Du wirst auf den &eKarten-Fokus&r des Twilight Forest angewiesen sein!"
+			]
+			icon: "twilightforest:magic_map"
+			id: "5081032C6E395EA9"
+			rewards: [{
+				id: "0AE3865B01EA1ACD"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			subtitle: "Epilog"
+			tasks: [{
+				id: "2BF7F6856AC56540"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Wanderreisen"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Lv. 90"]
+	title: "Epilog"
+}

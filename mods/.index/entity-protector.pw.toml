@@ -1,0 +1,18 @@
+filename = 'EntityProtector-1.3.jar'
+name = 'Entity Protector'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'EntityProtector-1.3.jar'
+
+[download]
+hash = '542b3a939048be615949cc10f56d36f04db80f21'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7669420
+project-id = 1235067

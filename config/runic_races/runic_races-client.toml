@@ -1,0 +1,70 @@
+
+#Racial cooldown HUD overlay
+[hud]
+	#Show the racial cooldown/state HUD at all.
+	enabled = true
+	#Screen anchor the HUD attaches to.
+	#Values: ABOVE_HOTBAR, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	#Allowed Values: ABOVE_HOTBAR, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	anchor = "ABOVE_HOTBAR"
+	#Horizontal offset from the anchor, in pixels.
+	#Range: -400 ~ 400
+	offsetX = 0
+	#Vertical offset from the anchor, in pixels.
+	#Range: -400 ~ 400
+	offsetY = 0
+	#Uniform scale multiplier for the HUD (1.0 = default).
+	#Range: 0.5 ~ 3.0
+	scale = 1.0
+	#Opacity of the HUD (0.0 = invisible, 1.0 = solid).
+	#Range: 0.0 ~ 1.0
+	opacity = 1.0
+	#Minimal mode: hide key-hint microtext and ability names; icons only.
+	minimalMode = false
+	#Show ability names under icons (learning mode). Ignored when minimalMode is true.
+	showNames = false
+	#Pulse icon alpha when an ability is ready and draw a spark on the cooldown→ready transition.
+	readyGlow = true
+
+#Ambient state effects
+[ambient]
+	#Spawn subtle ambient particles when passive states are active (home biome, night empowered, etc.).
+	stateParticles = true
+	#Render screen-overlay cues (vignettes, freeze-flash) for signature moments.
+	screenCues = true
+	#Briefly pulse a state rune when its flag turns on, drawing the eye to new conditions.
+	stateRunePulse = true
+	#Density multiplier for ambient/cosmetic client particles (0.0 = none, 1.0 = default, 2.0 = double).
+	#Range: 0.0 ~ 2.0
+	particleDensity = 1.0
+
+#Racial wing rendering
+[wings]
+	#Render racial wings at all. Disable if wings conflict with cape/back cosmetics from other mods.
+	enabled = true
+	#Render other players' racial wings (multiplayer). Disable for performance on crowded servers.
+	showOnOtherPlayers = true
+	#Reduced motion / accessibility: disables wind buffeting, idle flutter, and walk sway.
+	#Wings still change pose with player state (fold, glide, flap) but stop micro-animating.
+	reducedMotion = false
+	#Per-race wingtip particle trails while gliding, plus a landing dust puff.
+	#Density follows ambient.particleDensity.
+	glideTrails = true
+
+#Screen effects and accessibility
+[effects]
+	#Allow signature moments to shake the camera. Disable for motion sensitivity.
+	cameraShake = true
+	#Intensity multiplier for screen-overlay cues and camera shake (0.0 = invisible, 1.0 = full).
+	#Range: 0.0 ~ 1.0
+	screenCueIntensity = 1.0
+	#Render the extra client-side flourish on mythic moments (revival spirals, dense signature bursts).
+	#Core gameplay-readable VFX always render; this only gates the theatrical extras.
+	heavyEffects = true
+	#Draw screen cues as flat color rectangles instead of the textured radial
+	#vignettes / rime / heat-haze overlays. Accessibility / low-distraction option.
+	simpleCues = false
+	#Allow signature moments to nudge the field of view (breath push-out, impact punch-in).
+	#Total FOV change is clamped to +/-6% and also scales with screenCueIntensity.
+	fovEffects = true
+

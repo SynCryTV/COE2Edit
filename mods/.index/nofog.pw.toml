@@ -1,0 +1,18 @@
+filename = 'NoFog-1.3.6+1.20.1-forge.jar'
+name = 'NoFog'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'NoFog-1.20.1-(Neo)Forge-b2'
+
+[download]
+hash = '5f8d78375b88569acccd6d5682cba626edf5b7ac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5438560
+project-id = 296468

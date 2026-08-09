@@ -1,0 +1,9 @@
+{
+  "showAura": true,
+  "showSelfSkill": true,
+  "showFood": false,
+  "showCharge": true,
+  "showSong": true,
+  "showGolem": true,
+  "showOther": false
+}

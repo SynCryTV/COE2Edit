@@ -1,0 +1,13 @@
+name = "Multiverse Reforged"
+filename = "mvforge-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "791ae1a1da8d37e613b50b0dbc781671bc31014a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8422340
+project-id = 1603193

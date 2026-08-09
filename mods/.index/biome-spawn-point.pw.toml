@@ -1,0 +1,21 @@
+filename = 'biomespawnpoint-1.20.1-2.4.jar'
+name = 'Biome Spawn Point'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.20.1-2.4 | Biome Spawn Point'
+
+[download]
+hash = 'e30f052405e32f3fe7eac3b9966f35dfce302370'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6186418
+project-id = 695238
+
+[[x-prismlauncher-dependencies]]
+addonId = '342584'
+type = 'REQUIRED'

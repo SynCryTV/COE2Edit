@@ -1,0 +1,13 @@
+name = "Mine and Meals"
+filename = "mine_and_meals-0.50.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57f7738396cb9c0e9ca94d2273f08dc74f8d5185"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8112479
+project-id = 1164467

@@ -1,0 +1,13 @@
+name = "What's Your Build"
+filename = "What's your build-forge-1.20.1-0.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "09352d880d86a733787cd4fcc789f4b86ff29ced"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7554859
+project-id = 1233310

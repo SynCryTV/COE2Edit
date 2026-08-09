@@ -1,0 +1,13 @@
+name = "Server Nick"
+filename = "servernick-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f6da6fa2768f8c8aa6534184a737e3bcf8f801ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8362109
+project-id = 1589595

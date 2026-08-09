@@ -1,0 +1,21 @@
+filename = 'SkyBreaker-1.20.1-1.0.8.jar'
+name = 'Sky Breaker: Blue Skies Limit Remover'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SkyBreaker-1.20.1-1.0.8.jar'
+
+[download]
+hash = '2d88740e858fa888232c368e7dc652fe81da88b8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6645990
+project-id = 1109012
+
+[[x-prismlauncher-dependencies]]
+addonId = '312918'
+type = 'REQUIRED'

@@ -1,0 +1,93 @@
+{
+  "positions": {
+    "day_counter": {
+      "anchor": "BOTTOM_CENTER",
+      "offsetX": 0,
+      "offsetY": 0,
+      "scale": 1.0,
+      "visible": true,
+      "horizontal": false
+    },
+    "target_mob_name": {
+      "anchor": "TOP_CENTER",
+      "offsetX": 0,
+      "offsetY": 25,
+      "scale": 0.85,
+      "visible": true,
+      "horizontal": false
+    },
+    "buff_overlay": {
+      "anchor": "TOP_LEFT",
+      "offsetX": 0,
+      "offsetY": 0,
+      "scale": 0.8,
+      "visible": true,
+      "horizontal": false
+    },
+    "boss_hp_bar": {
+      "anchor": "TOP_CENTER",
+      "offsetX": -1,
+      "offsetY": 25,
+      "scale": 0.85,
+      "visible": true,
+      "horizontal": false
+    },
+    "vanilla_air": {
+      "anchor": "BOTTOM_CENTER",
+      "offsetX": -88,
+      "offsetY": -48,
+      "scale": 0.8,
+      "visible": true,
+      "horizontal": false
+    },
+    "armor_durability": {
+      "anchor": "BOTTOM_CENTER",
+      "offsetX": 265,
+      "offsetY": 0,
+      "scale": 0.5,
+      "visible": true,
+      "horizontal": true
+    },
+    "vanilla_food": {
+      "anchor": "BOTTOM_CENTER",
+      "offsetX": -88,
+      "offsetY": -57,
+      "scale": 0.8,
+      "visible": true,
+      "horizontal": false
+    },
+    "damage_tracker": {
+      "anchor": "BOTTOM_CENTER",
+      "offsetX": 165,
+      "offsetY": -115,
+      "scale": 0.8,
+      "visible": true,
+      "horizontal": false
+    },
+    "hotbar": {
+      "anchor": "BOTTOM_CENTER",
+      "offsetX": 4,
+      "offsetY": 0,
+      "scale": 1.5,
+      "visible": true,
+      "horizontal": false
+    },
+    "gateway_boss_bar": {
+      "anchor": "TOP_CENTER",
+      "offsetX": -2,
+      "offsetY": 80,
+      "scale": 0.8,
+      "visible": true,
+      "horizontal": false
+    },
+    "skill_hotbar": {
+      "anchor": "BOTTOM_CENTER",
+      "offsetX": 4,
+      "offsetY": -89,
+      "scale": 0.7,
+      "visible": true,
+      "horizontal": true
+    }
+  },
+  "version": 3
+}

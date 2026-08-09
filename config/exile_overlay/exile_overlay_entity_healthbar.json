@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "maxDistance": 24,
+  "heightAbove": 0.5,
+  "barWidth": 30,
+  "barHeight": 2,
+  "scale": 1.0,
+  "displayDuration": 5,
+  "healthBarColor": "8B0000",
+  "blacklist": [
+    "minecraft:shulker",
+    "minecraft:armor_stand",
+    "minecraft:item_frame",
+    "minecraft:glow_item_frame",
+    "minecraft:painting",
+    "minecraft:end_crystal",
+    "minecraft:experience_orb"
+  ]
+}

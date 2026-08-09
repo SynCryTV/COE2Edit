@@ -1,0 +1,13 @@
+name = "Height Away"
+filename = "Height Away 1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ca1fd3149540521bd901fa061fad9654687a054e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7970674
+project-id = 1522321

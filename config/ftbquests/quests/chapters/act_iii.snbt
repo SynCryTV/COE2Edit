@@ -1,0 +1,1435 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_iii"
+	group: "1E3C4B5FFAE48A39"
+	icon: "undergarden:catalyst"
+	id: "31B544F80AB89D6E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["Es scheint, &eFäulnisse&r sind nicht die einzigen verdorbenen Kreaturen. Es gibt viele verschiedene Arten von ihnen."]
+			icon: "minecraft:rotten_flesh"
+			id: "5E98541EEB25174A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58382CF9AB2A0A3E"
+					table_id: 1433159522818962256L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1206AB15279F8FA5"
+					silent: true
+					title: "6000 Erfahrung"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hauptquest"
+			tasks: [
+				{
+					entity: "undergarden:rotbeast"
+					icon: "ftb_ph:rotbeast"
+					id: "2C4A8A938CB95DE1"
+					type: "kill"
+					value: 12L
+				}
+				{
+					entity: "undergarden:rotwalker"
+					icon: "ftb_ph:rotwalker"
+					id: "03FF1260F86F8A4E"
+					type: "kill"
+					value: 12L
+				}
+			]
+			title: "Verrottende Kreaturen"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18D44E8B9226FB02"]
+			description: ["Man hat dir gesagt, diese Dimension sei feucht und modrig, aber du hast nicht erwartet, dass sie verrottet. Töte die lästigen &eFäulnisse&r, die dich ständig angreifen - sie scheinen die Ursache der Fäulnis zu sein."]
+			icon: "alexsmobs:cockroach_wing_fragment"
+			id: "2AFB98683E249B7D"
+			rewards: [
+				{
+					count: 2
+					id: "5DCBFD4165D4B05B"
+					item: "lightmanscurrency:coin_gold"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "495F3EA9B5202D6E"
+					silent: true
+					title: "5000 Erfahrung"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hauptquest"
+			tasks: [{
+				entity: "undergarden:rotling"
+				icon: "ftb_ph:rotling"
+				id: "5C9A9DA8C7B9EEFC"
+				type: "kill"
+				value: 6L
+			}]
+			title: "Fremde Feinde"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C25A5681CC704B8"]
+			description: [
+				"Jetzt, wo du ausgerüstet bist, wird es Zeit herauszufinden, was diese Anomalien im Ozean verursacht. Du hast einige Aktivität in den &eEis-Labyrinth-Biomen der Overworld&r bemerkt ... Ein Blick könnte sich lohnen. Diese Eis-Labyrinth-Biome findest du an der &eOberfläche in der Nähe von Tiefen Gefrorenen Ozeanen&r. "
+				""
+				"Man sagt, eine seltene Pflanze namens &eOxygelium&r finde sich &eam Grund dieser Eis-Labyrinthe&r im Ozean. Alternativ findest du sie bei &eGequälten Seelen&r. Falls du Schwierigkeiten hast, &eGequälte Seelen&r zu finden, kannst du versuchen, das &eTor des Eis-Labyrinths&r herauszufordern!"
+				""
+				"Du wirst &eBolzenrüstung&r benötigen, um die Kälte zu überleben. Sie kann gecraftet werden."
+				""
+				"&cMonster aus Aquamirae spawnen mindestens auf Level 35!&r"
+				""
+				"&eBenötigt ALLE Voraussetzungen abgeschlossen.&r"
+			]
+			icon: "minecraft:ice"
+			id: "217637D12CF3011E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A6264B5A2D68399"
+					table_id: 5102974831465220002L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "513C3E0F390949B6"
+					silent: true
+					title: "7250 Erfahrung"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hauptquest"
+			tasks: [
+				{
+					id: "66A2C43CB2DC02D9"
+					title: "Einmal klicken, wenn gelesen"
+					type: "checkmark"
+				}
+				{
+					biome: "#aquamirae:ice_maze"
+					icon: "minecraft:blue_ice"
+					id: "2934F7FA5AB1C69F"
+					title: "Finde ein Eis-Labyrinth"
+					type: "biome"
+				}
+			]
+			title: "Die Verborgenen Tiefen"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E98541EEB25174A"]
+			description: [
+				"Du hast mit einem Dorfbewohner gesprochen, der behauptete, einst im Undergarden gelebt zu haben. Diesem zufolge gab es einst mächtige Wesen in Tempeln im ganzen Land, die die Zivilisation vor der kriechenden Fäulnis schützten. Du musst eine &eKatakombe&r im Undergarden finden, um diese Quest abzuschließen."
+				""
+				"Es scheint jedoch, dass das alles Vergangenheit ist. Neue Untersuchungen deuten auf neue Kreaturen hin, die die Tiefen der Overworld heimsuchen."
+				""
+				"&o&7Der Abschluss schaltet eine Wiederholbare Quest im Kapitel Wiederholbare Quests frei!&r&r"
+			]
+			id: "775A13E1924D6C9A"
+			rewards: [
+				{
+					id: "22D6AB0E769C0B19"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Seltene Ausrüstungs-Beutetruhe (Lv. 35)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "235DECB54BBFBDE3"
+					silent: true
+					title: "6250 Erfahrung"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "1E135904CF7ED95A"
+					title: "1 Talentpunkt"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hauptquest"
+			tasks: [{
+				entity: "undergarden:forgotten"
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "074321BF73A109FA"
+				type: "kill"
+				value: 12L
+			}]
+			title: "Zivilisation aus der Vergangenheit"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["Ein älterer Dorfbewohner hat dir erzählt, dass er ursprünglich aus dem Undergarden stammt! Diesem zufolge gibt es wegen der kriechenden Fäulnis keine Dörfer mehr im Undergarden. Es könnte aber noch handelsbereite &eSteingeborene&r-Kreaturen geben."]
+			id: "34AE4F64C6DCC76B"
+			rewards: [
+				{
+					id: "3598048059AFC907"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":30,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "Übliche-Währung-Beutetruhe (Lv. 30)"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7B53CAD7E3888851"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4AB967C7D0BC5EA0"
+					silent: true
+					title: "5500 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Delegation"
+			tasks: [{
+				advancement: "undergarden:undergarden/stoneborn_trade"
+				criterion: ""
+				id: "41919A014FCB8BFF"
+				type: "advancement"
+			}]
+			title: "Fremde Freunde"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: ["Erkunde die Tiefen des Undergarden, und du findest nützliche Ressourcen, die sich zu Ausrüstung verarbeiten lassen!"]
+			id: "73CB23341BA13CD0"
+			rewards: [
+				{
+					count: 3
+					id: "61183E226D5E94A5"
+					item: "mmorpg:stone/3"
+					title: "Epische Steine"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6B975E6A9D52282E"
+					silent: true
+					title: "5000 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "MINE and Slash"
+			tasks: [{
+				advancement: "undergarden:undergarden/mine_ore"
+				criterion: ""
+				id: "5E1546F833807E4F"
+				type: "advancement"
+			}]
+			title: "Neue Ressourcen"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["Falls du Schwierigkeiten hast, einen &eEndportal-Rahmen&r zu finden, und dir die &eEnderaugen&r ausgehen, ist es vielleicht Zeit, einen &eEndolokator&r zu craften, der funktional dasselbe wie ein Enderauge ist, aber unbegrenzt nutzbar ist!"]
+			id: "2E0F302F9BBF7E36"
+			rewards: [
+				{
+					count: 3
+					id: "04EA5114ACF663AF"
+					item: "lightmanscurrency:coin_gold"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1FC44A6913452913"
+					silent: true
+					title: "7500 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Echoortung"
+			tasks: [{
+				id: "40F07F24ADE9D1A4"
+				item: {
+					Count: 1
+					id: "alexsmobs:endolocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Bauwerk-Findungshilfe"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"59A29FC72CB20EB7"
+				"6BA03D598BD6C2AD"
+				"360C736C3975B377"
+				"43D444B5C1395F3E"
+				"2A8673F98F14484D"
+				"11DB53435CA1D59E"
+				"5E98541EEB25174A"
+				"2E0F302F9BBF7E36"
+				"2AFB98683E249B7D"
+				"217637D12CF3011E"
+				"18B4B295493669DD"
+				"775A13E1924D6C9A"
+				"60A18C940B623CDA"
+				"73CB23341BA13CD0"
+				"46DB9530C236A4AD"
+				"55F9F418C4CA3B3A"
+				"0998037F5701A2D7"
+				"5C25A5681CC704B8"
+				"0AFF7911E9C10C1B"
+				"3054F5AA249874B1"
+				"58F782F592F2ADEB"
+				"34AE4F64C6DCC76B"
+				"45EA60D4FE6CFFAC"
+				"713FE37BCF17FA27"
+				"4F6C1721D3A47BFC"
+				"3242634F49140F5F"
+				"3984F3F1D86ADE21"
+				"45501F3F04639DB1"
+				"5FEC85CF65C29ED6"
+			]
+			description: ["Schließe alle Quests in Akt III ab, um diese Errungenschaft zu erhalten. Zeig sie dann mit deinem neuen Hut her!"]
+			hide_dependency_lines: true
+			icon: "simplehats:babydolphin"
+			id: "6852C249CA093735"
+			rewards: [
+				{
+					id: "07B40C2CAFFA4A41"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					id: "69E1F9E5F47DE548"
+					item: "simplehats:babydolphin"
+					title: "Baby-Delfin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Errungenschaft"
+			tasks: [{
+				id: "7F4620276B50AC30"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Schließe Alle Quests In Akt III Ab!"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E0F302F9BBF7E36"]
+			description: ["Der &eSeltsame Fischfinder&r lokalisiert nahegelegene Teufelsloch-Chunks, die &eeinzigartige Fische und Beute&r enthalten."]
+			id: "58F782F592F2ADEB"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "479F2BD1BBE7BC9A"
+					silent: true
+					title: "8000 Erfahrung"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "2B95DBCDDE09AA83"
+					title: "1 Talentpunkt"
+					type: "custom"
+				}
+				{
+					id: "2CD9791B813A37F2"
+					item: "simplehats:seaweedhat"
+					type: "item"
+				}
+			]
+			subtitle: "Echoortung"
+			tasks: [{
+				id: "0B89633D93313B67"
+				item: {
+					Count: 1
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			dependency_requirement: "one_completed"
+			description: ["Dieses &eRüstungsset&r erlaubt es dir, leicht unter Wasser zu &eminen und zu kämpfen&r. Du kannst &eSauerstofftanks mit Oxygelium&r craften, das du unter Wasser in einem &eEis-Labyrinth&r oder bei den &eGequälten Seelen&r in diesem Gebiet findest. Du kannst auch &eNeptunium&r-Ausrüstung aus dem Angeln verwenden, um unter Wasser zu kämpfen!"]
+			id: "43D444B5C1395F3E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 6750"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "482D24E3915BCF42"
+				silent: true
+				title: "6750 Erfahrung"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "Tauchausrüstung"
+			tasks: [
+				{
+					id: "7B1370680492A67F"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15969F7FC51090F2"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: [
+				"Diese untoten Kreaturen wurden dabei gesichtet, wie sie in den &eEis-Labyrinthen im Unterschlupf unter der Erde, nahe dem Tiefen Gefrorenen Ozean&r umherstreifen."
+				""
+				"&o&7Der Abschluss schaltet eine Wiederholbare Quest im Kapitel Wiederholbare Quests frei!&r&r"
+			]
+			id: "60A18C940B623CDA"
+			rewards: [
+				{
+					count: 8
+					id: "4C7692645F8A7345"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					id: "023076E4060597AE"
+					item: "mmorpg:material/fishing/2"
+					title: "Roher Emyprean-Fisch"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "132D51D143AFAECD"
+					silent: true
+					title: "8500 Erfahrung"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Unterseeisches Abenteuer"
+			tasks: [{
+				entity: "aquamirae:tortured_soul"
+				icon: {
+					Count: 1
+					id: "betterarcheology:soul_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6DC389E918151695"
+				type: "kill"
+				value: 16L
+			}]
+			title: "Die Ruhelosen Toten"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["Diese Fische sehen definitiv verdächtig aus ... und sie sind an Land! Diese Kreaturen findest du in &eEis-Labyrinthen nahe dem Tiefen Gefrorenen Ozean&r."]
+			id: "3054F5AA249874B1"
+			rewards: [
+				{
+					count: 4
+					id: "18127D8F7D2FE528"
+					item: "mmorpg:material/fishing/2"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2D6BC5CAD878B4F4"
+					silent: true
+					title: "8750 Erfahrung"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Unterseeisches Abenteuer"
+			tasks: [{
+				entity: "aquamirae:maw"
+				icon: "alexsmobs:flying_fish"
+				id: "64029E0952041AA3"
+				type: "kill"
+				value: 12L
+			}]
+			title: "Terrestrische Schrecken"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: ["Der &eAnglerfisch&r im Wasser des &eEis-Labyrinths&r wirkt eigentlich ganz normal ..."]
+			id: "59A29FC72CB20EB7"
+			rewards: [
+				{
+					id: "5623647895FDB31F"
+					item: "mmorpg:material/fishing/3"
+					title: "Roher Engelhafter Fisch"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "325506065E24D465"
+					silent: true
+					title: "8750 Erfahrung"
+					type: "command"
+				}
+				{
+					id: "13A003531A29BE48"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:ice_maze"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Unterseeisches Abenteuer"
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:anglers_fang"
+				id: "793FAAC99A394C65"
+				type: "kill"
+				value: 8L
+			}]
+			title: "Tiefsee-Kreaturen"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59A29FC72CB20EB7"]
+			description: [
+				"Diese schlüpfrige, sich schlängelnde Kreatur findet man in &eUnterschlüpfen&r beim &eEis-Labyrinth&r. Alternativ findest du eine in einem &eTor des Eis-Labyrinths&r."
+				""
+				"&cDer Aal spawnt frühestens auf Level 35.&r"
+				""
+				"Der Aal hat:"
+				"&b+50% Physisch zu Kälteschaden&r"
+				"&a15% Chance auf Und-Rune als Beute&r"
+			]
+			id: "46DB9530C236A4AD"
+			rewards: [
+				{
+					count: 2
+					id: "16C206CAA7691022"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 9250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5E42161C284D2B09"
+					silent: true
+					title: "9250 Erfahrung"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "0F7E84FB337FE624"
+					title: "1 Talentpunkt"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "61E1F9C240855D16"
+					title: "Grausamer Aufstieg"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Unterseeisches Abenteuer"
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "alexsmobs:shed_snake_skin"
+				id: "05F31113091D1241"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Schlüpfriger Schwimmer"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3054F5AA249874B1"]
+			description: [
+				"Von keinem lebenden Wesen je gesehen, besagt der Mythos der &eMutter des Eis-Labyrinths&r, dass es sich um eine mächtige Kreatur handelt, die die Meere durchstreift und Seeleute wie Piraten gleichermaßen angreift. Wer sie finden möchte: Es heißt, sie habe eine Chance, &emit Anglerfischen zu spawnen&r (&75,0% Chance beim Tod eines Anglerfischs&r). Es wird auch gemunkelt, dass sich im Bauch der Kreatur seltener antiker Piratenschatz findet ..."
+				""
+				"&cDie Mutter des Eis-Labyrinths spawnt frühestens auf Level 35.&r"
+				""
+				"Die Mutter des Eis-Labyrinths hat:"
+				"&b+50% Physisch zu Kälteschaden&r"
+				"&a50% Chance auf Und-Rune als Beute&r"
+			]
+			id: "18B4B295493669DD"
+			rewards: [
+				{
+					count: 8
+					id: "3E4E7CF7278690E7"
+					item: "lightmanscurrency:coin_gold"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					id: "0DDB0EF1FF5F5BA3"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Seltene Ausrüstungs-Beutetruhe (Lv. 35)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7153FEA8AA828FFB"
+					silent: true
+					title: "14000 Erfahrung"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "060035A5B1D52952"
+					title: "1 Talentpunkt"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Unterseeisches Abenteuer"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: {
+					Count: 1
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				id: "0962A21E9E55A320"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mutter der Tiefsee"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3054F5AA249874B1"
+				"60A18C940B623CDA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Der &eGeist von Kapitän Cornelia&r erscheint, wenn ein bestimmter Klang von einem &eHorn&r gespielt wird ..."
+				""
+				"Manche sagen, das &eHorn&r finde sich bei einer &egroßen mutterähnlichen Kreatur&r, die im &eTiefen Gefrorenen Ozean&r lauert, oder lässt sich durch das Abschließen eines &eTors des Eis-Labyrinths&r erlangen."
+				""
+				"Der &eGeist von Kapitän Cornelia&r ist widerstandsfähig gegen den Tod ... Sobald sie wenig Leben hat, &cregeneriert sie ihr Leben rasch&r. Ein &eGeworfener Trank der Schwäche&r kann dagegen helfen."
+				""
+				"&cDer Geist von Kapitän Cornelia spawnt frühestens auf Level 40.&r"
+				""
+				"Der Geist von Kapitän Cornelia hat:"
+				"&b+50% Physisch zu Kälteschaden&r"
+				"&b+25% Kritischer Treffer&r"
+				"&a10% Chance auf Und-Rune als Beute&r"
+				""
+				"&eBenötigt 1 abgeschlossene Voraussetzung.&r"
+				""
+				"&6Diese Quest schaltet neue Shops im Kampagnen-Shop frei."
+				"&o&7Der Abschluss schaltet eine Wiederholbare Quest im Kapitel Wiederholbare Quests frei!&r&r"
+			]
+			id: "55F9F418C4CA3B3A"
+			rewards: [
+				{
+					id: "3460CB6300D902AD"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2A9A07576D36CFDF"
+					item: "mmorpg:material/fishing/3"
+					title: "Roher Engelhafter Fisch"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "59ABA7C0A346C178"
+					silent: true
+					title: "15000 Erfahrung"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Hauptquest"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:pirate_pouch"
+				id: "36993DF8C06FCE11"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Captain Cornelias Schließfach"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73CB23341BA13CD0"]
+			description: ["Diese &ekalten Barren&r können verwendet werden, um mächtige &eFroststahl&r-Ausrüstung zu craften. Man findet sie in &ekalten unterirdischen Biomen&r wie den Biomen &eFrostfelder, Frostiger Smogstamm-Wald&r und &eEisiges Meer&r."]
+			id: "0AFF7911E9C10C1B"
+			rewards: [
+				{
+					count: 4
+					id: "0D451539F1EC255E"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "052C4DC20201AB66"
+					silent: true
+					title: "5000 Erfahrung"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "0CBDF4F483A66437"
+					title: "1 Talentpunkt"
+					type: "custom"
+				}
+			]
+			subtitle: "MINE and Slash"
+			tasks: [{
+				count: 8L
+				id: "154C7E9E60887877"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			title: "Kalte Barren"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"Es ist Zeit, den Dorfgelehrten zu besuchen. Er weiß vielleicht etwas über alternative Dimensionen mit mächtigen Kreaturen."
+				""
+				"Den &eTorwächter&r findest du in &eTorwächter-Häusern&r, die in &eBergen sowie Ebenen- oder Schneedörfern&r spawnen können."
+				""
+				"Du brauchst vielleicht eine Möglichkeit, ihn zur Preisgabe der Informationen zu bewegen ... Vielleicht ein paar &aSmaragde&r?"
+			]
+			id: "0998037F5701A2D7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 9250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4BE8EDFC75B0DD85"
+				silent: true
+				title: "9250 Erfahrung"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Hauptquest"
+			tasks: [{
+				icon: "blue_skies:blinding_key"
+				id: "0C15001804C8AF74"
+				structure: "#blue_skies:gatekeeper_houses"
+				title: "Finde einen Torwächter"
+				type: "structure"
+			}]
+			title: "Die Torwächter"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Tief in den &eKatakomben&r findest du gelegentlich deaktivierte Wächter. Man sagt, diese Wächter hätten einst die Menschen vor Fäulnis-Kreaturen beschützt, aber ihre Magie längst verloren. Natürlich ist das nur, was man erzählt ..."
+				""
+				"Findest du diese Wächter nicht, hast du vielleicht mehr Glück, wenn du mit einem &eTor des Labyrinths&r ein Portal in die Vergangenheit erzwingst."
+				""
+				"&cDer Vergessene Wächter spawnt frühestens auf Level 35.&r"
+				""
+				"Der Vergessene Wächter hat:"
+				"&b+50% Elementarresistenz&r"
+				"&a10% Chance auf Und-Rune als Beute&r"
+			]
+			icon: {
+				Count: 1
+				id: "undergarden:forgotten_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C25A5681CC704B8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 12500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "45269ACB23D984A3"
+					silent: true
+					title: "12500 Erfahrung"
+					type: "command"
+				}
+				{
+					id: "2EFCEBBD529078B6"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/labyrinth"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "413C00B019997763"
+					table_id: 7143075762642060613L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hauptquest"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: "ftb_ph:forgotten_guardian"
+				id: "68ABFF4A22C968A4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Verborgene Geheimnisse"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C25A5681CC704B8"]
+			description: [
+				"Hast du Schwierigkeiten mit manchen Monstern? Du kannst dich mit der Mine-and-Slash-&eInfusions-Berufssparte&r stärken. &eSchriftrollen&r können auf deine Ausrüstung angewendet werden, um &ezufällig einen vorteilhaften Statuswert&r zu verleihen. Dieser Statuswert kann durch weitere Infusions-Schriftrollen aufgewertet werden."
+				""
+				"Sieh im Kapitel &eM\\&S Berufe&r für weitere Informationen zur Nutzung dieses Systems nach!"
+			]
+			icon: "minecraft:paper"
+			id: "360C736C3975B377"
+			rewards: [
+				{
+					count: 4
+					id: "45BD213CEE617FC1"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/common"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "06864F652BEF71AF"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/uncommon"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Verlorene Seite"
+			tasks: [{
+				id: "1CF415B71E5C7734"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Nicht-Vanilla-Verzauberungen"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F6C1721D3A47BFC"]
+			description: [
+				"In CTE2 sind manche Vanilla-Werte mit Mine and Slash kompatibel!"
+				""
+				"Vanilla : &aMine and Slash&r"
+				"Leben : &b+0,5% Magieschild&r"
+				"Rüstung : &b+0,1% Ausrüstungsverteidigung&r"
+				"Rüstungshärte : &b+0,1% Ausrüstungsverteidigung&r"
+				"Angriffsschaden : &b+0,5% Gesamtschaden&r"
+				"Glück : &b+3% Beutefund&r"
+				""
+				"Zusätzlich ist die Verzauberungskompatibilität enthalten. Wie sich die Verzauberung auf Mine-and-Slash-Werte auswirkt, siehst du in der &bVerzauberungsbeschreibung in Blau&r."
+				""
+				"Verzauberungs-Statusboni sind pro Gegenstand auf das Maximale Verzauberungslevel + 1 begrenzt. Zum Beispiel gibt Verwüstungsschutz +2% Rüstung, aber jeder Gegenstand mit dieser Verzauberung kann nur +12% geben, selbst wenn du irgendwie ein Verwüstungsschutz-VIII-Item bekommst. Es gibt jedoch auch eine globale Obergrenze vom Dreifachen der Item-Obergrenze. Trägst du 4 Verwüstungsschutz-VI-Items, erhältst du nur +36% Rüstung."
+			]
+			icon: "minecraft:paper"
+			id: "11DB53435CA1D59E"
+			rewards: [{
+				id: "050336E8ABF73D0D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Verlorene Seite"
+			tasks: [{
+				id: "28690175BDCF5B11"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Statuswert- und Verzauberungskompatibilität"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34AE4F64C6DCC76B"]
+			description: [
+				"Der &eDurchtränkungstisch&r erlaubt es dir, Verzauberungen auf &eHöchststufe zu kombinieren&r. Mit dem Tisch kannst du eine Verzauberung auf Höchststufe an einem Gegenstand um &e1&r erhöhen. Verwendest du zum Beispiel ein &eGlück III&r-Buch, um eine Spitzhacke aufzuwerten, die bereits &eGlück III&r hat, erhältst du eine Spitzhacke mit &eGlück IV&r."
+				""
+				"&oBeachte, dass nicht alle Verzauberungen dieses System unterstützen."
+			]
+			id: "6BA03D598BD6C2AD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 5500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7B45C6A08AC082FC"
+				silent: true
+				title: "5500 Erfahrung"
+				type: "command"
+			}]
+			subtitle: "Crafte einen Durchtränkungstisch"
+			tasks: [{
+				id: "50C250274B0E7598"
+				item: "illagerinvasion:imbuing_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60A18C940B623CDA"]
+			description: ["&eAquamarin&r fällt von &eErtrunkenen, Tintenfischen und Wächtern&r und kann zum Handel mit &eMeeresbewohnern&r verwendet werden! Meeresbewohner sind Meermenschen, die in den &eTiefen des Ozeans&r zu finden sind. Meist findest du sie versammelt in &eUnterwasserdörfern&r."]
+			id: "2A8673F98F14484D"
+			rewards: [
+				{
+					id: "2623FECED1EC26D4"
+					item: {
+						Count: 1
+						id: "seadwellers:depth_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0E5CD2D42DE0C09E"
+					silent: true
+					title: "8000 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Unterseeisches Abenteuer"
+			tasks: [{
+				id: "59C725105DC08072"
+				item: "seadwellers:aquamarine"
+				type: "item"
+			}]
+			title: "Meeresbewohner"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: [
+				"Resistenzen spielen eine wichtige Rolle beim Überleben. Es gibt 3 Elemente: &cFeuer&r, &bKälte&r und &eBlitz&r. Außerdem gibt es die Schadensarten &7Physisch&r und &5Chaos&r."
+				""
+				"&6Elementarschaden&r wird ab diesem Punkt bedeutend, da die meisten Monster eine Form von Elementarschaden haben (entweder von Natur aus oder durch Affixe). Es ist &elebenswichtig&r, dass du deine &6Elementarresistenzen&r pflegst! &5Chaos-Resistenz&r ist ebenfalls entscheidend, wenn auch schwerer zu erhalten."
+				""
+				"Je stärker du wirst, desto stärker werden auch die Monster. &l&cAlle 25 Level sinken deine Resistenzen dauerhaft um 25%!&r&r"
+				""
+				"&eLv. 1-24:&r &b+25% Elementar-/Chaos-Resistenz&r"
+				"&eLv. 25-49:&r +0% Elementar-/Chaos-Resistenz"
+				"&eLv. 50-74:&r &c-25% Elementar-/Chaos-Resistenz&r"
+				"&eLv. 75+:&r &c-50% Elementar-/Chaos-Resistenz&r"
+			]
+			icon: "minecraft:paper"
+			id: "45EA60D4FE6CFFAC"
+			rewards: [
+				{
+					id: "40026BEF380DF951"
+					item: "mmorpg:runes/und"
+					type: "item"
+				}
+				{
+					id: "2CA2591F8F90D243"
+					item: "mmorpg:gems/emerald/3"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1698C3C7A8EAD812"
+					silent: true
+					title: "6000 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Verlorene Seite"
+			tasks: [{
+				id: "3C2F08373F7EA7F7"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Resistenzen"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["360C736C3975B377"]
+			description: ["Versuch dich am Craften deiner eigenen Infusions-Schriftrolle auf höherer Seltenheitsstufe! Stiefel-Infusionen sind besonders mächtig, da du spezielle Statuswerte erhalten kannst, die nur bei Stiefel-Infusionen vorkommen!"]
+			id: "713FE37BCF17FA27"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 7500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "794C0235E593BB75"
+				silent: true
+				title: "7500 Erfahrung"
+				type: "command"
+			}]
+			subtitle: "M\\&S Berufe"
+			tasks: [{
+				id: "3909083DF06CD4CE"
+				item: {
+					Count: 1
+					id: "mmorpg:enchantment/family/armor/rare"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Die Füße Schützen"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"Die &eNaga&r sind fliegende Kreaturen, die überall im &eUndergarden&r zu finden sind."
+				""
+				"Die Naga hat:"
+				"&b+75% Physisch zu Chaosschaden&r"
+				"&b+50% Giftchance&r"
+				"&b+50% Giftschaden&r"
+			]
+			icon: "mowziesmobs:naga_fang"
+			id: "4F6C1721D3A47BFC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 7500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1F0BB657CC303C1D"
+				silent: true
+				title: "7500 Erfahrung"
+				type: "command"
+			}]
+			subtitle: "Der Undergarden"
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: "ftb_ph:naga_mowzie"
+				id: "6D0F50A483937869"
+				type: "kill"
+				value: 4L
+			}]
+			title: "Unter Dem.. Undergarden?"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"&eUmvuthi, der Sonnenvogel&r ist ein großer neutraler Boss-Mob - ein Heliomacer, der als Schöpfer der Abavuthana dient."
+				""
+				"Umvuthi findet man in einem &eTor der Tiefen&r."
+				""
+				"Nähert sich ein Spieler mit einer Umvuthana-Maske, kann dieser Spieler mit Umvuthi handeln."
+				""
+				"&cDer Umvuthi spawnt frühestens auf Level 35.&r"
+				""
+				"Der Umvuthi hat:"
+				"&b+100% Physisch zu Feuerschaden&r"
+				"&b+50% Brandchance&r"
+				"&b+50% Feuerresistenz&r"
+				"&b+50% Blitzresistenz&r"
+				"&a10% Chance auf Und-Rune als Beute&r"
+			]
+			icon: "mowziesmobs:grant_suns_blessing"
+			id: "3242634F49140F5F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "57410F6F9D28BDAF"
+					silent: true
+					title: "10000 Erfahrung"
+					type: "command"
+				}
+				{
+					id: "74337A0D2AD5AE80"
+					item: "handcrafted:golden_thick_pot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Der Undergarden"
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				icon: "ftb_ph:umvuthithesunbird"
+				id: "12AECD7958F2AB3C"
+				title: "Töte: 1x Umvuthi, der Sonnenvogel"
+				type: "advancement"
+			}]
+			title: "Der Sonnenhäuptling"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F6C1721D3A47BFC"]
+			description: [
+				"&eEiserne Wroughtnauts&r stehen zunächst still, die Arme auf ihre Axt gestützt. Nähert sich ein Spieler oder werden sie angegriffen, machen sie sich bereit und greifen an. Außerhalb des Kampfes regenerieren Wroughtnauts ihr Leben schnell."
+				""
+				"&c&lWarnung! Eiserne Wroughtnauts können deinen Schild zerbrechen. Vorsicht ist geboten!&r&r"
+				""
+				"Du findest sie in ihren Arenen überall im Undergarden."
+				""
+				"&cDer Eiserne Wroughtnaut spawnt frühestens auf Level 35.&r"
+				""
+				"Der Eiserne Wroughtnaut hat:"
+				"&b+50% Blutungschance&r"
+				"&b+50% Rüstung&r"
+				"&b+40% Elementarresistenz&r"
+				"&a10% Chance auf Und-Rune als Beute&r"
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:wrought_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3984F3F1D86ADE21"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 11000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "62F5C57610CB66C2"
+					silent: true
+					title: "11000 Erfahrung"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "180E05BD7E85DF3F"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Der Undergarden"
+			tasks: [{
+				id: "74A2D2C74D0310B4"
+				item: {
+					Count: 1
+					id: "mowziesmobs:wrought_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Stählerne Entschlossenheit"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59A29FC72CB20EB7"]
+			description: ["Brauchst du einen kleinen EXP-Schub? Iss doch &eErfahrungsgewinn-Meeresfrüchte&r, die durch Berufe gecraftet werden!"]
+			id: "0E47D45B630AF684"
+			rewards: [
+				{
+					id: "39D6AD6223534A8D"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4A1C2918189AC326"
+					silent: true
+					title: "8500 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Berufe"
+			tasks: [{
+				id: "16B63C712B862DD3"
+				item: {
+					Count: 1
+					id: "mmorpg:seafood/rare_exp"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ein Bisschen Ausgehungert"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"Wolltest du schon immer zurück in die Overworld, um zu erkunden, findest die Levelbereiche dort aber zu niedrig für ein befriedigendes Erlebnis? Bei bestimmten Level-Schwellenwerten \"toben\" vergangene Dimensionen, wodurch sich ihre Levelbereiche erhöhen, damit du zurückkehren und vergangene Dimensionen genießen kannst!"
+				""
+				"&c------------------------------&r"
+				""
+				"&eOverworld&r - Lv. &b50-70&r"
+				"&eNether&r - Lv. &b55-75&r"
+				"&eUndergarden&r - Lv. &b60-80&r"
+				"&eEverbright/Everdawn&r - Lv. &b65-85&r"
+				"&eThe End&r - Lv. &b70-90&r"
+				"&eThe Otherside&r - Lv. &b75-95&r"
+			]
+			icon: "minecraft:paper"
+			id: "45501F3F04639DB1"
+			rewards: [{
+				id: "231B1473E7401DAA"
+				item: "mmorpg:currency/enchant_reroll"
+				type: "item"
+			}]
+			subtitle: "Verlorene Seite"
+			tasks: [{
+				id: "69D1987CC32E4D4C"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Rückwärts Reisen"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"&eTongbi, der Bildhauer&r ist ein mächtiger Geomant-Mob, der im &eKloster&r zu finden ist."
+				""
+				"Tongbi, der Bildhauer, findet man in einem &eTor der Tiefen&r."
+				""
+				"&cTongbi, der Bildhauer, spawnt frühestens auf Level 35.&r"
+				""
+				"Tongbi, der Bildhauer, hat:"
+				"&b+25% Physisch zu Kälteschaden&r"
+				"&b+25% Physisch zu Chaosschaden&r"
+				"&b+40% Kälteresistenz&r"
+				"&b+40% Chaosresistenz&r"
+				"&a10% Chance auf Und-Rune als Beute&r"
+			]
+			id: "5FEC85CF65C29ED6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 10000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3E1B0097332F1A41"
+				silent: true
+				title: "10000 Erfahrung"
+				type: "command"
+			}]
+			subtitle: "Der Undergarden"
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "04AB6B426D446BA9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Der Bildhauer"
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Lv. 25-40"]
+	title: "Akt III"
+}

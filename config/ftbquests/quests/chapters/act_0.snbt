@@ -1,0 +1,991 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "act_0"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:book"
+	id: "44789E48CD607F46"
+	images: [{
+		color: 8026746
+		height: 15.0d
+		image: "watut:textures/particles/book.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 3.0d
+		y: 2.5d
+	}]
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&nWillkommen bei die Federn des Vergessens&r - einem stark angepassten Modpack, das Minecraft in ein Action-RPG verwandelt."
+				""
+				"Das erste Kapitel der Quests, \"Prolog\", soll dir einen Überblick über bestimmte Systeme im Modpack geben, die sich von dem unterscheiden, was du aus den meisten Minecraft-Modpacks gewohnt bist."
+				""
+				"&eSchließe jede \"Seite\" des Prologs ab, indem du auf das Häkchen klickst.&r"
+				""
+				"Weitere Informationen findest du in unserem &9Wiki&r (den Link findest du auch im Hauptmenü)."
+				""
+				"Tritt gerne auch unserem &9Discord&r-Server bei (Link ebenfalls im Hauptmenü), wo wir dir bei Problemen im Spiel helfen können oder du einfach mit uns über das Modpack plaudern kannst!"
+			]
+			icon: "minecraft:writable_book"
+			id: "30403B3DE1E47F33"
+			rewards: [
+				{
+					id: "662E6BDEDAE044A6"
+					item: "sophisticatedbackpacks:iron_backpack"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4E506FC73E0B1EAC"
+					item: "minecraft:bread"
+					title: "Brot"
+					type: "item"
+				}
+			]
+			subtitle: "Inhaltsverzeichnis"
+			tasks: [{
+				id: "77FDE21B75D712EC"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Willkommen bei Die Federn des Vergessens!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624D8CD0A4A6668B"]
+			description: [
+				"DFDV unterstützt Gruppen-Questen und gemeinsames Spiel. &eAlle Team-/Gruppenoptionen sind über das Inventar erreichbar!&r"
+				""
+				"Es gibt 3 verschiedene Befehle für das Gruppenspiel:"
+				""
+				"Die &eMine and Slash&r-Teams ermöglichen es, EXP zu teilen und sich gegenseitig zu heilen/buffen. Zusätzlich siehst du die Werte für Leben/Magieschild deiner Gruppenmitglieder in der Oberfläche!"
+				""
+				"FTB Teams ermöglicht das Teilen des Quest-Fortschritts. FTB Teams hat außerdem ein eigenes Team-Chat-Menü, standardmäßig über - erreichbar."
+				""
+				"Lightman's Teams ermöglicht das Teilen von Geld und Händler-Benachrichtigungen."
+			]
+			icon: "ftbquests:book"
+			id: "48075B2F138A9C2C"
+			rewards: [{
+				id: "7F6AE3A345D1324D"
+				item: "lightmanscurrency:coin_iron"
+				title: "Geld"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Seite 2b"
+			tasks: [{
+				id: "37CC2CFDC34FC657"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Gruppenspiel"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04849611F904771C"]
+			description: [
+				"Dank Mine and Slash verfügt DFDV über ein vollständig angepasstes Level-Fortschrittssystem."
+				""
+				"Töte Monster, um Erfahrung zu sammeln, und erhalte mit jedem Level Statuspunkte. Du kannst diese Punkte im Haupt-Hub verteilen, indem du &e\"H\" drückst&r. Tatsächlich sind die meisten Menüs über dieses Menürad erreichbar!"
+				""
+				"{image:cte2:textures/character_stats.png width:160 height:128 align:1}"
+				""
+				"Deine Charakterwerte können auch auf andere Weise erhöht werden, etwa durch Ausrüstung und Talentpunkte, die wir später behandeln."
+			]
+			icon: "minecraft:book"
+			id: "624D8CD0A4A6668B"
+			rewards: [
+				{
+					id: "5B3178D7FC9CF9B3"
+					item: "mmorpg:potions/reset_points_stat"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 400"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4A429E1B6344E4A4"
+					silent: true
+					title: "400 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Seite 2"
+			tasks: [{
+				id: "352F3C2796BACD2F"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Charakterwerte"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624D8CD0A4A6668B"]
+			description: [
+				"Der &eTalentbaum&r ermöglicht eine zusätzliche Ebene der &eCharakteranpassung&r und befindet sich im Mine and Slash-Hub."
+				""
+				"{image:cte2:textures/talent_tree.png width:160 height:115 align:1}"
+				""
+				"Jedes Level gewährt dir &e1 Talentpunkt.&r Du musst zunächst deine Startposition wählen und kannst dann &ePunkte in Knoten investieren&r, die mit anderen bereits vorhandenen Knoten verbunden sind. Jeder &eKnoten&r bietet &eBoni&r auf Werte und kann in manchen Fällen sogar deinen grundlegenden Spielablauf verändern!"
+			]
+			icon: "minecraft:book"
+			id: "53A5ECD28E7E16E1"
+			rewards: [
+				{
+					id: "7F66934DFD28206B"
+					item: "mmorpg:potions/reset_points_talent"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3BC953334872A751"
+					silent: true
+					title: "200 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Seite 3"
+			tasks: [{
+				id: "07B9CDCDF05CC52E"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Talentbaum"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A5ECD28E7E16E1"]
+			description: [
+				"{image:cte2:textures/gui.png width:160 height:105 align:1}"
+				""
+				"Im Menü &eCharaktere&r kannst du verschiedene Charaktere speichern und laden. Es speichert alle Informationen deines Charakters, außer der Ausrüstung! Du kannst bis zu 3 Charaktere speichern. Neu erstellte Charaktere beginnen auf Level 1, teilen sich aber freigeschaltete Boni wie &eTalent- und Aufstiegspunkte&r."
+				""
+				"Im Menü &eSalvaging&r kannst du schlechte Beute beim Aufheben direkt in nützliche Crafting-Materialien umwandeln."
+				""
+				"Im Menü &eKlassen&r kannst du deinen Charakter spezialisieren. Hier lernst du Fähigkeiten und kannst sie mit Punkten verbessern. In DFDV kannst du dich &ein zwei verschiedenen Klassen&r spezialisieren!"
+				""
+				"Das Menü &eJuwelen&r wird verwendet, sobald du Punkte in Juwelenfassungen im Talentbaum investiert hast. Das Anlegen von Juwelen kann deine Charakterwerte verbessern!"
+				""
+				"Zusätzlich siehst du unten in der Oberfläche (bei den Spitzhacken) deine &eBerufs&r-Level."
+			]
+			icon: "minecraft:book"
+			id: "0C1568D71346C427"
+			rewards: [
+				{
+					count: 4
+					id: "6BA00FC78BAE6C85"
+					item: "lightmanscurrency:coin_iron"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3B10C874A7833200"
+					silent: true
+					title: "200 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Seite 4"
+			tasks: [{
+				id: "60453E7473A695D0"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Der Rest der Oberfläche"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C1568D71346C427"]
+			description: [
+				"In DFDV gibt es 3 \"grundlegende\" Kampfstile. Du kannst entweder ein &4Nahkampf-Krieger&r, ein &9Magiezauberer&r oder ein &2Fernkampf-Bogenschütze&r sein. Dies ist natürlich eine grobe Vereinfachung, da sich jeder Charakter umfangreich anpassen und ausgestalten lässt."
+				""
+				"Möchtest du ein feuerspeiender Krieger sein? Ein nekromantischer Zauberer? Oder vielleicht ein fallenstellender Jäger?"
+				""
+				"DFDV bietet eine Menge in Sachen Charakteranpassung. Hoffentlich findest du den Spielstil, der am besten zu dir passt!"
+			]
+			icon: "minecraft:book"
+			id: "3059FF2D6DB1AC9F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "780B73E925FBD004"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+				{
+					count: 64
+					id: "1B21344DA58F8D97"
+					item: "minecraft:arrow"
+					title: "Pfeile"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3098C9D09E030015"
+					silent: true
+					title: "200 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Seite 5"
+			tasks: [{
+				id: "7EA3FFEFB226B157"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Deine erste Waffe"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3059FF2D6DB1AC9F"]
+			description: [
+				"Der Kampf wurde in Federn des Vergessens überarbeitet. &eWaffen haben Animationen und Kombos&r und besitzen je nach Waffentyp unterschiedliche Eigenschaften."
+				""
+				"Außerdem kannst du &e\"Alt\" drücken, um eine Ausweichrolle&r auszuführen, die eine kurze Abklingzeit hat."
+				""
+				"Vergiss auch deine normalen Angriffe in DFDV nicht! Sie sind im Kampf mächtig und lassen sich mit Fähigkeiten kombinieren."
+			]
+			icon: "minecraft:book"
+			id: "546A9D082F1A2160"
+			rewards: [
+				{
+					id: "4D3BA6D80A06AD15"
+					item: "minecraft:zombie_spawn_egg"
+					title: "Zombie-Spawn-Ei"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "539974DB413EB4B5"
+					silent: true
+					title: "200 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Seite 6"
+			tasks: [{
+				id: "222D99698592B33D"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Kampf"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A39A9996E8D63F4"]
+			description: [
+				"Fähigkeiten benötigen &9Mana&r oder &aEnergie&r und werden im Kampf eingesetzt. Sie können über das Klassen-Menü erlernt und in den &9eckigen&r Feldern der Fähigkeiten-Oberfläche ausgerüstet werden:"
+				""
+				"{image:cte2:textures/skill_gem.png width:140 height:105 align:1}"
+				""
+				"Du kannst Fähigkeiten verändern und verstärken, indem du sie entweder hochstufst oder mit Unterstützungs-Edelsteinen verbindest, die in die &5runden&r Felder kommen. Diese können die &eRessourcenkosten&r und die Stärke der verknüpften Fähigkeit erhöhen."
+				""
+				"Fähigkeiten haben eine maximale Anzahl an Unterstützungs-Edelsteinen, die verknüpft werden können (siehe \"&5Unterstützungsplätze:&r\"). Die Anzahl der Plätze, die eine Fähigkeit haben kann, wird durch das &eLevel der Fähigkeit&r bestimmt, mit maximal 5 Plätzen bei Level 16. &eUm den ersten Platz zu erhalten, muss deine Fähigkeit mindestens Level 4 sein.&r &cDie Anzahl der Plätze wird &lauch&r durch dein &eSpielerlevel&r begrenzt (1 Platz alle 10 Level, beginnend bei Level 1).&r"
+				""
+				"In der &euntersten&r Reihe kannst du Verstärkungs-Edelsteine ausrüsten, die Verstärkungskapazität verbrauchen, um Werte zu liefern. Wie viel Verstärkungskapazität dir noch zur Verfügung steht, siehst du in &drosa&r auf der rechten Seite."
+			]
+			icon: "minecraft:book"
+			id: "22EAD61501470768"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F7B46C685D188ED"
+					table_id: 981191123936022223L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00B6E55860C350A9"
+					table_id: 5889716173591028936L
+					type: "choice"
+				}
+				{
+					id: "0FA3268AB0494B94"
+					item: "mmorpg:potions/reset_points_spell"
+					type: "item"
+				}
+				{
+					id: "104170C66DCC1E67"
+					item: "mmorpg:potions/reset_points_passive"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "555EEACB001F9F25"
+					silent: true
+					title: "200 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Seite 8"
+			tasks: [{
+				id: "703C97D9D47FEB19"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Fähigkeits-, Unterstützungs- und Verstärkungs-Edelsteine"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["546A9D082F1A2160"]
+			description: [
+				"Teste deine neue Klinge und dein neues Wissen im Kampf!"
+				""
+				"&eBeschwöre die Kreatur nicht im Dorf, da der Eiserne Golem deinen Zombie töten könnte! Sei außerdem vorsichtig, ihn bei Tageslicht zu beschwören! Beschwöre ihn lieber in einer Höhle.&r"
+				""
+				"&oAchte darauf, deine Werte vor dem Kampf zu verteilen, da Waffen eine Mindestanforderung an Werten haben!&r"
+			]
+			icon: "minecraft:book"
+			id: "0A39A9996E8D63F4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 700"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1EDA06CB95371D19"
+				silent: true
+				title: "700 Erfahrung"
+				type: "command"
+			}]
+			subtitle: "Seite 7"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				icon: "ftb_ph:zombie"
+				id: "54F60D14EA2C9CC2"
+				title: "Töte 1x Zombie"
+				type: "advancement"
+			}]
+			title: "Erstes Blut"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22EAD61501470768"]
+			description: [
+				"In Minecraft ist &4Leben&r deine Lebenskraft, und wenn sie 0 erreicht, stirbt dein Charakter. In DFDV verlierst du beim &4Tod&r keine Ausrüstung, aber ab Level 50 verlierst du einen ordentlichen Teil deiner Erfahrung."
+				""
+				"Charakterverteidigung lässt sich in 3 Kategorien einteilen: &4Rüstung&r (Platte), &2Ausweichen&r (Leder) und &9Magieschild&r (Stoff), es gibt aber auch Hybridtypen (&8Brigantine&r = &4Rüstung&r/&2Ausweichen&r)."
+				""
+				"Rüstung reduziert erlittenen physischen Schaden, Ausweichen gibt dir eine Chance, einen Angriff komplett zu negieren, und der Magieschild dient als zusätzlicher Lebenspuffer, der sich langsam regeneriert. Diese Werte kannst du hauptsächlich durch Ausrüstung, Statuspunkte und den Talentbaum verbessern."
+				""
+				"Es gibt &eweitere Möglichkeiten, Schaden zu mindern&r, etwa elementare Widerstände, Zauber-Ausweichen und Schadensreduktion. Diese Werte findest du auf Ausrüstung, im Talentbaum und auf Juwelen."
+				""
+				"Es gibt Optionen im Talentbaum, die verändern können, wie deine Verteidigung funktioniert, etwa das Setzen deines Lebens auf 1 bei gleichzeitig großem Bonus auf den Magieschild!"
+				""
+				"&oWenn dir das Aussehen der Rüstung nicht gefällt, kannst du sie mit Cosmetic Armor überdecken!&r"
+			]
+			icon: "minecraft:book"
+			id: "7B22B96E95E5DA09"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D5755216C597FF1"
+					table_id: 8672695084726290362L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FE70BFEB5ED2D52"
+					table_id: 7074154712315855923L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DC2202B09680066"
+					table_id: 8493327020853369464L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D6A4A9389EE9F37"
+					table_id: 5741053327200068691L
+					type: "choice"
+				}
+				{
+					id: "45990E4571B1B2EA"
+					item: "minecraft:skeleton_spawn_egg"
+					title: "Skelett-Spawn-Ei"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4B863DDA4942C800"
+					silent: true
+					title: "250 Erfahrung"
+					type: "command"
+				}
+			]
+			subtitle: "Seite 9"
+			tasks: [{
+				id: "4B40DF289BF860BF"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Rüste dich aus"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: [
+				"Glückwunsch zum Abschluss der Prolog-Questreihe. Mit dem Abschließen dieser letzten Seite kannst du endlich &edeine Reise in Akt I beginnen&r!"
+				""
+				"In DFDV &ekannst du Aufgaben in späteren Quests erledigen, auch wenn du die Voraussetzungen dafür noch nicht erfüllt hast&r. Die Belohnungen kannst du aber erst einlösen, wenn du die Quest tatsächlich erreichst."
+				""
+				"Schau dir unbedingt die &eNebenquests&r an, denn sie enthalten viele sehr nützliche Informationen und stellen dir die anderen im DFDV verwendeten Mods vor. Es gibt zahlreiche Verbindungen zwischen anderen Mods und Mine and Slash, die du über diese Questreihen entdecken kannst!"
+			]
+			icon: "minecraft:writable_book"
+			id: "0CDFB8E5BB59B981"
+			rewards: [
+				{
+					count: 15
+					id: "58E255CF9F588325"
+					item: "lightmanscurrency:coin_iron"
+					title: "Geld"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "513F1792134DC311"
+					silent: true
+					title: "500 Erfahrung"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5786D74604BF83D1"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+			]
+			subtitle: "Anhang"
+			tasks: [{
+				id: "4DE938BD22A26E0A"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Beute. Leveln. Erkunden."
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"Edelsteine und Runen können in Ausrüstung mit freien Fassungen eingesetzt werden. Du kannst mit bestimmten Mine and Slash-Währungen zusätzliche Fassungen hinzufügen."
+				""
+				"&bEdelsteine&r gibt es in mehreren Stufen. Du kannst &ejeweils 3 davon kombinieren, um die nächste Stufe zu erhalten&r. Sobald du ihn in deine Ausrüstung eingesetzt hast (klicke mit dem Edelstein am Cursor auf den Gegenstand), verleiht der Edelstein zusätzliche Werte."
+				""
+				"&cRunen&r können ebenfalls in Ausrüstung eingesetzt werden, um zusätzliche Werte zu erhalten. Wenn du eine bestimmte Kombination von Runen in &egerunte&r Ausrüstung einsetzt, kannst du ein &eRunenwort&r erschaffen, das den Gegenstand mit einem bestimmten Bonus-Set aufwertet! Beachte, dass gerunte Ausrüstung mehr Fassungen haben kann, als für das Runenwort benötigt werden!"
+				""
+				"&eRechtsklicke mit einer Rune in der Hand, um verfügbare Runenworte zu sehen!&r &eRunenworte&r können nur bei Gegenständen der Seltenheit &eGeruned&r erschaffen werden."
+				""
+				"Es ist möglich, Edelsteine und Runen mit einer &eExtraktions-Währungskugel&r wieder aus Gegenständen zu entfernen!"
+			]
+			icon: "ftbquests:book"
+			id: "4C9F8B8F01189196"
+			rewards: [
+				{
+					id: "76247AC0012E1810"
+					item: "mmorpg:gems/azurite/1"
+					title: "Angeschlagener Azurit"
+					type: "item"
+				}
+				{
+					id: "5722F71FCCB83AB8"
+					item: "mmorpg:gems/topaz/1"
+					title: "Angeschlagener Topas"
+					type: "item"
+				}
+				{
+					id: "45878D000E81C7B4"
+					item: "mmorpg:runes/ano"
+					title: "Ano-Rune"
+					type: "item"
+				}
+				{
+					id: "549B167A69E67CFA"
+					item: "mmorpg:currency/extract_gem"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Seite 9c"
+			tasks: [{
+				id: "1DADE93D8FAB373D"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Edelsteine und Runen"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"Teste deine neuen Zauber und deine Rüstung im Kampf!"
+				""
+				"&eBeschwöre die Kreatur nicht im Dorf, da der Eiserne Golem dein Skelett töten könnte! Sei außerdem vorsichtig, es bei Tageslicht zu beschwören! Beschwöre es lieber in einer Höhle.&r"
+			]
+			icon: "minecraft:book"
+			id: "1895A7A94BE0A4B6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "23B96BB571FA8D03"
+				silent: true
+				title: "250 Erfahrung"
+				type: "command"
+			}]
+			subtitle: "Seite 10"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "ftb_ph:skeleton"
+				id: "33E51DA632612F0F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Leichte Beute"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["30403B3DE1E47F33"]
+			description: [
+				"&o\"Kann Geld Glück kaufen?\"&r"
+				""
+				"Nun, in diesem Fall lassen sich mit Geld viele nützliche Werkzeuge und Ressourcen kaufen. Du kannst Geld nutzen, um mit Dorfbewohnern und Händlern aus anderen Mods zu handeln. Natürlich kannst du Geld auch nutzen, um mit anderen Spielern zu handeln, und auf einem Server auch Claim-Blöcke kaufen!"
+				""
+				"Du kannst &eGeld durch das Töten von Monstern oder das Plündern von Kisten verdienen&r. Manchmal kannst du auch Waren bei Händlern für Geld verkaufen."
+				""
+				"Das &eHandelsterminal/Tauschbrett&r ist ebenfalls ein wertvolles Werkzeug, um bestimmte Ressourcen zu erhalten.&r"
+				""
+				"Bewahre dein Geld sicher in der &eGeldbörse&r auf, die du mit dieser Quest erhältst. Später kannst du die Geldbörse aufwerten, damit sie mehr Geld fasst!"
+				""
+				"&eSolltest du dein Geld gegen kleinere Beträge eintauschen müssen, kannst du einen Geldautomaten benutzen.&r"
+			]
+			icon: "minecraft:book"
+			id: "04849611F904771C"
+			rewards: [{
+				id: "409F7C072512843C"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_gold"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				title: "Geldbörse"
+				type: "item"
+			}]
+			subtitle: "Seite 1"
+			tasks: [{
+				id: "33258148F7D6B004"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Geld"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3059FF2D6DB1AC9F"]
+			description: [
+				"In DFDV wirst du viele Ausrüstungsgegenstände craften und finden. Diese &eAusrüstung bietet keinerlei Werte, solange du ihr keine Ausrüstungs-Stat-Seelen hinzufügst&r, die sie im Grunde mit Mine and Slash-Werten aufladen."
+				""
+				"&cAusrüstung ohne Seele hat weder defensiv noch offensiv irgendeine Wirkung!&r"
+				""
+				"Ausrüstungs-Stat-Seelen können auf jeden Ausrüstungsgegenstand mit demselben Typ angewendet werden. Zum Beispiel haben das Aquaculture- und das Farmer's-Delight-Messer beide den Typ \"Dolch\". Wenn du &emit einer Ausrüstungs-Stat-Seele&r auf den Gegenstand klickst, kannst du Mine and Slash-Werte auf die Messer anwenden!"
+				""
+				"Möchtest du mehr darüber erfahren, wie man &eAusrüstungs-Stat-Seelen craftet&r? Schau im Questkapitel &aM\\&S Berufe&r vorbei!"
+			]
+			icon: "ftbquests:book"
+			id: "289350CF47F41D69"
+			rewards: [
+				{
+					id: "5B729B2C8440BDF5"
+					item: {
+						Count: 1
+						id: "aquaculture:wooden_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Hölzernes Filetiermesser"
+					type: "item"
+				}
+				{
+					id: "31743DFDD664B202"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul"
+						tag: {
+							CustomModelData: 15
+							mmorpg_stat_soul: "{\"tier\":0,\"slot\":\"dagger\",\"rar\":\"common\",\"fam\":\"NONE\",\"uniq\":\"\",\"can_sal\":true}"
+						}
+					}
+					title: "Dolch-Stat-Seele"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Seite 5b"
+			tasks: [{
+				id: "1C99B6F792983F96"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Ausrüstungs-Stat-Seelen"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"Schilde (Rüstung), Totems (Ausweichen) und Folianten (Magieschild) sind Zweithand-Gegenstände, die deinen Verteidigungswert erhöhen können."
+				""
+				"Eine Verteidigungsoption im Kampf ist die Fähigkeit zu rollen (Standard: Alt). Diese steht allen zur Verfügung. Wenn du jedoch einen Schild ausrüstest, kannst du ihn auch benutzen, um Schaden zu blocken."
+				""
+				"Schilde verbrauchen &aEnergie&r, während sie hochgehalten werden, und negieren erlittenen Schaden, wenn du in die richtige Richtung schaust."
+				""
+				"Wusstest du, dass der &eSchild eine passive Chance haben kann, Schaden zu negieren&r (ähnlich wie beim Ausweichen)? Blockchance erhältst du durch Ausrüstung oder den Talentbaum, was dir eine &oChance gibt, Schaden zu negieren, selbst wenn du den Schild nicht hochhältst&r!"
+			]
+			icon: "ftbquests:book"
+			id: "119B706F79F22360"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "206EE0F673CCC5EB"
+				table_id: 7401807202655080641L
+				type: "choice"
+			}]
+			shape: "circle"
+			subtitle: "Seite 9b"
+			tasks: [{
+				id: "0662DB198465C67A"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Blocken"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"Wegsteine sind über die Welt verteilt und können nach ihrer Entdeckung über andere Wegsteine, Warp-Schriftrollen oder Warp-Steine als Ziel genutzt werden."
+				""
+				"Wegsteine können zufällig in der Welt spawnen, werden aber &eoft in Dörfern gefunden&r."
+				""
+				"Nutze diesen &eWarp-Stein&r, um bequem zu jedem entdeckten Wegstein zurückzukehren!"
+			]
+			icon: "ftbquests:book"
+			id: "19319F327C09E772"
+			rewards: [{
+				id: "2E41AC8DDD4E46D7"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Seite 10c"
+			tasks: [{
+				id: "302BF9765FDEFFE8"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Wegsteine"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["48075B2F138A9C2C"]
+			description: [
+				"Du kannst ein &eGebiet beanspruchen&r, um es vor unerwünschten Spielern zu schützen. Nutze dafür eine beliebige &eGoldene Hacke&r und mache einen Rechtsklick auf den Boden."
+				""
+				"&oSchau dir für weitere Details die Quest \"&eLandclaiming mit FLAN&r\" im Kapitel &eGemeinsam Anpacken&r an!&r"
+			]
+			icon: "ftbquests:book"
+			id: "31B023681AC62535"
+			rewards: [{
+				id: "13CF773EDFCB3C2E"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"Rechtsklick, um Claim-Punkt zu setzen\",\"color\":\"light_purple\",\"italic\":false}"
+								"{\"text\":\"Klicke separate Ecken deiner Basis/deines Zuhauses an, um den Claim einzurichten\",\"color\":\"green\",\"italic\":false}"
+								"{\"text\":\"Bearbeite Claim-Berechtigungen über den Befehl\",\"color\":\"gold\",\"italic\":false}"
+								"{\"text\":\"/flan menu\",\"color\":\"white\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Claim-Hacke\",\"color\":\"gold\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Seite 2c"
+			tasks: [{
+				id: "5848EBF021C0262E"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Landclaiming"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: ["Auf deinen Reisen findest du &eGeisterorbs&r, die du an &eGöttinnenstatuen&r gegen &cHerzensbehälter&r eintauschen kannst. Jeder Herzensbehälter erhöht dein Grundleben um 2, bis zu einem Maximum von 200 Leben (100 Herzensbehälter). Du kannst &eHerzensbehälter&r auch von Bossen in Federn des Vergessens erhalten."]
+			icon: "minecraft:book"
+			id: "1C852F78D386B77E"
+			rewards: [{
+				id: "605680F58634B88E"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			subtitle: "Seite 11"
+			tasks: [{
+				id: "5C49990F810F10CF"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Herzensbehälter"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: [
+				"Du wirst schon bald merken, dass &eFedern des Vergessens&r jede Menge Beute zum Sammeln bietet. Der Großteil der Beute stammt von &eMine and Slash&r, dem RPG-Mod. Eines der frustrierendsten Dinge ist es, das Inventar organisiert zu halten und genug Platz zum Aufsammeln zu haben."
+				""
+				"Diese &eMeistertasche&r sammelt und speichert speziell Gegenstände aus &eMine and Slash&r und hilft dir, deine Beute zu organisieren. Du kannst die Tasche in einem Curio-Slot tragen und über \"&eAlt + B&r\" darauf zugreifen!"
+				""
+				"Wenn dir die schiere Menge an Beute noch immer zu schaffen macht, könntest du auch die &eAuto-Verwertungs-Funktion&r im Hub nutzen. Mehr dazu erfährst du im &eBerufe-Kapitel&r."
+			]
+			icon: "ftbquests:book"
+			id: "351118C34DCDFEB4"
+			rewards: [{
+				id: "76C1849A7E4A48AC"
+				item: "mmorpg:master_bag"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Seite 11b"
+			tasks: [{
+				id: "6E5BF0F42C1A3C85"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Dein Inventar verwalten"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04849611F904771C"]
+			description: [
+				"&eFedern des Vergessens&r kommt mit &eangepassten Tastenbelegungen&r. Es gab jedoch &cFälle, in denen die angepassten Tastenbelegungen nicht übernommen wurden&r. Du kannst das überprüfen, indem du R drückst. Wenn sich dadurch das Rad öffnet, wurden die angepassten Belegungen nicht übernommen (es sollte H sein)."
+				""
+				"Um das zu beheben, drücke Esc und gehe zu &bOptionen > Steuerung > Tastenbelegung > Tasten zurücksetzen&r."
+			]
+			icon: "ftbquests:book"
+			id: "5CA9B71D52F01485"
+			rewards: [{
+				id: "59679DF2D778DA7F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Seite 1b"
+			tasks: [{
+				id: "6F2223761F2F7200"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Tastenbelegung"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"In DFDV gibt es ein Limit, wie viele Monster innerhalb eines Chunks getötet werden können, bevor sie &caufhören, Beute oder Erfahrung zu geben!&r Der Chunk erholt sich mit der Zeit."
+				""
+				"Dies dient dazu, Reisen und Erkundung zu fördern, anstatt automatisierte Erfahrungsmethoden zu nutzen."
+				""
+				"&oErkunde und entdecke! Es gibt viele Bauwerke und Gefahren zu finden."
+			]
+			icon: "ftbquests:book"
+			id: "151EDFFBB525349E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2CD733C2EAA8C466"
+				silent: true
+				title: "50 Erfahrung"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "Seite 10b"
+			tasks: [{
+				id: "321AFA63AEF2B67B"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Anti-Mob-Farm"
+			x: 3.0d
+			y: 5.0d
+		}
+	{
+    	dependencies: ["30403B3DE1E47F33"]
+    	description: [
+        	"&cDie VR-Unterstützung (Vivecraft) wurde aus diesem Modpack entfernt.&r"
+        	""
+        	"Der Mod hat beim Laden der Welt regelmäßig zu Abstürzen geführt (Konflikt zwischen Vivecrafts Rendering und der Charaktererstellung von Mine and Slash) und wurde deshalb entfernt, um die Stabilität des Packs zu verbessern."
+        	""
+        	"Wer Minecraft mit einem VR-Headset spielen möchte, muss sich Vivecraft manuell selbst nachinstallieren – das ist dann aber nicht mehr offiziell Teil dieses Modpacks und wird nicht unterstützt."
+    	]
+    	icon: "minecraft:barrier"
+    	id: "3FD1760A231D429D"
+    	shape: "circle"
+    	tasks: [{
+        	id: "7A2278B60D17AB84"
+        	title: "Einmal klicken, wenn gelesen"
+        	type: "checkmark"
+    	}]
+    	title: "VR-Unterstützung (entfernt)"
+    	x: 0.0d
+    	y: -1.0d
+	}
+		{
+			dependencies: ["22EAD61501470768"]
+			description: [
+				"{image:cte2:textures/skill_bar.png width:120 height:120 align:center}"
+				""
+				"&eFähigkeiten&r können über &eFähigkeiten-Schnellleiste&r im Hub deiner Schnellzugriffsleiste zugewiesen werden."
+				""
+				"&eDu kannst die Fähigkeiten-Schnellleiste verschieben&r über die &eExile-GUI-Einstellungen&r (unten im Schnellzugriffsrad)."
+			]
+			icon: "ftbquests:book"
+			id: "33E4003EA7B05BA4"
+			rewards: [{
+				count: 5
+				id: "7909F546B1BEADEA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Seite 8b"
+			tasks: [{
+				id: "24E6BC2E8058814E"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Die Zauberleiste"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: ["DFDV enthält jede Menge Informationen, die manchmal etwas über die Kampagne verteilt sein können. Wenn du diese Informationen an einem Ort gesammelt haben möchtest, kannst du das Patchouli-&eAbenteurer-Handbuch&r nutzen!"]
+			icon: "ftbquests:book"
+			id: "7343515F10544FDE"
+			rewards: [{
+				id: "416C4B559784D2D8"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "patchouli:cte2"
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Seite 11c"
+			tasks: [{
+				id: "2D60441D0A153B0F"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "Informationen gesammelt"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0C1568D71346C427"]
+			description: [
+				"Du kannst die meisten Teile deiner Oberfläche über die &eExile-GUI-Einstellungen&r anpassen. Diese Einstellungen erreichst du schnell unten im Schnellzugriffsrad (Standard: H)."
+				""
+				"In den &eExile-GUI-Einstellungen&r kannst du auch weitere Funktionen aktivieren, etwa den &eSchadens-Tracker&r, die Anzeige der Lebensbalken von Gegnern anpassen, &eSchnellplündern&r aktivieren usw."
+			]
+			icon: "ftbquests:book"
+			id: "25A6FD78EFFD11A9"
+			rewards: [{
+				count: 5
+				id: "272B031AC90B147E"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Seite 4b"
+			tasks: [{
+				id: "0C3BCC54BCFE11CC"
+				title: "Einmal klicken, wenn gelesen"
+				type: "checkmark"
+			}]
+			title: "GUI-Anpassungen"
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	title: "Prolog"
+}

@@ -1,0 +1,21 @@
+filename = 'Anti_Mob_Farm-1.20.1-1.3.11.jar'
+name = 'Anti Mob Farm'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Anti_Mob_Farm-1.20.1-v1.3.11'
+
+[download]
+hash = '91ade18d5296ad98db9216379e7fade741950c05'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6209338
+project-id = 398782
+
+[[x-prismlauncher-dependencies]]
+addonId = '398780'
+type = 'REQUIRED'

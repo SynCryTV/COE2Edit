@@ -1,0 +1,18 @@
+filename = 'tooltipscaler-0.1.2.jar'
+name = 'Tooltip Scaler'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tooltipscaler-0.1.2.jar'
+
+[download]
+hash = '2211a97e3e52906ad9e585a55762cd77b1a63ea9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7164893
+project-id = 1374980

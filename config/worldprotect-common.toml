@@ -1,0 +1,24 @@
+
+[integration]
+	#Use WorldEdit wand for selections when WorldEdit is installed
+	useWorldEditWand = true
+
+[global_settings]
+	#Global settings that apply outside of regions
+	#Enable fire spread globally
+	enableFireSpread = true
+	#Enable lava causing fire globally
+	enableLavaFire = true
+	#Enable creeper explosion block damage globally
+	enableCreeperBlockDamage = true
+	#Enable wither block damage globally
+	enableWitherBlockDamage = true
+	#Enable ender dragon block damage globally
+	enableEnderdragonBlockDamage = true
+	#Enable ghast fireball block damage globally
+	enableGhastFireballBlockDamage = true
+	#Enable enderman griefing globally
+	enableEndermanGrief = true
+	#Enable TNT block damage globally
+	enableTntBlockDamage = true
+

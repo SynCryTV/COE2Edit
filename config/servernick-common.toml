@@ -1,0 +1,14 @@
+
+[general]
+	#表示名の最大文字数（カラーコードを除いた見た目の長さ）
+	#Range: 1 ~ 256
+	maxLength = 32
+	#& によるカラー/装飾コード（例: &c, &l）を許可するか
+	allowColorCodes = true
+	#チャットの発言者名を表示名に置き換えるか（全クライアントに反映）
+	overrideChat = true
+	#一般プレイヤーが自分の表示名を /nick で変更できるか。false の場合は OP のみ
+	allowSelfNick = true
+	#表示名の変更/リセット時に、全員のチャットにログを出すか
+	announceChanges = true
+
