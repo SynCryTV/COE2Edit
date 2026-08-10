@@ -1,0 +1,18 @@
+filename = 'constantmusic-forge-1.0.6+mc1.20.2.jar'
+name = 'Constant Music'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Forge 1.20-1.20.2] v1.0.6'
+
+[download]
+hash = '8d4614e0c953f398b46fb4fcda90164b5d8517ac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6953952
+project-id = 949032

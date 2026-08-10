@@ -1,0 +1,21 @@
+filename = 'realmrpg_seadwellers_2.9.9_forge_1.20.1.jar'
+name = 'Realm RPG: Sea Dwellers'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'realmrpg_seadwellers_2.9.9_forge_1.20.1.jar'
+
+[download]
+hash = 'f6d203ddb9590c613f644e163fdc1e6af7f7c36e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5343785
+project-id = 536530
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

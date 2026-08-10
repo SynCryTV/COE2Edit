@@ -1,0 +1,18 @@
+filename = 'Arrow Clean Up-1.0.jar'
+name = 'Arrow Clean Up'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Arrow Clean Up-1.0'
+
+[download]
+hash = 'ea22825b68ebeba6039e4972d52e5d01fd7afe66'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6834270
+project-id = 1318313

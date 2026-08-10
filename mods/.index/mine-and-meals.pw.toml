@@ -1,0 +1,21 @@
+filename = 'mine_and_meals-0.50.jar'
+name = 'Mine and Meals'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mine_and_meals-0.71.jar'
+
+[download]
+hash = '57f7738396cb9c0e9ca94d2273f08dc74f8d5185'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8112479
+project-id = 1164467
+
+[[x-prismlauncher-dependencies]]
+addonId = '306575'
+type = 'REQUIRED'

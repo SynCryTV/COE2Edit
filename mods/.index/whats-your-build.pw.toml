@@ -1,0 +1,21 @@
+filename = "What's your build-forge-1.20.1-0.5.1.jar"
+name = "What's Your Build"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = "What's your build-forge-1.20.1-0.5.1.jar"
+
+[download]
+hash = '09352d880d86a733787cd4fcc789f4b86ff29ced'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7554859
+project-id = 1233310
+
+[[x-prismlauncher-dependencies]]
+addonId = '1164411'
+type = 'REQUIRED'

@@ -1,0 +1,25 @@
+filename = 'RoE_Weapons-0.1.7.jar'
+name = 'Recreation of Exile - Weapons'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'RoE_Weapons-0.1.7'
+
+[download]
+hash = '778e880db315cb3471df0e657b336159d59600f7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6800846
+project-id = 1182717
+
+[[x-prismlauncher-dependencies]]
+addonId = '639842'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1148069'
+type = 'OPTIONAL'

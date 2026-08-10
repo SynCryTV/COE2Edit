@@ -1,0 +1,18 @@
+filename = 'globalxp-forge-1.20.1-1.12.jar'
+name = 'Global XP'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'globalxp-forge-1.20.1-1.12.jar'
+
+[download]
+hash = '4002f17959290ccbe3869707f3d516d151ffb284'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5644158
+project-id = 268647

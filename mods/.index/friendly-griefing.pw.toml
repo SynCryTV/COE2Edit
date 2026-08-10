@@ -1,0 +1,18 @@
+filename = 'FriendlyGriefing-1.20-1.0.2.jar'
+name = 'Friendly Griefing'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FriendlyGriefing-1.20-1.0.2.jar'
+
+[download]
+hash = '36f3ff362f86ca145e95c4b67c152cf6a022223e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4594849
+project-id = 630841

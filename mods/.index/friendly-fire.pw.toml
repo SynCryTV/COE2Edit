@@ -1,0 +1,21 @@
+filename = 'FriendlyFire-Forge-1.20.1-18.0.8.jar'
+name = 'Friendly Fire'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'FriendlyFire-Forge-1.20.1-18.0.8.jar'
+
+[download]
+hash = 'a0dea1efe9d3c967b18e7e518834241516192fa7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7612645
+project-id = 255105
+
+[[x-prismlauncher-dependencies]]
+addonId = '228525'
+type = 'REQUIRED'

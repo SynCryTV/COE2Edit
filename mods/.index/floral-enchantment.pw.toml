@@ -1,0 +1,18 @@
+filename = 'Floral Enchantment-1.20.1-1.4.3.jar'
+name = 'Floral Enchantment'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Floral Enchantment-1.20.1-1.4.3'
+
+[download]
+hash = '1240842bdc7f4e8a27a75f662c8b66f6ae7f535d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4624775
+project-id = 511569

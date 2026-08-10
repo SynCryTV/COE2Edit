@@ -1,0 +1,13 @@
+name = "RPG Auction House"
+filename = "rpgwarehouse-auction-house-forge-1.20.1-1.0.3-b134.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1b9b742f03acce3098ab8ee83c918bd50848a0b8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8470071
+project-id = 1560785
