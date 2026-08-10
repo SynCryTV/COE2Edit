@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".nojekyll"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/ArrowCleanUp.toml"
 hash = "4f111f199bde0c66063123f0a87e0b2a50dd01fa36c737766f64365b77d9a105"
 
@@ -33748,6 +33752,11 @@ metafile = true
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "f131905d113ba9dd127abf3c9f897aaf4ecf59657c415752533893d44cb584df"
+metafile = true
+
+[[files]]
+file = "mods/aether.pw.toml"
+hash = "6f87edf40bf0be7e7e266f9e2ff0bf7584c6bedff7975bad3259a21a60d1e598"
 metafile = true
 
 [[files]]
