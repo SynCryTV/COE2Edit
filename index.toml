@@ -35581,6 +35581,11 @@ hash = "8c0f90cd74546f9d70e85d43b8deecea5e2d6480de3781822039f95124ee78cc"
 metafile = true
 
 [[files]]
+file = "mods/time-control.pw.toml"
+hash = "0c8243213ccc212ee1080704ae35fde4078f9be34695d152126fdb4226a64735"
+metafile = true
+
+[[files]]
 file = "mods/tips.pw.toml"
 hash = "1200df8e3cd3d1214d9870c54408feb058cf7fda8371139ef02ef3fc89fac078"
 metafile = true
