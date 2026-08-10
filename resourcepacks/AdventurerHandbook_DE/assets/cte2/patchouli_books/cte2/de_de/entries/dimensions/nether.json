@@ -1,0 +1,46 @@
+{
+    "name": "Nether",
+    "icon": "minecraft:magma_block",
+    "category": "patchouli:dimensions",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&lDimension:&r&r    &n&lNether&r
+&n&6&lGebietsstufe:&r&r    &n10 - 30 &r&r
+&n&6&lErzürnte Gebietsstufe:&r &n55 - 75&r
+&n&6&lAusnahmen:&r  &nKeine&r
+&n&6&lAbgedeckte Quests:&r  &nAkt II;&r
+&n&6&lDimensionstore:&r  &nAkt-II-Tor;
+&n&6&lDimensionsbosse:&r &nWarped Mosco, Wildfire, Mother Lava Squid, Wither, Awful Ghast, Nether Keeper&r "
+		},
+		{
+            "type": "patchouli:text",
+            "text": "Eine Dimension, die für gewöhnlich als 'Hölle' beschrieben wird. Wäre wortwörtlich ein ziemlich heißer Urlaubsort. Die Dimension ist voller Lava und schwer zu durchqueren, daher wird dringend empfohlen, sich irgendeine Form von Feuerresistenz zu besorgen. Auch ein Gleitschirm wäre hier von großem Nutzen. Die Dimension weist eine seltsame magnetische Störung auf, wodurch manche Bauwerke wie das Keeping Castle oder der Awful Dungeon mit einem Strukturkompass nicht auffindbar sind. Manche Abenteurer vermuten jedoch, dass diese einem helfen können, aufzusteigen."
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Zugang zum Nether",
+  "item": "minecraft:obsidian,minecraft:flint_and_steel,minecraft:fire_charge",
+  "text": "Wenn du in diese Dimension gelangen möchtest, brauchst du&n&l mindestens 10 Obsidianblöcke und eine Feuerquelle wie Feuerzeug oder Feuerkugel, um die Mitte des Rahmens zu entzünden&r.
+  &oEckblöcke sind komplett optional, würden aber &2+5 auf den Ästhetik&r-Wert geben, falls es diesen gäbe" 
+		},
+		{
+            "type": "patchouli:multiblock",
+			"name":"Nether-Portal",
+			"text": "Klicke auf das Augen-Symbol, um das Portal im Spiel anzuzeigen",
+            "multiblock": {
+    "pattern": [
+        [ "SOOS"],
+        [ "O  O"],
+        [ "O  O"],
+        [ "O 0O"],
+        [ "SOOS"]
+    ],
+    "mapping": {
+        "O": "minecraft:obsidian",
+		"S": "#minecraft:mineable/pickaxe"
+    }
+}
+		}
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Undergarden",
+    "icon": "undergarden:catalyst",
+    "category": "patchouli:dimensions",
+	"sortnum":2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&lDimension:&r&r    &n&lUndergarden&r
+&n&6&lGebietsstufe:&r&r    &n25 - 40 &r&r
+&n&6&lErzürnte Gebietsstufe:&r &n60 - 80&r
+&n&6&lAusnahmen:&r  &nKeine&r
+&n&6&lAbgedeckte Quests:&r  &nAkt III;&r
+&n&6&lDimensionstore:&r  &nAkt-III-Tor;
+&n&6&lDimensionsbosse:&r &nFerrous Wroughtnaut; Umvuthi, the Sunbird; Tongbi, the Sculptor; Forgotten Guardian; Eel &r "
+		},
+		{
+            "type": "patchouli:text",
+            "text": " Eine Dimension, die genauso nass und feucht ist wie die Sümpfe der Oberwelt, sich aber beengender und ekliger anfühlt.$(br) Die Kreaturen hier scheinen eine Art mutierter, verrottender Bestien zu sein, nachdem sie von einer bösartigen Flüssigkeit befallen wurden, die bei Berührung brennt. Ich konnte Spuren gewaltiger Ritter und Wächter finden, die jeweils ihr eigenes Bauwerk haben.$(br) Es scheint außerdem einen Kult seltsamer maskierter Kreaturen zu geben, die eine gewisse Resistenz gegen Magieschaden besitzen, also sollten Reisende in ihrer Nähe vorsichtig sein."
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Zugang zum Undergarden",
+  "item": "undergarden:catalyst,minecraft:stone_bricks",
+  "text": "Wenn du in diese Dimension gelangen möchtest, brauchst du&n&l mindestens 10 Steinziegel und einen Katalysator, der aus einem Netherstern hergestellt wird (Rezept in EMI/JEI prüfen)&r.
+  &oEckblöcke sind komplett optional, würden aber &2+5 auf den Ästhetik&r-Wert geben, falls es diesen gäbe" 
+		},
+		{
+            "type": "patchouli:multiblock",
+			"name":"Undergarden-Portal",
+			"text": "Klicke auf das Augen-Symbol, um das Portal im Spiel anzuzeigen",
+            "multiblock": {
+    "pattern": [
+        [ "SOOS"],
+        [ "O  O"],
+        [ "O  O"],
+        [ "O 0O"],
+        [ "SOOS"]
+    ],
+    "mapping": {
+        "O": "minecraft:stone_bricks",
+		"S": "#minecraft:mineable/pickaxe"
+    }
+}
+		}
+    ]
+}

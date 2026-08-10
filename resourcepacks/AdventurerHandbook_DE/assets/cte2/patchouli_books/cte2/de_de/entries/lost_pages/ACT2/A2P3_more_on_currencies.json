@@ -1,0 +1,18 @@
+{
+    "name": "Mehr über Währungen",
+    "icon": "mmorpg:currency/affix_tier_up_down",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":10,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 68EB4F5B367C3C47)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&r&eWährungen&r sind verschiedene Gegenstände, die direkt auf deine Ausrüstung angewendet werden können. Sie verändern deine Ausrüstung und stärken sie.
+
+Jedes Ausrüstungsteil hat eine festgelegte Menge an &ePotential&r. Die Anwendung einer Währung auf die Ausrüstung verringert ihr &ePotential&r. Sobald das Potential 0 erreicht hat, können Währungen mit Potential-Kosten nicht mehr darauf angewendet werden. 
+"},
+{            "type": "patchouli:spotlight",
+            "text": "Nicht alle Währungen verbrauchen jedoch Potential und können jederzeit verwendet werden. Bestimmte Währungen, wie der &eOrb of Chaos,&r können sehr mächtige Effekte hinzufügen, aber auch negative Auswirkungen auf deine Ausrüstung haben. &cBeim Orb of Chaos besteht eine 25%ige Chance, dass sich dein Gegenstand in Kohle verwandelt&r.",
+			"item": "mmorpg:currency/chaos_orb"
+		}
+    ]
+}

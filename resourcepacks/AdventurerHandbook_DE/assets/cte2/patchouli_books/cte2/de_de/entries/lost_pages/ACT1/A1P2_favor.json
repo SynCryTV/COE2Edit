@@ -1,0 +1,16 @@
+{
+    "name": "Gunst",
+    "icon": "mmorpg:skill_gems/skill/int",
+    "category":"patchouli:A1lost_pages",
+	"sortnum":1,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 0B7C635945E7F3AA)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rGunst ist ein System, das Spieler fürs Leben belohnt. Jede Minute generierst du eine kleine Menge Gunst. &eGunst hat ein weiches Limit bei 1000&r. Du kannst dieses Limit jedoch überschreiten, indem du Truhen öffnest.Ab 250+ Gunst erhältst du einen 2%-Bonus auf Beute-Drops. Je höher deine Gunst, desto größer wird dieser Bonus.Beim &eMaximum von 2500&r 
+"},
+		{
+            "type": "patchouli:text",
+            "text": "hast du einen 25%-Bonus auf Beute und Erfahrung! Beachte, dass es Levelanforderungen gibt, damit bestimmte Seltenheitsstufen überhaupt erscheinen:$(br)&dEpisch&r: 10+$(br)&4Legendär&r: 25+$(br)&5Mythisch&r: 50+$(br)Sei aber vorsichtig, &cdurch Sterben verlierst du 500 Gunst!&r"
+		}
+    ]
+}

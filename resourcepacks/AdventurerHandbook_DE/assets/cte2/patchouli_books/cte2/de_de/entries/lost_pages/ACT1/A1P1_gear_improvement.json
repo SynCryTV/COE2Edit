@@ -1,0 +1,16 @@
+{
+    "name": "Ausrüstungsverbesserung",
+    "icon": "mmorpg:currency/harvest_essence_4",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 6A8C03172A7F61C3)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rIm Laufe deiner Reise wirst du ständig nach stärkerer Ausrüstung suchen. Die Stärke von Ausrüstung lässt sich auf 3 Arten einschätzen:1. Das &eLevel&r der Ausrüstung, das die Stärke ihrer Werte bestimmt. Das Ausrüstungslevel wird in der Regel vom Level des getöteten Monsters bestimmt.2. Die &eSeltenheit&r der Ausrüstung, die bestimmt, wie viele und wie hohe Werte gewürfelt werden können, und wie viele Sockel sie haben kann."},
+{            "type": "patchouli:text",
+            "text": "Im Laufe deiner Reise wirst du ständig nach stärkerer Ausrüstung suchen. Die Stärke von Ausrüstung lässt sich auf 3 Arten einschätzen:Es gibt 7 droppbare Seltenheitsstufen: &7Gewöhnlich&r, &aUngewöhnlich&r, &9Selten&r, &dEpisch&r, &4Legendär&r, &5Mythisch&r und &cEinzigartig&r. Einzigartige Ausrüstung ist besonders, da ihre Werte vorbestimmt sind. Sie ist mächtig und kann manchmal spezielle Spielstile ermöglichen.3. Die &eQualität&r der Ausrüstung, die die Stärke zusätzlich leicht erhöht."
+		},{            "type": "patchouli:text",
+            "text": "Manche dieser Eigenschaften lassen sich durch Mine-and-Slash-&eWährungen&r verändern, z. B. durch die Orb of Infinity, die das Level eines Ausrüstungsgegenstands erhöhen kann. Zusätzlich können manche Währungen über das Mine-and-Slash-Berufssystem hergestellt werden, um deine Ausrüstung weiter zu verbessern."
+		}
+    ]
+}

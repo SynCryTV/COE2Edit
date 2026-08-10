@@ -1,0 +1,19 @@
+{
+    "name": "Kopfgeldjagd",
+    "icon": "minecraft:iron_sword",
+    "category": "patchouli:professions",
+	"sortnum":19,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&eKopfgeldjagd&r ist ein Mine-and-Slash-Beruf, der levelt, während du Bountiful-Kopfgelder abschließt. Schließe Kopfgelder ab, um Kopfgeldjagd-Erfahrung und &eKopfgeldscheine&r zu verdienen!"
+},{            "type": "patchouli:text",
+            "text": "&eKopfgeldtafeln&r generieren &ezufällige Kopfgelder&r zum Abschließen. Nimm eine &eAnfrage&r aus der Oberfläche der Tafel an und schließe sie innerhalb des &eZeitlimits&r ab, um die gelisteten Belohnungen zu erhalten. Während du Kopfgelder abschließt, steigt dein &eRuf&r (gebunden an diesen Kopfgeldtafel-Block), wodurch sich die Stufe der Belohnungen erhöht. Verstärkte Kopfgeldscheine erscheinen ab 45 Ruf!"
+},{            "type": "patchouli:text",
+            "text": "Während du deine Kopfgeldjagd levelst, erhältst du Zugriff auf weitere käufliche Belohnungen im &eBerufs-Shop&r. Gegenstände in diesem Shop können mit &eKopfgeldscheinen&r gekauft werden! Der Shop ist über die &eStandardtaste: P, oder das Menürad&r erreichbar.
+
+Stelle &eDekrete&r her, um der Tafel neue Questarten zu geben, die je nach Dekrettyp zufällig bestimmt werden."
+},{            "type": "patchouli:text",
+            "text": "Durch Kopfgeldjagd kannst du &egestuftes Fleisch&r (&7Spirituell&r, &aHimmlisch&r, &9Empyreisch&r, &dEngelhaft&r, &6Göttlich&r und &5Gottgleich&r) erhalten, das beim Kochen verwendet wird."}
+    ]
+}

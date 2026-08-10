@@ -1,0 +1,16 @@
+{
+    "name": "Spice of Life: Onion Edition",
+    "icon": "solonion:lunchbag",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":2,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 4AF5F24C4B770EA5)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rFällt dir das Überleben schwer?$(2br)&eSpice of Life: Onion Edition &rgibt jedem Nahrungsmittel einen &e'Vielfalts'&r-Faktor. Abwechslungsreiches Essen bringt dir &eVorteile,&r während das Beschränken auf wenige Nahrungsmittel das nicht tut. &eSchau in dein Food Book in deinem MineMenu (Standard: H)&r, um deine Vielfalt und aktuelle Vorteile zu überprüfen.
+"},
+		{
+            "type": "patchouli:text",
+            "text": " &eIss weiterhin verschiedene Nahrungsmittel, um deine Gesundheit, Blockreichweite, Bewegungsgeschwindigkeit und mehr zu erhöhen!&rDie &eLunchbag&r kann hergestellt und aufgewertet werden, um &eall dein Essen&r gleichzeitig zu speichern – dazu &eShift + Rechtsklick&r mit ihr in der Hand ausführen, und Rechtsklick zum Essen damit."
+		}
+    ]
+}

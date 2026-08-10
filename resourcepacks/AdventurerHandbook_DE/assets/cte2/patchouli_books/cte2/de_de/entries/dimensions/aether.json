@@ -1,0 +1,45 @@
+{
+    "name": "Aether",
+    "icon": "aether:aether_portal",
+    "category": "patchouli:dimensions",
+	"sortnum":7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&lDimension:&r&r    &n&lAether&r
+&n&6&lGebietsstufe:&r&r    &nTODO&r
+&n&6&lErzürnte Gebietsstufe:&r &nTODO&r
+&n&6&lAusnahmen:&r  &nKeine&r
+&n&6&lAbgedeckte Quests:&r  &nTODO&r
+&n&6&lDimensionstore:&r  &nTODO&r
+&n&6&lDimensionsbosse:&r &nSlider; Valkyrie-Königin; Sun Spirit &r "
+		},
+		{
+            "type": "patchouli:text",
+            "text": " Eine Dimension hoch über den Wolken, voller schwebender Inseln und Himmelsländer. Hier herrscht ewiger Tag – zumindest so lange, bis du den letzten Dungeon bezwungen hast.$(br) Der Aether beherbergt drei gefährliche Dungeons, jeder mit einem eigenen Boss und wertvoller Beute: den Bronze-Dungeon mit dem &n&lSlider&r, den Silber-Dungeon (Valkyrie-Tempel) mit der &n&lValkyrie-Königin&r und den seltenen Gold-Dungeon mit dem &n&lSun Spirit&r.$(br) Zusätzlich findest du hier neue Erze, eigene Werkzeug- und Rüstungsmaterialien (Skyroot, Holystone, Zanite, Gravitite) sowie Moas als fliegende Reittiere."
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Zugang zum Aether",
+  "item": "minecraft:glowstone,minecraft:water_bucket",
+  "text": "Um in diese Dimension zu gelangen, musst du einen Portalrahmen aus &n&lGlowstone&r bauen und ihn mit einem &n&lWassereimer&r in der Mitte aktivieren." 
+		},
+		{
+            "type": "patchouli:multiblock",
+			"name":"Aether-Portal",
+			"text": "Klicke auf das Augen-Symbol, um das Portal im Spiel anzuzeigen",
+            "multiblock": {
+    "pattern": [
+        [ "SOOS"],
+        [ "O  O"],
+        [ "O  O"],
+        [ "O 0O"],
+        [ "SOOS"]
+    ],
+    "mapping": {
+        "O": "minecraft:glowstone",
+		"S": "#minecraft:mineable/pickaxe"
+    }
+}
+		}
+    ]
+}

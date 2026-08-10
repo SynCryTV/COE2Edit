@@ -1,0 +1,24 @@
+{
+    "name": "Bergbau",
+    "icon": "minecraft:iron_pickaxe",
+    "category": "patchouli:professions",
+	"sortnum":19,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(br)Der Abbau jeglicher Erzarten gibt dir Bergbau-Erfahrung. Du erhältst jedoch nur die volle Erfahrungsmenge von Erzen, die deinem Bergbau-Level entsprechen:$(2br)&cDas heißt nicht, dass du keine Erfahrung von Gegenständen außerhalb deines Levelbereichs erhältst, nur weniger.&r"
+},{            "type": "patchouli:text",
+            "text": "$(2br)&eLv. 1-20&r (&7Tier 0&r): Kohle, Eisen, Kupfer
+&eLv. 21-40&r (&aTier 1&r): Redstone, Lapislazuli, Gold, Quarz, Smaragd
+&eLv. 41-60&r (&9Tier 2&r): Cloggrum, Diamant, Froststeel, Utherium
+&eLv. 61-80&r (&dTier 3&r): Regalium, Moonstone, Pyrope, Aquite
+&eLv. 81-100&r (&6Tier 4&r): Falsite, Ventium, Horizonite
+&eLv. 100&r (&5Tier 5&r): Charoite, Diopside"
+},{            "type": "patchouli:text",
+            "text": "
+
+Beim Abbauen findest du &egestufte Erze&r (&7Spirituell&r, &aHimmlisch&r, &9Empyreisch&r, &dEngelhaft&r, &6Göttlich&r und &5Gottgleich&r), die je nach deinem Level und dem Levelbereich des abgebauten Erzes mit einer gewissen Chance droppen. Dieses Erz kann in anderen Berufen verwendet werden."
+},{            "type": "patchouli:text",
+            "text": ""}
+    ]
+}

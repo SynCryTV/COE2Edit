@@ -1,0 +1,30 @@
+{
+    "name": "Dungeon-Dimension",
+    "icon": "dungeon_realm:map_device",
+    "category": "patchouli:dimensions",
+	"sortnum":6,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&lDimension:&r&r  &n&lDungeons&r
+&n&6&lGebietsstufe:&r&r  &n&lSkaliert auf Spieler &r&r
+$(br) Dungeon-Dimensionen funktionieren anders als alle anderen Dimensionen, die du kennst. Du kannst hier keine Blöcke abbauen oder platzieren. Um Zugang zu dieser Dimension zu erhalten, musst du eine bestimmte &n&l&6Karte&r an einem dafür vorgesehenen &n&l&6Kartengerät&r verwenden, um in zufällig generierte Dungeons voller Monster und Beute zu gelangen."
+		},
+		{
+            "type": "patchouli:spotlight",
+			"title":"Harvest",
+  "item": "the_harvest:harvest,the_harvest:harvest_map",
+  "text": "Harvests sind eine Art Dungeon-Dimension, die eine einzelne zufällige Arena generiert, in der ständig Monster von Harvest-Spawnern mit festgelegtem Timer erscheinen. Diese Monster droppen insbesondere Crafting-Materialien, die zum Herstellen spezieller Crafting-Währungen verwendet werden." 
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Obelisk",
+  "item": "ancient_obelisks:obelisk,ancient_obelisks:obelisk_map",
+  "text": "Obelisken sind eine Art Dungeon-Dimension, die eine einzelne zufällige Arena generiert, in der Gegner in Wellen mit zufälligen Modifikatoren erscheinen. Die Obelisk-Karten können mit Währungen aus dem Mod verändert werden, um Schwierigkeit und Belohnungen erheblich zu steigern. Sei auf eine Herausforderung vorbereitet, falls du dich traust." 
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Kartengerät",
+  "item": "dungeon_realm:dungeon_map,dungeon_realm:map_device",
+  "text": "Karten sind eine Art Dungeon-Dimension, die zufällig zusammengesetzte Räume voller Gegner und Beute generieren. Dies ist der primäre Endgame-Mechanismus für CTE2." 
+		}
+    ]
+}

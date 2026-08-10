@@ -1,0 +1,41 @@
+{
+    "name": "Das Ende",
+    "icon": "minecraft:end_portal_frame",
+    "category": "patchouli:dimensions",
+	"sortnum":4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&lDimension:&r&r    &n&lDas Ende&r
+&n&6&lGebietsstufe:&r&r    &n50 - 65 &r&r
+&n&6&lErzürnte Gebietsstufe:&r &n70 - 90&r
+&n&6&lAusnahmen:&r  &nKeine&r
+&n&6&lAbgedeckte Quests:&r  &nAkt V;&r
+&n&6&lDimensionstore:&r  &nAkt-V-Tor;
+&n&6&lDimensionsbosse:&r &nEnderdrache; Void Worm; Shelterer  &r "
+		},
+		{
+            "type": "patchouli:text",
+            "text": " Eine Dimension, die aussieht wie das Ende von allem, was existiert. Nur eine zerbrochene Ebene aus schwebenden Inseln in völligem Nichts.$(br) Die Hauptinsel scheint vom Enderdrachen bewacht zu werden, der eine einfache Flucht verhindert. Tötet man den Drachen, öffnen sich zwei Wege: ein Portal nach Hause und ein Portal tiefer in die Leere, um weitere Inseln zu erkunden."
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Zugang zum Ende",
+  "item": "minecraft:ender_eye",
+  "text": "Wenn du in diese Dimension gelangen möchtest, brauchst du&n&l insgesamt 12 Enderaugen, die in den Portalrahmen in einer Festung eingesetzt werden müssen.&r$(2br)Manchmal findest du ein Portal, in das bereits einige Augen aus früheren Versuchen eingesetzt wurden." 
+		},
+		{
+            "type": "patchouli:multiblock",
+			"name":"End-Portal",
+			"text": "Dieses Portal kann im Überlebensmodus nicht gebaut werden, du kannst nur eines finden und Augen in die Fassungen einsetzen, um es zu aktivieren",
+            "multiblock": {
+    "pattern": [
+        [ "SOOOS","O   O","O 0 O","O   O","SOOOS"]
+    ],
+    "mapping": {
+        "O": "minecraft:end_portal_frame",
+		"S": "minecraft:air"
+    }
+}
+		}
+    ]
+}

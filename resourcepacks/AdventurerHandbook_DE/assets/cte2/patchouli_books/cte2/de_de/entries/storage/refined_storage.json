@@ -1,0 +1,75 @@
+{
+    "name": "Refined Storage",
+    "icon": "refinedstorage:controller",
+    "category": "patchouli:storage",
+	"sortnum":3,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"title":"Refined Storage",
+  "item": "refinedstorage:controller",
+  "text": "&eRefined Storage&r ist die beste Methode für Item-Lagerung, Filterung und Massenherstellung. Geräte innerhalb des Speichernetzwerks verwalten deine Gegenstände, die auf Disks gespeichert sind. 
+" 
+		},
+		{
+            "type": "patchouli:text",
+			"text": "Der &eController&r ist das Herzstück des Speichernetzwerks. Alle anderen Refined-Storage-Blöcke müssen sich in seiner Nähe befinden oder über Kabel mit ihm verbunden sein, um sich anzuschließen. Er benötigt &eForge Energy&r für den Betrieb (nur für komplexe Vorgänge), die ausschließlich über &eBotanias Mana Fluxfield&r gewonnen werden kann."
+},{
+            "type": "patchouli:spotlight",
+			"title":"Grundlegender Aufbau",
+  "item": "refinedstorage:disk_drive,refinedstorage:grid,refinedstorage:crafting_grid,refinedstorage:fluid_grid,refinedstorage:64k_fluid_storage_disk,refinedstorage:1k_storage_disk",
+  "text": "Das &eDisk Drive&r enthält &eDisks,&r wobei jede Disk das Inventarlimit des Netzwerks erhöht. Höhere Stufen sind teurer und dauern länger in der Herstellung, können aber mehr Gegenstände speichern.
+Das &eGrid&r ist die grundlegende Methode, um mit den Gegenständen im Netzwerk zu interagieren. Es lässt dich &eGegenstände aus dem Netzwerk entnehmen oder einfügen&r. Das Crafting Grid ist ein Upgrade davon und ermöglicht 
+" 
+		},
+		{
+            "type": "patchouli:text",
+			"text": "das Herstellen aus allen Gegenständen im Grid. JEI kann Gegenstände aus dem Grid entnehmen.
+&eFlüssigkeitslagerung&r benötigt spezialisierte Versionen von beiden, um Flüssigkeiten im Netzwerk zu speichern.
+Jeder Refined-Storage-Block hat eine einstellbare Priorität, von der das Netzwerk zuerst Gegenstände entnimmt oder erhält.
+
+&l&nEin grundlegendes Speichersystem (&eController, Disk Drive und ein beliebiges Grid&r&l&n) verbraucht 0 Energie im Betrieb!"
+},{
+            "type": "patchouli:spotlight",
+			"title":"Grundlegende Item-Verwaltung",
+  "item": "refinedstorage:exporter,refinedstorage:importer,refinedstorage:interface,botania:mana_fluxfield",
+  "text": "Wenn du Gegenstände &eaus&r deinem Speichernetzwerk holen möchtest, verwende einen &eExporter&r und verbinde ihn mit einem Inventar, in das exportiert werden soll.
+
+Wenn du Gegenstände &ein&r dein Speichernetzwerk bringen möchtest, verwende einen &eImporter&r und verbinde ihn mit einem Inventar, aus dem importiert werden soll." 
+		},{
+            "type": "patchouli:text",
+			"title":"",
+  "text": "Willst du das Beste aus beiden Welten? Nutze ein &eInterface&r, um Import- und Exportfunktionalität in einem Block zu vereinen. Um Blöcke aus deinem Speichernetzwerk &ein der Welt zu platzieren&r, verwende einen &eConstructor.&r
+Um Blöcke &eaus der Welt abzubauen und einzulagern&r, verwende einen &eDestructor.&r
+Das &eMana Fluxfield&r wandelt Botania-Mana in FE für die Item-Verwaltung von Refined Storage um!
+Jeder Block kann mit Filtern versehen werden.
+" 
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Kompatibilität",
+  "item": "refinedstorage:external_storage",
+  "text": "Der &eExternal Storage&r ermöglicht es dir, &eRefined Storage&r mit externen Speicherblöcken zu verbinden, wie etwa Blöcken aus &eSophisticated Storage&r! Funktioniert hervorragend in Kombination mit einem Sophisticated-Storage-Netzwerk aus Limited Barrels." 
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Erweiterte Lagerung",
+  "item": "refinedstorage:storage_monitor,refinedstorage:pattern_grid,refinedstorage:crafter",
+  "text": "Der &eStorage Monitor&r lässt dich einen Gegenstand aus dem Netzwerk auswählen, um anzuzeigen, wie viele davon noch übrig sind. Das &ePattern Grid&r ermöglicht automatisches Craften innerhalb des Netzwerks. Jeder Teilgegenstand eines Rezepts benötigt sein eigenes Muster. Der &eCrafter&r ist der Ort, an dem die Muster gespeichert werden und das Craften stattfindet." 
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Fernbeziehung",
+  "item": "refinedstorage:network_transmitter,refinedstorage:network_card,refinedstorage:network_receiver",
+  "text": "Damit kannst du &eaus der Ferne&r auf das Inventar eines Netzwerks &ezugreifen&r.
+Stelle zunächst einen &eNetwork Transmitter&r her und verbinde ihn mit deinem Refined-Storage-System in deiner Hauptbasis.
+Als Nächstes stelle eine &eNetwork Card&r her.
+Nachdem du die Network Card hergestellt hast, stelle einen &eNetwork Receiver&r her und platziere ihn in dem weit entfernten Bereich." 
+		},
+		{
+            "type": "patchouli:text",
+			"text": "
+Nimm die Network Card und &eklicke mit Rechtsklick&r auf den Network Receiver.
+Setze die Network Card in den Network Transmitter ein, damit der Network Transmitter weiß, wohin er &eein Signal senden&r soll.
+Und das war's schon. Verbinde einfach &eMaschinen&r mit deinem Network Receiver gemäß den normalen Regeln zum Verbinden von Maschinen.
+Der Transmitter muss &echunkgeladen&r sein, bevor er mit dem Netzwerk verbunden wird."
+}
+]
+}

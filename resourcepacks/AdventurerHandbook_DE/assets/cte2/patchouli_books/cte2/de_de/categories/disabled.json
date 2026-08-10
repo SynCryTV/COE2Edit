@@ -1,0 +1,5 @@
+{
+    "name":"Deaktivierte Rezepte",
+    "description": "Liste der meisten deaktivierten Gegenstände.$(br) Manche dieser Gegenstände sind weiterhin erhältlich, aber nicht craftbar. $(br)z.B. Terrablade (Botania) ist über einen speziellen einzigartigen Drop erhältlich usw...$(2br) Verfügbarkeit immer mit JEI/EMI gegenprüfen",
+    "icon": "minecraft:barrier"
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Everdawn",
+    "icon": "blue_skies:everdawn_portal",
+    "category": "patchouli:dimensions",
+	"sortnum":3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&lDimension:&r&r    &n&lEverdawn&r
+&n&6&lGebietsstufe:&r&r    &n35 - 55 &r&r
+&n&6&lErzürnte Gebietsstufe:&r &n65 - 85&r
+&n&6&lAusnahmen:&r  &nKeine&r
+&n&6&lAbgedeckte Quests:&r  &nAkt IV;&r
+&n&6&lDimensionstore:&r  &nAkt-IV-Tor;
+&n&6&lDimensionsbosse:&r &nAlchemist, Arachnarch  &r "
+		},
+		{
+            "type": "patchouli:text",
+            "text": "$(br) Es sieht so aus, als hätte diese Dimension einen ständigen Sonnenaufgang, dabei ist es hier aber immer heiß und feucht.$(br) Diese Dimension ist die Heimat vieler Insekten, die in der Feuchtigkeit gedeihen.$(br) Besonders bei Regen sieht man hier noch mehr Insekten, zum Glück nieselt es aber nur leicht. Die Insekten hier sind viel größer geworden, manche sind sogar so groß wie ich.$(br) Weitere Informationen findest du vielleicht im Blauen Journal, das du von einem Gatekeeper bekommen hast."
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Zugang zum Everdawn",
+  "item": "blue_skies:zeal_lighter,blue_skies:lunar_stonebrick",
+  "text": "Wenn du in diese Dimension gelangen möchtest, brauchst du&n&l mindestens 10 Mondstein-Ziegel und einen Zeal Lighter, den du von einem Gatekeeper erhältst &r.
+  &oEckblöcke sind komplett optional, würden aber &2+5 auf den Ästhetik&r-Wert geben, falls es diesen gäbe" 
+		},
+		{
+            "type": "patchouli:multiblock",
+			"name":"Everdawn-Portal",
+			"text": "Klicke auf das Augen-Symbol, um das Portal im Spiel anzuzeigen",
+            "multiblock": {
+    "pattern": [
+        [ "SOOS"],
+        [ "O  O"],
+        [ "O  O"],
+        [ "O 0O"],
+        [ "SOOS"]
+    ],
+    "mapping": {
+        "O": "blue_skies:lunar_stonebrick",
+		"S": "#minecraft:mineable/pickaxe"
+    }
+}
+		}
+    ]
+}

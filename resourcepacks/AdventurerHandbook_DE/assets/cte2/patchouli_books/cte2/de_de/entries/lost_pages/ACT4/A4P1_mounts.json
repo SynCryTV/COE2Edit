@@ -1,0 +1,16 @@
+{
+    "name": "Reittiere",
+    "icon": "blue_skies:camel_saddle",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":18,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 5145DB1D393B6681)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&r&eIn den Dimensionen Everbright und Everdawn findest du &eneue zähmbare Tiere und potenzielle neue Reittiere&r.
+
+Es könnte Spaß machen, ein &eRentier&r, ein &eKamel&r oder sogar einen &eKosmischen Fuchs&r zu finden."},
+{            "type": "patchouli:text",
+            "text": ""
+		}
+    ]
+}

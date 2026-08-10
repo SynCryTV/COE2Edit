@@ -1,0 +1,23 @@
+{
+    "name": "Ausrüstungsherstellung",
+    "icon": "minecraft:iron_chestplate",
+    "category": "patchouli:professions",
+	"sortnum":19,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Du kannst &eHergestellte Ausrüstungsseelen&r für Folgendes herstellen: Rüstung, Nebenhand-Gegenstände, Schmuck und Waffen. Beim Herstellen von Ausrüstung brauchst du ein paar Zutaten:  1. &egestuftes Erz&r - durch Bergbau erhalten, basierend auf dem Gegenstandslevel, das du herstellen möchtest. Die Levelbereiche entsprechen denen im Bergbau-Beruf.
+&lSchau immer im &cJEI&r nach, &lwelche Gegenstände für &eHergestellte Ausrüstungsseelen&r&l benötigt werden.&r
+
+"
+},{            "type": "patchouli:text",
+            "text": "
+2. &eSteine (Seltenheit)&r - die Steine bestimmen die Seltenheit der Ausrüstung, die du herstellst. Diese Steine erhältst du beim Verwerten. Die benötigte Anzahl an Steinen hängt von der Seltenheit der Ausrüstung ab.
+
+3. &eBarren + Identifikationsgegenstände&r - die Gegenstände, die bestimmen, ob du Rüstung, Nebenhand-Gegenstände, Schmuck oder Waffen herstellst. Für Rezepte siehe &cJEI&r!
+
+4. &eGeld&r
+"
+}
+    ]
+}

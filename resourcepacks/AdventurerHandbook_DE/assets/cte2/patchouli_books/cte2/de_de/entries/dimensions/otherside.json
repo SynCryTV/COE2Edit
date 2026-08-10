@@ -1,0 +1,41 @@
+{
+    "name": "Otherside",
+    "icon": "minecraft:sculk",
+    "category": "patchouli:dimensions",
+	"sortnum":5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&lDimension:&r&r    &n&lOtherside&r
+&n&6&lGebietsstufe:&r&r    &n60 - 75 &r&r
+&n&6&lErzürnte Gebietsstufe:&r &n75 - 95&r
+&n&6&lAusnahmen:&r  &nKeine&r
+&n&6&lAbgedeckte Quests:&r  &nAkt V;&r
+&n&6&lDimensionstore:&r  &nAkt-V-Tor;
+&n&6&lDimensionsbosse:&r &nWarden &r "
+		},
+		{
+            "type": "patchouli:text",
+            "text": " Es scheint, als sei das Portal zu dieser Dimension abrupt geschlossen worden, statt bewacht zu werden. Sie beherbergt weit mehr als nur einen einzelnen Warden – es scheint, als führe das Portal in die Heimat dieser 'Warden'-Kreaturen. Alle anderen Wesen hier haben ähnliche Eigenschaften und verlassen sich auf Gehör und Echoortung.$(br) Mach kein Geräusch, es sei denn, du bist bereit für einen Kampf.$(br) Außerdem scheint diese Dimension eine Art uralten Tempel zu beherbergen."
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Zugang zur Otherside",
+  "item": "deeperdarker:heart_of_the_deep",
+  "text": "Wenn du in diese Dimension gelangen möchtest, brauchst du&n&l das Herz der Tiefe, das ein Warden fallen lässt, und musst damit den Portalrahmen in der Uralten Stadt entzünden.&r$(br)Manchmal findest du einen mit Sculk bedeckten Portalrahmen, der erst freigelegt werden muss, bevor du das Portal entzünden kannst" 
+		},
+		{
+            "type": "patchouli:multiblock",
+			"name":"Otherside-Portal",
+			"text": "Dieses Portal kann im Überlebensmodus nicht gebaut werden, du kannst die Visualisierung nutzen, um zu prüfen, ob etwas das Portal blockiert",
+            "multiblock": {
+    "pattern": [
+        [ "OOOOOOOOOOOOOOOOOOOOOO"],[ "OSSSSSSSSSSSSSSSSSSSSO"],[ "OSSSSSSSSSSSSSSSSSSSSO"],[ "OSSSSSSSSSSSSSSSSSSSSO"],[ "OSSSSSSSSSSSSSSSSSSSSO"],[ "OSSSSSSSSSSSSSSSSSSSSO"],[ "O0SSSSSSSSSSSSSSSSSSSO"],[ "OOOOOOOOOOOOOOOOOOOOOO"]
+    ],
+    "mapping": {
+        "O": "minecraft:reinforced_deepslate",
+		"S": "minecraft:air"
+    }
+}
+		}
+    ]
+}

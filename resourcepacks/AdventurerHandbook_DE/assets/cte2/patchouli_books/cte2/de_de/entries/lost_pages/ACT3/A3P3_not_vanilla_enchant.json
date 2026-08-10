@@ -1,0 +1,17 @@
+{
+    "name": "Keine Vanilla-Verzauberungen",
+    "icon": "mmorpg:enchantment/family/armor/rare",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":14,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 256EB6DAF1808F35)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rHast du Schwierigkeiten mit manchen Monstern? Du kannst dich mit dem Mine-and-Slash-Beruf &eVeredelung&r stärken. &eSchriftrollen&r können auf deine Ausrüstung angewendet werden, um &ezufällig einen vorteilhaften Wert&r hinzuzufügen. Dieser Wert kann durch weitere Veredelungs-Schriftrollen weiter verbessert werden.
+"},
+{            "type": "patchouli:text",
+            "text": "     Weitere Informationen zur Nutzung dieses Systems findest du im $(c:/ftbquests open_book 5B97985430859986)&c$(l)&eKapitel M&S-Berufe$(/c)! Ebenso gibt dir das Ausführen von Berufstätigkeiten &eRuhe-Kampferfahrung&r!
+
+Wie viel Ruhe-Erfahrung du hast, kannst du im Mine and Slash Hub sehen, indem du mit der Maus über das Berufs-Symbol fährst."
+		}
+    ]
+}

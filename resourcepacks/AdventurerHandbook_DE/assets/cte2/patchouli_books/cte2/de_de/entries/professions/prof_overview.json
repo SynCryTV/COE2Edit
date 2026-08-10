@@ -1,0 +1,32 @@
+{
+    "name": "Berufe-Übersicht",
+    "icon": "minecraft:light",
+    "category": "patchouli:professions",
+	"sortnum":0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Mine and Slash fügt ein eigenes Berufssystem hinzu. Berufe sind in 3 Kategorien unterteilt:
+
+&e&lSammeln:&r&r
+- &7Bergbau&r: sammle Materialien beim Abbauen.
+- &2Landwirtschaft&r: sammle Materialien beim Ernten von Feldfrüchten.
+- &9Angeln&r: sammle besondere Fische mit einer gewissen Chance beim Angeln.
+- &6Kopfgeldjagd&r: schließe Kopfgelder für Belohnungen ab."
+},{            "type": "patchouli:text",
+            "text": "$(2br)&e&lHerstellen:&r&r
+- &eAusrüstungsherstellung&r: stelle Ausrüstung für den Kampf her.
+- &bVeredelung&r: stelle Schriftrollen her, um deine Ausrüstung zu verbessern.
+- &cKochen&r: koche Speisen, die nach dem Verzehr für eine gewisse Zeit Werte-, Drop- und Erfahrungsboni geben.
+- &5Alchemie&r: braue mächtige Tränke, um deine Werte für eine gewisse Zeit zu verbessern."
+},{            "type": "patchouli:text",
+            "text": "$(2br)&e&lSonstiges:&r&r
+- &4Verwertung&r: gewinne Ressourcen aus Ausrüstung, wenn sie an einer Verwertungsstation verwertet wird &e(du kannst auch die automatische Verwertung über den Hub aktivieren)&r.
+
+&c&lHinweis: Berufe können nicht über dein Mine-and-Slash-Level hinaus geleveled werden! Erfahrung wird gespeichert und verwendet, sobald du weiter aufsteigst.&r&r"
+},{            "type": "patchouli:spotlight",
+"item":"mmorpg:destroy_output_exp",
+"title":"Doppelte EXP",
+            "text": "Füge die &eLernmethode des Zerlegers&r in die &eHerstellungsstation&r deiner Wahl ein, um den hergestellten Gegenstand &esofort zu vernichten&r, dafür aber &edoppelte Berufserfahrung&r zu erhalten."}
+    ]
+}

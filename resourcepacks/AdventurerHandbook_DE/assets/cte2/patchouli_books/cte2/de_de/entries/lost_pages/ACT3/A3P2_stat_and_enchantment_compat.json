@@ -1,0 +1,23 @@
+{
+    "name": "Werte- und Verzauberungskompatibilität",
+    "icon": "minecraft:enchanted_book",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":14,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 11DB53435CA1D59E)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rIn CTE2 sind manche Vanilla-Werte mit Mine and Slash kompatibel!
+Vanilla : &aMine and Slash&r
+Gesundheit : &b+0,5% Magieschild&r
+Rüstung : &b+0,1% Ausrüstungsverteidigung&r
+Rüstungszähigkeit : &b+0,1% Ausrüstungsverteidigung&r
+Angriffsschaden : &b+0,5% Gesamtschaden&r
+Glück : &b+3% Magiefund&r
+Zusätzlich ist auch Verzauberungskompatibilität enthalten.
+"},
+{            "type": "patchouli:text",
+            "text": " Wie sich eine Verzauberung auf Mine-and-Slash-Werte auswirkt, siehst du in der &bblau dargestellten Verzauberungsbeschreibung&r.
+Verzauberungs-Wertboni sind pro Gegenstand auf das maximale Verzauberungslevel + 1 begrenzt. Schutz gibt zum Beispiel +2% Rüstung, aber jeder Gegenstand mit dieser Verzauberung kann maximal +12% geben, selbst wenn du irgendwie einen Schutz-VIII-Gegenstand bekommst. Es gibt jedoch auch ein globales Limit von Gegenstandslimit x3. Wenn du 4 Gegenstände mit Schutz VI ausgerüstet hättest, würdest du nur +36% Rüstung erhalten."
+		}
+    ]
+}

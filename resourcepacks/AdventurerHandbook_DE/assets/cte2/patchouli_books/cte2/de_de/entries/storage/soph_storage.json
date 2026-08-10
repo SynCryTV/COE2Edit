@@ -1,0 +1,76 @@
+{
+    "name": "Sophisticated Storage",
+    "icon": "sophisticatedstorage:limited_iron_barrel_1",
+    "category": "patchouli:storage",
+	"sortnum":2,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"title":"Sophisticated Storage",
+  "item": "sophisticatedstorage:iron_chest,sophisticatedstorage:gold_chest,sophisticatedstorage:copper_chest,sophisticatedstorage:diamond_chest,sophisticatedstorage:netherite_chest,sophisticatedstorage:chest",
+  "text": "&e&eSophisticated Storage&r ist der Begleiter zu Sophisticated Backpacks. Kisten und Fässer lassen sich von Eisen über Gold, Diamant bis Netherit aufwerten, mit zunehmender Anzahl an Item- und Upgrade-Plätzen.
+Vanilla-Kisten und -Fässer können mit dem Basic Tier Upgrade in ihre Sophisticated-Storage-Gegenstücke umgewandelt werden..
+
+" 
+		},
+		{
+            "type": "patchouli:text",
+			"text": "Jede Lagerungsstufe bietet mehr Upgrade-Plätze und mehr Inventarplatz.
+&eNormale Kiste:&r 27 Plätze, 1 Upgrade-Platz
+
+&eEisen-Kiste:&r 54 Plätze, 2 Upgrade-Plätze
+
+&eGold-Kiste:&r 81 Plätze, 3 Upgrade-Plätze
+
+&eDiamant-Kiste:&r 108 Plätze, 4 Upgrade-Plätze
+
+&eNetherit-Kiste: &r120 Plätze, 5 Upgrade-Plätze"
+},{
+            "type": "patchouli:spotlight",
+			"title":"Stapel-Upgrades",
+  "item": "sophisticatedstorage:stack_upgrade_tier_1,sophisticatedstorage:stack_upgrade_tier_2,sophisticatedstorage:crafting_upgrade,sophisticatedstorage:smelting_upgrade",
+  "text": "&eStapel-Upgrades&r sind enorm wichtig. Stapel-Upgrades können sich gegenseitig stapeln, wenn mehr als eines in einem Lagerblock ist.
+" 
+		},
+		{
+            "type": "patchouli:text",
+			"text": "
+Zum Beispiel:
+&e1 Stufe-4-Stapel-Upgrade&r: 1024
+
+&e2 Stufe-4-Stapel-Upgrades:&r 16.384
+
+&e3 Stufe-4-Stapel-Upgrades:&r 262.144
+
+&e4 Stufe-4-Stapel-Upgrades: &r4.194.304
+
+Multipliziere das vorherige Maximum mit 16, um das nächste Maximum zu erhalten, bis zu insgesamt 7 Plätzen."
+},{
+            "type": "patchouli:spotlight",
+			"title":"Limited Barrels",
+  "item": "sophisticatedstorage:limited_barrel_2,sophisticatedstorage:limited_iron_barrel_2,sophisticatedstorage:limited_barrel_1,sophisticatedstorage:limited_iron_barrel_1",
+  "text": "&eLimited Barrels&r fungieren wie Schubladen, in denen bis zu &evier Gegenstände&r gelagert werden können und die von Natur aus &eenorm hohe Stapellimits&r haben. Fässer werden durch zwei Dinge gekennzeichnet: &eStufe&r und &eItem-Limit&r." 
+		},{
+            "type": "patchouli:text",
+			"title":" ",
+  "text": "&eNormal, Eisen, Gold, Diamant und Netherit&r sind die Stufe, die das Stapellimit bestimmt.
+
+&eI, II, III, IIII&r sind das Item-Limit, das angibt, wie viele verschiedene Gegenstände sich darin befinden können, von 1 bis 4. Fässer mit einem höheren Item-Limit haben ein niedrigeres maximales Stapellimit.
+
+Diese Fässer können ebenso wie reguläre Lagerung aufgewertet werden.
+" 
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Speicher-Controller",
+  "item": "sophisticatedstorage:controller,sophisticatedstorage:storage_link,sophisticatedstorage:storage_tool,sophisticatedstorage:packing_tape",
+  "text": "&eSpeicher-Controller&r erlauben es dir, mit verbundenen Lagerblöcken &eGegenstände ein-/auszuleiten&r. Die Priorität wird dadurch bestimmt, welche Lagerblöcke zuletzt platziert wurden. Aktuell gibt es keine GUI dafür.
+&eStorage Link &rermöglicht es, &emehrere Lager zu verbinden&r, die nicht am Controller oder an mit ihm verbundenen Blöcken angebracht sind.." 
+		},{
+            "type": "patchouli:text",
+			"text": "Das &eStorage Tool&r erlaubt dir, &eLager zu verlinken, zu sperren und die Sichtbarkeit von Sperren und Item-Anzahlen umzuschalten&r. Shift + Scrollen wechselt den Modus. Das Verlinken funktioniert, indem du den Controller per Rechtsklick anklickst, um das Verlinken zu starten, und dann Lager oder den Storage Link per Rechtsklick anklickst, um sie zu verlinken.
+
+&ePacking Tape&r erlaubt es dir, einen Lagerblock &eeinzupacken&r und abzubauen, um ihn wie einen normalen Block aufzusammeln, ohne dass die Gegenstände herausfallen."
+}
+		
+    ]
+}

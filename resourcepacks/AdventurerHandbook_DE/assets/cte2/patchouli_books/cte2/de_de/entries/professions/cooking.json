@@ -1,0 +1,19 @@
+{
+    "name": "Kochen",
+    "icon": "minecraft:cake",
+    "category": "patchouli:professions",
+	"sortnum":19,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Du kannst Speisen kochen, die Hunger und Sättigung geben, aber auch Wertboni gewähren. Beim Kochen brauchst du ein paar Zutaten:  1. &egestuftes Fleisch/gestufte Feldfrüchte/gestufter Fisch&r - durch Kopfgeldjagd, Landwirtschaft und Angeln erhalten, basierend auf dem Gegenstandslevel, das du herstellen möchtest. Die Levelbereiche entsprechen denen in den Sammel-Berufen. Welche Art von Nahrungsmittel du verwendest, hängt davon ab, welche Speise du kochst:
+"
+},{            "type": "patchouli:text",
+            "text": "&cFleisch&r: Gesundheits-/Magieschild-Regeneration
+&2Feldfrüchte&r: Mana-/Energie-Regeneration
+&bFisch&r: EXP/Beute    2. &c1&r &eStein (Seltenheit)&r - die Steine bestimmen die Seltenheit der Ausrüstung, die du herstellst. Diese Steine erhältst du beim Verwerten.
+3. &eWeiteres Nahrungsmittel&r - dient in der Regel als zusätzliche Zutat, die auch bestimmen kann, welche Speise du kochst. Für Rezepte siehe &cJEI&r!  4. &eGeld&r
+&lSchau immer im &cJEI&r nach, &lwelche Gegenstände zum &eKochen&r&l benötigt werden.&r"
+}
+    ]
+}

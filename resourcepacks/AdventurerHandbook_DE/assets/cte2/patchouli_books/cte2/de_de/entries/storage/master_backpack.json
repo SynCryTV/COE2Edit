@@ -1,0 +1,25 @@
+{
+    "name": "Meister-Rucksack",
+    "icon": "mmorpg:master_bag",
+    "category": "patchouli:storage",
+	"sortnum":0,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"title":"Meister-Rucksack",
+  "item": "mmorpg:master_bag",
+  "text": "
+Dieser &eMeister-Rucksack&r sammelt gezielt &bGegenstände&r aus &eMine and Slash&r auf und hilft dir, deine Beute zu organisieren. Er kann außerdem in einem eigenen &eCurios&r-Slot ausgerüstet werden und ist über eine eigene Taste erreichbar (siehe Steuerung).
+" 
+		},
+		{
+            "type": "patchouli:text",
+			"text": "Dieser Rucksack funktioniert wie eine Art Enderkiste - das Herstellen weiterer Rucksäcke gibt dir also keinen zusätzlichen Platz, bedeutet aber auch, dass der Inhalt nicht verloren gehen kann, falls du den Rucksack verlierst.
+
+Vergiss nicht, alle Tabs im Rucksack für die 5 Kategorien zu überprüfen.
+
+Wenn dir die schiere Menge an Beute trotzdem noch zu schaffen macht, kannst du auch die &eautomatische Verwertungsfunktion&r im Hub in Betracht ziehen.
+"
+}
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Weitere Map-Inhalte",
+    "icon": "dungeon_realm:dungeon_map",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":19,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 28759D610FF8B6BE)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&r&eIn Mine-and-Slash-Karten können zusätzliche Events auftreten.
+
+&eAncient Obelisk&r: Truhen haben eine Chance, spezielle wellenbasierte Karten fallen zu lassen, die auf &eObelisken&r verwendet werden können! 
+
+&eProphecy-Event&r: Finde Altare in Karten, die dir Flüche auferlegen können. "},
+{            "type": "patchouli:text",
+            "text": "Je mehr Flüche du auf dir hast, desto mehr &eProphecy Coins&r kannst du durchs Töten von Monstern verdienen. Nutze diese Münzen, um über den Hub Belohnungen in Karten zu kaufen! Beachte, dass &6Legendäre&r und &5Mythische&r Belohnungen erst ab Tier-20- bzw. Tier-40-Karten erscheinen. $(br)
+&eHarvest-Event&r: Finde Portale in Karten, die dich zu einem neuen Harvest-Raum bringen. Töte Monster in diesen Räumen, um &eChaotic Gems&r zu verdienen, die zum Herstellen spezieller Währungen genutzt werden!
+
+"
+		},{            "type": "patchouli:text",
+            "text": "&eRelikte&r: Erhalte Relikte durchs Töten von Bossen, die du in das &eKartengerät&r einsetzen kannst, um deine Karten aufzuwerten! Interagiere mit dem Kartengerät mit einem Relic Key, um Relikte einzusetzen!
+
+&n&cÜber-Bosse&r&r
+
+Zusätzlich haben &cBosse&r in &6Legendären&r und &5Mythischen&r Karten eine Chance, &eÜber-Fragmente&r fallen zu lassen. Kombiniert verwandeln sie sich in &eDungeon Map Über-Upgrades&r. Diese kannst du auf Karten anwenden, um gegen &eÜber-Bosse&r anzutreten - sehr mächtige Kreaturen "
+		},{            "type": "patchouli:text",
+            "text": "die jede Menge Beute fallen lassen. Sie können sogar spezielle &eEinzigartige Juwelen&r droppen!
+
+Der Pool der Über-Bosse besteht aus alten Bossen, denen du während der Kampagne begegnet bist, sowie einigen neuen!"
+		}
+    ]
+}

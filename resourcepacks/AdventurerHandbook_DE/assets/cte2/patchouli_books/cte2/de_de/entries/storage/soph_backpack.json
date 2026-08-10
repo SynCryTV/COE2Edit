@@ -1,0 +1,62 @@
+{
+    "name": "Sophisticated Backpacks",
+    "icon": "sophisticatedbackpacks:backpack",
+    "category": "patchouli:storage",
+	"sortnum":0,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+			"title":"Sophisticated Backpacks",
+  "item": "sophisticatedbackpacks:backpack,sophisticatedbackpacks:iron_backpack,sophisticatedbackpacks:gold_backpack,sophisticatedbackpacks:diamond_backpack,sophisticatedbackpacks:netherite_backpack",
+  "text": "&eSophisticated Backpacks&r ermöglicht dir alles, was du dir von einem Rucksack wünschen könntest. Es gibt jede Menge Upgrades - von automatischer Fütterung über Herstellen und Schmelzen im Rucksack bis hin zum Transport von Flüssigkeiten und Erfahrung in flüssiger Form. Schau in JEI für die vollständige Liste der Upgrades.
+
+" 
+		},
+		{
+            "type": "patchouli:text",
+			"text": "Jede Rucksack-Stufe bietet mehr Upgrade-Plätze und mehr Inventarplatz.
+
+&eRucksack: &r27 Plätze, 1 Upgrade-Platz
+&eEisen-Rucksack:&r 54 Plätze, 2 Upgrade-Plätze
+&eGold-Rucksack:&r 81 Plätze, 3 Upgrade-Plätze
+&eDiamant-Rucksack:&r 108 Plätze, 5 Upgrade-Plätze
+&eNetherit-Rucksack:&r 120 Plätze, 7 Upgrade-Plätze"
+},{
+            "type": "patchouli:spotlight",
+			"title":"Stapel-Upgrades",
+  "item": "sophisticatedbackpacks:stack_upgrade_starter_tier,sophisticatedbackpacks:stack_upgrade_tier_1,sophisticatedbackpacks:stack_upgrade_tier_2,sophisticatedbackpacks:stack_upgrade_tier_3,sophisticatedbackpacks:stack_upgrade_tier_4,sophisticatedbackpacks:stack_upgrade_omega_tier",
+  "text": "&eStapel-Upgrades&r sind enorm wichtig. Stapel-Upgrades können sich gegenseitig stapeln, wenn mehr als eines im Rucksack ist.
+
+
+" 
+		},
+		{
+            "type": "patchouli:text",
+			"text": "
+Zum Beispiel:
+&e1 Stufe-4-Stapel-Upgrade&r: 1024
+
+&e2 Stufe-4-Stapel-Upgrades:&r 16.384
+
+&e3 Stufe-4-Stapel-Upgrades:&r 262.144
+
+Um die Entstehung eines Schwarzen Lochs zu verhindern, bist du auf 3 Stapel-Upgrades pro Rucksack begrenzt."
+},{
+            "type": "patchouli:spotlight",
+			"title":"Erweiterte Upgrades",
+  "item": "sophisticatedbackpacks:advanced_pickup_upgrade,sophisticatedbackpacks:advanced_feeding_upgrade,sophisticatedbackpacks:advanced_void_upgrade",
+  "text": "&eErweiterte Upgrades&r ermöglichen &efeinere Filterung&r und Kontrolle über das Verhalten des Upgrades im Rucksack - zum Beispiel erlaubt das erweiterte Aufsammel-Upgrade, Gegenstände von einer Whitelist aufzusammeln, Gegenstände einer Blacklist auszuschließen, oder passende Gegenstände aufzusammeln, die bereits im Rucksack sind.
+" 
+		},{
+            "type": "patchouli:text",
+			"title":" ",
+  "text": "
+  
+  
+  
+  Schau in &eJEI&r für die vollständige Liste der Upgrades.
+" 
+		}
+		
+    ]
+}

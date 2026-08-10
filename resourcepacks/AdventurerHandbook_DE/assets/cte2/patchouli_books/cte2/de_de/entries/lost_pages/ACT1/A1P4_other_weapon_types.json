@@ -1,0 +1,16 @@
+{
+    "name": "Weitere Waffentypen",
+    "icon": "roe_weapons:cursed_greatsword",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 1367285A94791954)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rIn CTE2 gibt es diverse eigene Waffentypen. Unten findest du eine Liste aller Waffentypen, wobei die eigenen in &egelb&r hervorgehoben sind.$(2br)Schwert, Axt, Bogen, Armbrust, &eStab, Dolch, Speer, Hammer, Großschwert, Sense, Handschuh&r.$(2br) 
+"},
+		{
+            "type": "patchouli:text",
+            "text": "Denk daran, dass du beim Craften dieser Waffen Gear Stat Souls benötigst, um ihnen Mine-and-Slash-Werte zu geben.$(2br)In CTE2 kannst du außerdem &ezweihändige Waffen&r ausrüsten. Aktuell sind &eSpeere, Großschwerter und Sensen&r zweihändig.$(2br)Du kannst außerdem &ejede einhändige Waffe im Zwei-Waffen-Kampf&r führen! Waffen in der Nebenhand liefern &e25%&r ihrer Werte."
+		}
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Akte",
+    "icon": "mmorpg:mob_effects/gale_force",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":7,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 727ADA9C4F420BDC)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rDie Campaign-Questlinie von CTE2 ist in mehrere Akte unterteilt, wobei jeder Akt mit einer anderen Dimension verknüpft ist, vorangestellt durch eine Prolog-Questlinie (die du bereits kennst).
+
+Während du die Hauptquests abschließt, schalten sich weitere Nebenquests frei. Und sobald du die Reihe der Hauptquests abgeschlossen hast (normalerweise 5-7 Quests 
+"},
+		{
+            "type": "patchouli:text",
+            "text": "lang), erhältst du die Quest, um zum nächsten Akt/zur nächsten Dimension weiterzuziehen.
+
+Wenn du von einer Dimension zur nächsten wechselst, werden die Monster stärker und die Beutequalität verbessert sich. Monster skalieren zwar mit deinem Spielerlevel, sind aber in jeder Dimension nach oben begrenzt, wodurch es möglich ist, für eine Dimension zu 'overleveln', falls du Schwierigkeiten mit ihr hast.
+
+&6Diese Quest schaltet neue Shops im Campaign Shop frei. "
+		}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Monster-Affinitäten",
+    "icon": "minecraft:blaze_powder",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":9,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 3F61325EA08B6DAA)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rDir ist vielleicht aufgefallen, dass manche &eNether&r-Monster mehr &cFeuerschaden&r verursachen. Monster, die aus einer bestimmten Dimension stammen, haben tendenziell eine Affinität zu einem bestimmten Element. Im Nether zum Beispiel verursachen manche Monster eine Kombination aus Feuer- und physischem Schaden. &oBeachte außerdem, dass das nicht bedeutet, dass sie weniger Schaden von dem Element nehmen, zu dem sie eine Affinität haben.&r"},
+{            "type": "patchouli:text",
+            "text": "&nElementare Affinitäten&r
+
+&lOberwelt:&r &7Keine&r
+&lNether:&r &cFeuer&r
+&lUndergarden:&r &5Chaos&r
+&lAquamirae&r-Monster: &bKälte&r
+&lEverbright:&r &bKälte&r + &eBlitz&r
+&lEverdawn:&r &cFeuer&r + &5Chaos&r
+&lDas Ende:&r &cFeuer&r + &eBlitz&r + &5Chaos&r
+&lOtherside:&r &5Chaos&r
+&lTwilight Forest:&r &7Keine&r"
+		}
+    ]
+}

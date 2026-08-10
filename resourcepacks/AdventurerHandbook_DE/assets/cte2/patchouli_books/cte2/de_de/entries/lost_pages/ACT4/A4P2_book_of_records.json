@@ -1,0 +1,19 @@
+{
+    "name": "Buch der Rekorde",
+    "icon": "mmorpg:omen",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":18,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 65FD2E8334B1DF1C)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rDer &eCodex&r ist ein Accessoire-/Ausrüstungsgegenstand, den du ausrüsten kannst und der ab Level 50 zu droppen beginnt. Der &eCodex&r gibt dem Spieler mächtige Werte, abhängig von der Vielfalt der ausgerüsteten Gegenstände.
+
+Unten werden die Anforderungen aufgelistet, z. B.: 2 &cEinzigartige&r, 1 normales Ausrüstungsteil (&7Gewöhnlich&r -> &5Mythisch&r) und 2 ausgerüstete &eRuneWörter&r.
+
+"},
+{            "type": "patchouli:spotlight",
+  "item": "mmorpg:omen",
+            "text": " Je nachdem, wie viele davon du ausgerüstet hast, gibt dir der &eCodex&r zusätzliche Werte, die im Tooltip angezeigt werden."
+		}
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Oberwelt",
+    "icon": "minecraft:grass_block",
+    "category": "patchouli:dimensions",
+	"sortnum":0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&lDimension:&r&r    &n&lOberwelt&r
+&n&6&lGebietsstufe:&r&r    &n1 - 15 &r&r
+&n&6&lErzürnte Gebietsstufe:&r &n50 - 70&r
+&n&6&lAusnahmen:&r  &nEislabyrinth ab Stufe 35&r
+&n&6&lAbgedeckte Quests:&r  &nProlog; Akt I; Teil von Akt III
+&n&6&lDimensionstore:&r  &nAkt-I-Tor; Tor der Tiefsee&r
+&n&6&lDimensionsbosse:&r   &nHermit Abysswalker; Invoker; Frostmaw; Grim Reaper; Eel; Mother of the Maze; Ghost of Captain Cornelia&r "
+		},
+		{
+            "type": "patchouli:text",
+            "text": " Der Beginn deines legendären Abenteuers!$(br) &l&nDie Oberwelt&r ist reich an Bauwerken und Beute. Begrenzt auf Stufe 15, mit einigen höherstufigen Ausnahmen wie dem Eislabyrinth (mindestens Stufe 35).$(br) &l&nDie Oberwelt&r &nist als deine Heimatdimension gedacht&r und die einzige, die du mit Flan beanspruchen kannst. Eine relativ sichere Dimension, in der du deine Homebase aufbauen kannst."
+		}
+    ]
+}

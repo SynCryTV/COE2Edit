@@ -1,0 +1,16 @@
+{
+    "name": "Beschwörungsklassen",
+    "icon": "mmorpg:mob_effects/fire_golem_buff",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":4,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 5DA2E0EE110431E0)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rSpielst du einen &5Hexenmeister&r, &2Jäger&r oder &9Elementaristen&r? Wusstest du, dass diese Klassen Zugriff auf Beschwörungen haben?$(br)Du kannst das &eVerhalten deiner Beschwörungen&r im &eFeatures&r-Tab des Mine and Slash Hub (unten links) einstellen. Du kannst sie aggressiv oder passiv einstellen.  
+"},
+		{
+            "type": "patchouli:text",
+            "text": "Bei passiver Einstellung greifen die Beschwörungen nur an, was du selbst angegriffen hast.$(br)Außerdem kannst du deine Beschwörungen jederzeit über die Entbeschwörungs-Taste &eauflösen&r (Standard: &e  $(k:mmorpg.key.unsummon)&r)!"
+		}
+    ]
+}

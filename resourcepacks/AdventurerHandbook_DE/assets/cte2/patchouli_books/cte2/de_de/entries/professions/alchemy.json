@@ -1,0 +1,22 @@
+{
+    "name": "Alchemie",
+    "icon": "mmorpg:potion/health/5",
+    "category": "patchouli:professions",
+	"sortnum":19,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Du kannst Tränke brauen, die Gesundheit und Ressourcen wiederherstellen oder Wertboni gewähren. Beim Brauen brauchst du ein paar Zutaten:
+
+1. &egestuftes Fleisch/gestufte Feldfrüchte/gestufter Fisch&r - durch Hubsandry, Landwirtschaft und Angeln erhalten, basierend auf dem Gegenstandslevel, das du herstellen möchtest. Die Levelbereiche entsprechen denen in den Sammel-Berufen. "
+},{            "type": "patchouli:text",
+            "text": "Welche Art von Nahrungsmittel du verwendest, hängt davon ab, welchen Trank du braust: &cFleisch&r: Gesundheits-/Ressourcentrank
+&2Feldfrüchte&r: Grundwert-Trank
+&bFisch&r: Schadensbuff-Trank
+2. &c1&r &eStein (Seltenheit)&r - die Steine bestimmen die Seltenheit der Ausrüstung, die du herstellst. Diese Steine erhältst du beim Verwerten.
+3. 1-2 &eweitere Nahrungsmittel&r - dienen als zusätzliche Zutat. Für Rezepte siehe &cJEI&r!
+4. &eGeld&r
+"
+}
+    ]
+}

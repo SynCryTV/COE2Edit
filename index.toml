@@ -35814,6 +35814,242 @@ file = "resourcepacks/Adventurer'sChest_v2[Lootr].zip"
 hash = "164f1d1023180096698b4bb6321a2341dedffb54e0df2a81623cf666732cf362"
 
 [[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/book.json"
+hash = "841fa0105c6a7d8c69adc458f916d994fa581f81e9704eb822a5767724419b4b"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/categories/A1lost_pages.json"
+hash = "b308dab849fde8480db4d745306c58e911a1dd6b5eaf5f0ac917101058048f5a"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/categories/dimensions.json"
+hash = "b7e50fd8ba71970175cac21c1e2ff91636c334c072b1646137535915139488fc"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/categories/disabled.json"
+hash = "315f5cb947b3ef8b78e201fbe7d36d43f54dd47cb2f40514effd4fd7a39cef71"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/categories/professions.json"
+hash = "ad42778f053bcd204004aadc9b2c338b32d07468c838fd3d626501281e696dce"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/categories/storage.json"
+hash = "9f26d0addb596943568541b5b741168beaad2a0717d739271869a8dd0802adb6"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/dimensions/aether.json"
+hash = "d8840c369eccdffb6ef003ff5be77bcc876e7722f2df5362ee83ccd341dbb3bb"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/dimensions/dungeon_dim.json"
+hash = "ddc98717c4974a7bfc055ddf0c6eb7d84f00d098f84beaca0de4271dfe818e66"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/dimensions/everbright.json"
+hash = "63fb509ba3fdc559ebe8a1d308922e1cf378bf0305e1ab57991412dbf02088a5"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/dimensions/everdawn.json"
+hash = "e264e01138457bb62581c97cb6e02e37c46db7c758f9388f9c054ae5906cc69a"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/dimensions/nether.json"
+hash = "de49be20d7043e6f0529f401a000df1bcb77af273a1513d47a1cdc87004d5f8c"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/dimensions/otherside.json"
+hash = "ee3e274892e7db0232b22b2805b9f90e7e311b8e6af8bee9d68fc11dd4359b3a"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/dimensions/overworld.json"
+hash = "9dedb61c699f4168aaa6bea24beaca0ab84fce4746b807818f2016c184d64b12"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/dimensions/the_end.json"
+hash = "8f8e3a94db0d338eab31437249491c91664c7caef4cdcbe26a6cd4b040adf13e"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/dimensions/twilight_forest.json"
+hash = "a73ccacf04e20b6bce8b61f7edb1497e104e3b247bf315cd9eebb4c7603a178c"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/dimensions/undergarden.json"
+hash = "38a765821e81bb3a32416cf46f0d0df4de7868e0097a3446a4fec841894d1b3e"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/disabled/alex_mobs.json"
+hash = "748a24d870edc37c8f726eb5da38c3150c28400b04fe2fb1a813dc96855f5fed"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/disabled/aquamirae.json"
+hash = "7d5b8945c824802494fa427e5cfec6ee17ffe09078d41762cf1aa764df95231c"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/disabled/bomd.json"
+hash = "7f888506232f2c01a08bf2f86988db37d2bf473d885e3077aba2ccba426963f3"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/disabled/born_in_chaos.json"
+hash = "5bb1e5b58135b9ce90d222197ca445d97ef2dac55fbb664c3f409a436a49cb64"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/disabled/botania.json"
+hash = "0acc3295e611cdef1cb90e71880cc01b75a8b835870f53b9f3f95c7d0e6b995d"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/disabled/lightmans.json"
+hash = "371ddf4b9a28e70f36e241f49c5844ccc69485d686b8cd895ec8651438049c9b"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/disabled/various.json"
+hash = "4953f7b35afb7c242899e30bcf3bbf1017b6eab07e2c9c13b377cb28a389fbac"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT1/A1P1_gear_improvement.json"
+hash = "fabfba714a17687ea0da6505a61d38b8697edae8fba3c05e464bf97dc06f036b"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT1/A1P2_favor.json"
+hash = "d93557b8327487b51f1212046386228bc0ddfcf1ad1ff0d184814d5bc767e0be"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT1/A1P3_sol_oe.json"
+hash = "fb967e6a7578e389f070b43b9de59c3a7d7a39c4165e18a6d3797f91e250eef4"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT1/A1P4_other_weapon_types.json"
+hash = "ac58f307e9074af6cd64eb4396f038dcf1d4d5b15d77798f733530025a02b17f"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT1/A1P5_summoning_classes.json"
+hash = "4d2c05efef71ce3d9d105b1fe44af0435e718091f9e5a0dcaa8a12e1703d145c"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT1/A1P6_quest_shapes.json"
+hash = "48d351501bfaf03ee54518460a2686a2d81a7f877085f60edacdc4bf217a997b"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT1/A1P7_dimension_runes.json"
+hash = "999eed11b4756ffb55acdadc4070b3f5b667904b3aea5ef87d6c9e1b9539f600"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT1/A1P8_acts.json"
+hash = "a8920ff6d85aa19c31348d5e5bbea7161fee89200717f3876abbab4f90cccad0"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT2/A2P1_moments_respite.json"
+hash = "c4144566cb57391766f93e864998cc2df3e4dd1c1695c0586abd786e0c665459"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT2/A2P2_mob_affinities.json"
+hash = "8e15ec5be8dcdb32499acb1b59a309b608a4a0f8155eae4b5f55bbccf3cb41ac"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT2/A2P3_more_on_currencies.json"
+hash = "ed7d347e8b0f9a04436108ca17bd56f601fc1f0d19acb3e8a2eff1f4ab28a8a3"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT2/A2P4_ascendancy.json"
+hash = "7360794aa26d5f0d0da04a6fd75225e9002ceafb8df04f44ea6269f2473626a1"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT2/A2P5_gear_soul_extractor.json"
+hash = "f4d3bac1cc958ec7ce5a60bdfeb602988f8d450a9603afa6f80c6557211b0b60"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT3/A3P1_resistances.json"
+hash = "a352f82dde8f5bf7cbbc88a52da2e7b9981d42f7625205e32aeb4cc06f933558"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT3/A3P2_stat_and_enchantment_compat.json"
+hash = "50e9da36d9f7f6a92a59585a3c5b34be2dac9beec879aed1b3cb09f31e3fc3c7"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT3/A3P3_not_vanilla_enchant.json"
+hash = "7f91a7ac4328b16b97af8cd7f896b73d8ad20c61d71074e645a512c05a9f98c5"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT3/A3P4_travelling_backwards.json"
+hash = "4c5caee6097725b90c5d65ebe0cb97e48a430187ddf562289c5bada0c4155e85"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT4/A4P1_mounts.json"
+hash = "802b8736e2b01b3717855bef6561791d4bd10e234c2f7df1a2e92e1a4de045b7"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT4/A4P2_book_of_records.json"
+hash = "c3e40e68d2be83ad502fb361ca3d88094e2a014587a7f3bccdb3818dc66544d8"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/ACT5/A5P1_more_map_content.json"
+hash = "be0a5aebed21fe5db24a2720b8f1a2e7eeabfd3f80478ab9f6231ed14afa0d2f"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/lost_pages/AEP1_primal_evils.json"
+hash = "d3ffe53dabf4791700c1bf14dd1ec410f62fa9db1d9212953fba90de3e5c1104"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/professions/alchemy.json"
+hash = "63baf0e9c02eeba671600e7b25502a4c3aab610b3e722da0e1574ffab7dd5c68"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/professions/bounty_hunting.json"
+hash = "c9a5076c61ea4e9ba63307c06208690db60340a3fcb716bc883df2bbbbb73d1e"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/professions/cooking.json"
+hash = "f3cfed880acb3986ec86e09c5ff39e549316d5f760521907e5ad724ca532c872"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/professions/farming.json"
+hash = "499db7c45ece1baf2b49db98d2543d61227175cda70ce8b4c45520d20da1726a"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/professions/fishing.json"
+hash = "25ffbd7f2119e8681b4d64d51d902aa578cd21509634c49b44e8e346a57faa12"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/professions/gear_crafting.json"
+hash = "1043916886471924d1ef7fa69ba690e632d8ca1986f5dd13a5d17683b9e9756b"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/professions/infusing.json"
+hash = "6d8434deda05418c6988bcc38cc9023c4d2d6e59841742df18ff219498dc5467"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/professions/mining.json"
+hash = "e50a62e2d0af24dfd0e96f49425b760577ef282dcb3d8c3d64bdbb244826f586"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/professions/prof_overview.json"
+hash = "6bd3a5499c70525775c4bab8afe9c2bdd4c79f8318bf30dc57ebdadc6c6c55a8"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/professions/salvaging.json"
+hash = "743126e971cee36f0a76a9bd25f98d02f1c0a4f173eaeb1ca3501b0e5f5ace25"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/storage/master_backpack.json"
+hash = "ca2bc95f64365c0f7c10e37a165102799ce3e5adb60ceb2935cf0401b6790589"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/storage/refined_storage.json"
+hash = "eeb07db1fff30a57b39dfd88040d86a7628fb51398c6e6bf70fa97db7199cb7e"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/storage/soph_backpack.json"
+hash = "21707f9f72a7c5d6d829cc0e53ac08cb85fd03a80589f2bde432246547f85c3f"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/assets/cte2/patchouli_books/cte2/de_de/entries/storage/soph_storage.json"
+hash = "57b20f16d0b49b20a302b5171fa8576a04cbfe1cc916b83f4cab64106d18f2d0"
+
+[[files]]
+file = "resourcepacks/AdventurerHandbook_DE/pack.mcmeta"
+hash = "277dcd937efb1daf00b2bef0e2a1644b9b962b4e6a4a4368d19ca4725bc95feb"
+
+[[files]]
 file = "resourcepacks/Ashen_Custom_Font.zip"
 hash = "44114cb742706872b12892780bd3aba16ff7f6a3f7ed61ba3339c405b1db34f0"
 

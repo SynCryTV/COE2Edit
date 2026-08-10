@@ -1,0 +1,14 @@
+{
+    "name": "Rückwärts reisen",
+    "icon": "mmorpg:mob_effects/slow",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":15,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 45501F3F04639DB1)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rWolltest du schon mal zurück in die Oberwelt, um sie zu erkunden, aber die Level waren dir zu niedrig, um noch Spaß zu machen? Bei bestimmten Levelschwellen werden vergangene Dimensionen 'erzürnt', wodurch sich ihr Levelbereich erhöht – so kannst du frühere Dimensionen erneut genießen!"},
+{            "type": "patchouli:text",
+            "text": "&eOberwelt&r - Lv. &b50-70&r$(br)&eNether&r - Lv. &b55-75&r$(br)&eUndergarden&r - Lv. &b60-80&r$(br)&eEverbright/Everdawn&r - Lv. &b65-85&r$(br)&eDas Ende&r - Lv. &b70-90&r$(br)&eOtherside&r - Lv. &b75-95&r"
+		}
+    ]
+}

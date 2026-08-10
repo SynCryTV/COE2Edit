@@ -1,0 +1,22 @@
+{
+    "name": "Landwirtschaft",
+    "icon": "minecraft:iron_hoe",
+    "category": "patchouli:professions",
+	"sortnum":19,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(2br)Das Anbauen und Ernten von Feldfrüchten gibt dir Landwirtschafts-Erfahrung. Du erhältst jedoch nur die volle Erfahrungsmenge von Pflanzen, die deinem Landwirtschafts-Level entsprechen:$(2br)&cDas heißt nicht, dass du keine Erfahrung von Gegenständen außerhalb deines Levelbereichs erhältst, nur weniger.&r"
+},{            "type": "patchouli:text",
+            "text": "&eLv. 1-20&r (&7Tier 0&r): Weizen, Rote Bete, Karotte, Kartoffeln
+&eLv. 21-40&r (&aTier 1&r): Melone, Kürbis, Flachs, Kohl, Tomate, Zwiebel, Kakaobohnen
+&eLv. 41-60&r (&9Tier 2&r): Mais, Gysahl Green, Netherwarze, Reis, Gloomgourd
+&eLv. 61-80&r (&dTier 3&r): Pine Fruit, Winter Leaves
+&eLv. 81-100&r (&6Tier 4&r): Scalefruit, Fiery Beans
+&eLv. 100&r (&5Tier 5&r): Cryoroot, Solnut"
+},{            "type": "patchouli:text",
+            "text": "Beim Ernten findest du &egestufte Feldfrüchte&r (&7Spirituell&r, &aHimmlisch&r, &9Empyreisch&r, &dEngelhaft&r, &6Göttlich&r und &5Gottgleich&r), die je nach deinem Level und dem Levelbereich der geernteten Pflanze mit einer gewissen Chance droppen. Diese können dann in anderen Berufen verwendet werden."
+},{            "type": "patchouli:text",
+            "text": ""}
+    ]
+}

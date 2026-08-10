@@ -1,0 +1,46 @@
+{
+    "name": "Everbright",
+    "icon": "blue_skies:everbright_portal",
+    "category": "patchouli:dimensions",
+	"sortnum":3,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&lDimension:&r&r    &n&lEverbright&r
+&n&6&lGebietsstufe:&r&r    &n35 - 55 &r&r
+&n&6&lErzürnte Gebietsstufe:&r &n65 - 85&r
+&n&6&lAusnahmen:&r  &nKeine&r
+&n&6&lAbgedeckte Quests:&r  &nAkt IV;&r
+&n&6&lDimensionstore:&r  &nAkt-IV-Tor;
+&n&6&lDimensionsbosse:&r &nSummoner; Starlit Crusher &r "
+		},
+		{
+            "type": "patchouli:text",
+            "text": "$(br) Es sieht so aus, als herrsche in dieser Dimension ewiger Tag, dabei ist es hier aber immer eiskalt.$(br) Diese Dimension ist die Heimat vieler großer, dickfelliger Tiere.$(br) Hier findet man reichlich Schnee sowie geisterähnliche Gegner, die sich besonders bei kälterem Wetter gerne herumtreiben.$(br) Ausführlichere Informationen findest du vielleicht im Blauen Journal, das du von einem Gatekeeper bekommen hast."
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Zugang zum Everbright",
+  "item": "blue_skies:zeal_lighter,blue_skies:turquoise_stonebrick",
+  "text": "Wenn du in diese Dimension gelangen möchtest, brauchst du&n&l mindestens 10 Türkis-Steinziegel und einen Zeal Lighter, den du von einem Gatekeeper erhältst &r.
+  &oEckblöcke sind komplett optional, würden aber &2+5 auf den Ästhetik&r-Wert geben, falls es diesen gäbe" 
+		},
+		{
+            "type": "patchouli:multiblock",
+			"name":"Everbright-Portal",
+			"text": "Klicke auf das Augen-Symbol, um das Portal im Spiel anzuzeigen",
+            "multiblock": {
+    "pattern": [
+        [ "SOOS"],
+        [ "O  O"],
+        [ "O  O"],
+        [ "O 0O"],
+        [ "SOOS"]
+    ],
+    "mapping": {
+        "O": "blue_skies:turquoise_stonebrick",
+		"S": "#minecraft:mineable/pickaxe"
+    }
+}
+		}
+    ]
+}

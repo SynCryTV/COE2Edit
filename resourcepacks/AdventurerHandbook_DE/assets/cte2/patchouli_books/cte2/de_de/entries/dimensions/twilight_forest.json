@@ -1,0 +1,43 @@
+{
+    "name": "Twilight Forest",
+    "icon": "twilightforest:twilight_portal_miniature_structure",
+    "category": "patchouli:dimensions",
+	"sortnum":5,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "&n&6&lDimension:&r&r  &n&lTwilight Forest&r
+&n&6&lGebietsstufe:&r&r  &n90 - 100 &r&r
+&n&6&lErzürnte Gebietsstufe:&r &nk.A.&r
+&n&6&lAusnahmen:&r  &nKeine&r
+&n&6&lAbgedeckte Quests:&r  &nEpilog;&r
+&n&6&lDimensionstore:&r  &nAkt-V-Tor;
+&n&6&lDimensionsbosse:&r &nNaga; Twilight Lich; Minoshroom, Hydra, Alpha Yeti, Snow Queen, Knight Phantom, Ur-Ghast &r "
+		},
+		{
+            "type": "patchouli:text",
+            "text": " Eine Dimension, die auf den ersten Blick freundlich wirkt. Leider verbirgt die wunderschöne Flora dieser Dimension allerlei uralte Übel, die in ihrem natürlichen Lebensraum nur darauf warten zuzuschlagen.$(br) Neben den grundlegenden Gefahren, von extrem mächtigen Wesen angegriffen zu werden, solltest du dir der harschen Umweltbedingungen bewusst sein, die von diesen Wesen verursacht werden. Du solltest Schritt für Schritt vorgehen und Fortschritte erzielen, um manche dieser Effekte wie den Dungeon-Schutz oder sauren Regen usw. aufzuheben. "
+		},{
+            "type": "patchouli:spotlight",
+			"title":"Zugang zum Wald",
+  "item": "minecraft:diamond,minecraft:grass_block,minecraft:poppy",
+  "text": "Der Epilog deines Abenteuers unterscheidet sich etwas von den anderen Dimensionen. Um in den Twilight Forest zu gelangen, musst du &n&l&6in der Otherside-Dimension&r &nein Portal aus 8 Gras- oder Erdblöcken mit einem 2x2 großen Loch in der Mitte bauen, das mit Wasser gefüllt ist, wobei die Gras-/Erdblöcke mit Blumen oder Setzlingen bedeckt sein müssen. Nachdem das Portal gebaut wurde – wirf einen Diamanten ins Wasser, um es zu aktivieren" 
+		},
+		{
+            "type": "patchouli:multiblock",
+			"name":"Twilight-Forest-Portal",
+			"text": "Drücke auf das Augen-Symbol, um es zu visualisieren. $(br) Das Portal MUSS in der &n&l&6OTHERSIDE&r-Dimension gebaut werden",
+            "multiblock": {
+    "pattern": [
+        [ " SS ","S  S","S  S"," SS "],
+[ " OO ","OWWO","OWWO","0OO "]
+    ],
+    "mapping": {
+        "O": "minecraft:grass_block",
+		"S": "#twilightforest:portal/decoration",
+		"W": "minecraft:water"
+    }
+}
+		}
+    ]
+}

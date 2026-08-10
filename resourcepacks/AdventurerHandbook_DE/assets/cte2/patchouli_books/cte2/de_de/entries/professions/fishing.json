@@ -1,0 +1,14 @@
+{
+    "name": "Angeln",
+    "icon": "aquaculture:iron_fishing_rod",
+    "category": "patchouli:professions",
+	"sortnum":19,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Beim Angeln findest du &egestufte Fische&r (&7Spirituell&r, &aHimmlisch&r, &9Empyreisch&r, &dEngelhaft&r, &6Göttlich&r und &5Gottgleich&r), die je nach deinem Level mit einer gewissen Chance anbeißen. &7Spirituelle&r Fische zum Beispiel beißen an, wenn dein Angeln-Level zwischen 1-20 liegt, &aHimmlische&r zwischen 21-40, usw. Die Fische können dann in anderen Berufen verwendet werden."
+},{            "type": "patchouli:text",
+            "text": ""
+}
+    ]
+}

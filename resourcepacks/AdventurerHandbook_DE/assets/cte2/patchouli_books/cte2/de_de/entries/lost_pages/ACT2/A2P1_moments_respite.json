@@ -1,0 +1,18 @@
+{
+    "name": "Ein Moment der Ruhe",
+    "icon": "mmorpg:currency/harvest_essence_1",
+    "category": "patchouli:A1lost_pages",
+	"sortnum":8,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(c:/ftbquests open_book 256EB6DAF1808F35)&c$(l)---> Quest-Seite öffnen <--- $(/c)$(br)&rMine-and-Slash-Berufe können manchmal mühsam zu leveln sein... Wusstest du, dass du durch das Sammeln von Kampferfahrung &eRuhe-Berufserfahrung&r erhältst? Diese Erfahrung sammelt sich an und wird verbraucht, wenn du Berufstätigkeiten ausführst, um deine erhaltene Erfahrung zu erhöhen.
+
+"},
+{            "type": "patchouli:text",
+            "text": "Ähnlich verhält es sich andersherum: Das Ausführen von Berufstätigkeiten gibt dir &eRuhe-Kampferfahrung&r!
+
+Wie viel Ruhe-Erfahrung du hast, kannst du im Mine and Slash Hub sehen, indem du mit der Maus über das Berufs-Symbol fährst."
+		}
+    ]
+}

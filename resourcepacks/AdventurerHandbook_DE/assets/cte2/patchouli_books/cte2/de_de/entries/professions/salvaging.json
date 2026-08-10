@@ -1,0 +1,18 @@
+{
+    "name": "Verwertung",
+    "icon": "mmorpg:stone/0",
+    "category": "patchouli:professions",
+	"sortnum":19,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Verwerten bedeutet, deine Ausrüstung in Materialien zu zerlegen, die zum Herstellen von Berufsgegenständen, Ausrüstung oder zum Reparieren verwendet werden können.
+
+Um eine Verwertungsstation zu nutzen, &lmusst&r du einen Trichter über der Station platzieren und deine zu verwertende Ausrüstung in den Trichter legen. Das Verwerten an der Station kann mehr Ergebnisse und Erfahrung liefern als die automatische Verwertung."
+},{            "type": "patchouli:text",
+            "text": "Deine Ausrüstung wird verwertet und du erhältst Materialien als Ergebnis. &eBeim Verwerten erhältst du &eSteine&r unterschiedlicher Seltenheit. Diese werden zum Reparieren oder Herstellen von Ausrüstung verwendet. Sie können auch zum Herstellen anderer Gegenstände verwendet werden. Die Seltenheit des Steins hängt von der Seltenheit der verwerteten Ausrüstung ab.
+
+&bDu kannst deine Ausrüstung auch über die automatische Verwertungsfunktion im Hub verwerten, dabei erhältst du jedoch weniger Erfahrung.&r"
+}
+    ]
+}
