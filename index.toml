@@ -34251,11 +34251,6 @@ hash = "0586cb99a9ea54850b9a498896c51e71242121595e2e6b1cd821ec41fee013b3"
 metafile = true
 
 [[files]]
-file = "mods/daytimecontrol.pw.toml"
-hash = "3f8675762316a4f3d8e8568cbae38ecbc1227c23e1ee3c2ee72d705dbbe060df"
-metafile = true
-
-[[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "e50740a50bdeef70e78fc991fbc8eee9dbb4bacd11f5e7cbf10f4c46cb5fd0aa"
 metafile = true
