@@ -37281,11 +37281,6 @@ hash = "3fda10f7f60bcb9462cb921a6f4249b5c7cae194121cde01966a7f4408f9a6f1"
 metafile = true
 
 [[files]]
-file = "mods/rpg-auction-house.pw.toml"
-hash = "e38cc8ec75a7e827ab39dea7e4b622b2e27ad1ad799e93cc8cb2ad94c3f509e1"
-metafile = true
-
-[[files]]
 file = "mods/runic-races.pw.toml"
 hash = "b8c20c7ae6abc74b7e84e134c30cc5b56f3696932f12404e188d1de872b5c071"
 metafile = true
