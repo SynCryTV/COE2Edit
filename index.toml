@@ -33424,7 +33424,7 @@ hash = "e40a1e55aa10ce7f78c2a2ea5f1986b3a2e625ee43a79b0181d386bbbc5e4752"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "17e443d9d561c157734d7fa099ce267ac9b0e275ec7e51a901d12633d6949729"
+hash = "88b53eb0683a86fbed432d531d34b3d173c9bb63709f26af74dc909df70ec676"
 
 [[files]]
 file = "config/weaponmaster_ydm-common.toml"
