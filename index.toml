@@ -33880,6 +33880,11 @@ hash = "b6acb51d2d3cdf7814d523cd9f7b6e50c6d09fd8b78bef966a193f04ff1ec597"
 metafile = true
 
 [[files]]
+file = "mods/azurelib.pw.toml"
+hash = "cb6b9706620f78114281e94a2bf081a2d281037bfdf7d12365fa54e90e5dffeb"
+metafile = true
+
+[[files]]
 file = "mods/bad-wither-no-cookie-reloaded.pw.toml"
 hash = "7b82c00d58b304aa7e5c94426610b7a7b6247baa1122dbaa480bd7c7eabb6a6e"
 metafile = true
@@ -34327,6 +34332,11 @@ metafile = true
 [[files]]
 file = "mods/easy-magic.pw.toml"
 hash = "079dbc9be43f9fa6ab866f21532d441f05421752a5d1ed52d358f6858d6fc2c2"
+metafile = true
+
+[[files]]
+file = "mods/eldritch-end.pw.toml"
+hash = "b251d3c95ea6ba13aa21eb801d9c8562ce5f51e0ee962c6a76ec6ba26d88edbb"
 metafile = true
 
 [[files]]
